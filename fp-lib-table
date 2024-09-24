@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name "data-center-rdimm-ddr5-tester-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/data-center-rdimm-ddr5-tester-footprints")(options "")(descr ""))
-  (lib (name "data-center-rdimm-ddr5-tester-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/")(options "")(descr ""))
+  (lib (name "sodimm-ddr5-tester-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/sodimm-ddr5-tester-footprints")(options "")(descr ""))
 )

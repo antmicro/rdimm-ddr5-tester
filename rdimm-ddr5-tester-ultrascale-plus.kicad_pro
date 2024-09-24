@@ -1,0 +1,1891 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.19999999999999998,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.049999999999999996,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.09999999999999999,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.09999999999999999,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.4
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.12
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|187768000|162065500|900531eb-697c-44c7-94ca-08fcce0f8b2c|a3bd09c7-109c-47fb-8249-8961ec0fa143",
+        "clearance|187789295|171764500|362f2b2d-2f59-43cc-a563-cdcc142c67f7|6321dff3-b0e0-4c46-bde1-2f51942a131a",
+        "clearance|187793000|179563500|c362a7c7-dcf2-4ea1-b48f-950216fc8b55|672db29a-18e5-46f4-9905-fb6cc749b686",
+        "clearance|187812500|189037500|83c9c8e0-701c-4c27-b509-c995fc8cab1e|d90d2b7a-5520-4d8a-aff8-1d61377655e3",
+        "clearance|189543000|161938500|48cd162b-c609-4428-aa91-1bc6f9704574|6295a1c5-176a-4b82-a6b9-9cf22930d3d2",
+        "clearance|189562500|171764500|1e515f7c-5757-4e6b-96e4-8e5fd2b01254|b5293967-5d61-435a-94fb-dba09a8d08f3",
+        "clearance|189562500|179436500|9f34263e-46b8-4be2-9542-d7cc058a474d|b57292a4-d654-4088-b615-f4cfee0f5372",
+        "clearance|189587500|189164500|56c4faa1-72e0-4f8d-8bd4-a538cd3b8a07|3ffde902-1f38-413d-b3c6-ac6e4dadeae2",
+        "clearance|198112500|191389500|da0ccbab-d42f-4712-a498-5307525711e5|a0265a0a-490a-4a03-a662-7acea2596a9d",
+        "clearance|198166501|159763500|45b840a5-69e4-43b0-b1fd-c5c69038390c|893d64bc-ac40-44a8-bcff-0c6cfce9065f",
+        "clearance|198612500|177237500|281a4bec-a537-4b6f-be11-34631dcd1865|46537b9f-a79d-46b6-b5fd-4adc583404d7",
+        "clearance|199887500|191262500|712236d7-c052-4bd5-a5a8-7461639f546a|bbd77bb4-85b7-4141-9820-965e569726d5",
+        "clearance|199939001|159635500|f3cc9d64-c02d-403c-bdb7-7114ffcb1d5b|7014a201-08dc-4ddb-8a45-146a16efd08b",
+        "clearance|200336500|173911498|ed1fd735-3f96-4a38-94c9-e176ede2bb92|6b809819-0228-45a2-8e46-07ec62eb9381",
+        "clearance|200336500|173973998|cd4f73a6-87b5-4bc4-86a8-02da3b7e6fdc|f022e044-3459-47f7-a62c-2ecb7a22096d",
+        "clearance|200387500|177110500|63f49904-fd81-4fdb-9961-c2290c7baeed|7699f12c-ffa7-4e98-94f3-0343a7c432e2",
+        "footprint_type_mismatch|71700501|155316000|df5b5146-84d0-4201-b26f-3c2c42b72267|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|73020501|190766000|00000000-0000-0000-0000-000060d53b3c|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|74775501|152264000|6afdf0b3-665b-484e-88a4-04b9225b41c4|24d99aa8-51f0-4479-ac88-4c07ca6cd768",
+        "hole_clearance|74775501|152264000|6afdf0b3-665b-484e-88a4-04b9225b41c4|d4ee5902-cf40-439e-898c-5ad3bded5544",
+        "hole_clearance|74775501|158366000|9ee4f67e-221b-4960-876a-e2386ad90934|ecd13f65-7640-4193-8aa8-672f9266915d",
+        "hole_clearance|74775501|158366000|9ee4f67e-221b-4960-876a-e2386ad90934|ece39b3a-6b67-486a-8c2f-c37ec593c669",
+        "hole_clearance|79549000|126276000|66341cab-b44d-4f7e-a8f4-0e817412de44|36f92460-d37b-485f-a137-30869b4e6746"
+      ],
+      "meta": {
+        "filename": "board_design_settings.json",
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "ignore",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "ignore",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "ignore",
+        "text_height": "warning",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "ignore",
+        "zones_intersect": "error"
+      },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.09999999999999999,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.19999999999999998,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.7,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.09999999999999999,
+        "min_track_width": 0.09999999999999999,
+        "min_via_annular_width": 0.125,
+        "min_via_diameter": 0.44999999999999996,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.107,
+        0.114,
+        0.15,
+        0.177,
+        0.182,
+        0.198,
+        0.201,
+        0.256,
+        0.4,
+        2.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.1
+        }
+      ],
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "ignore",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "ignore",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "rdimm-ddr5-tester-ultrascale-plus.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff",
+        "pcb_color": "rgb(255, 153, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "12V",
+        "pcb_color": "rgb(255, 255, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "40Ohm-se_DQ",
+        "pcb_color": "rgb(255, 0, 214)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se",
+        "pcb_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "80Ohm-diff_DQS",
+        "pcb_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "85Ohm-diff_PCIe",
+        "pcb_color": "rgb(0, 255, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff",
+        "pcb_color": "rgb(0, 255, 163)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Supply",
+        "pcb_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": {
+      "GND": "rgb(0, 0, 255)"
+    },
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/A.CK0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/A.CK0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/A.CK1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/A.CK1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/B.CK0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/B.CK0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/B.CK1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/DDR5 SODIMM/B.CK1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH3_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH3_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH4_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/Ethernet/ETH4_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 12/HyperRAM.CK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 12/HyperRAM.CK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA bank 16/HDMI.D2_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_CLK_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_CLK_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D0_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D0_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D1_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D1_P"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D2_N"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/HDMI + SD Card/HDMI_CONN_D2_P"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "/Supply/12V_PCIE_fused"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "/Supply/12V_aux"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "/Supply/12V_aux_fused"
+      },
+      {
+        "netclass": "12V",
+        "pattern": "VDC"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ0"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ1"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ10"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ11"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ12"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ13"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ14"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ15"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ16"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ17"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ18"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ19"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ2"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ20"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ21"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ22"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ23"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ24"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ25"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ26"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ27"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ28"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ29"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ3"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ30"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ31"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ4"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ5"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ6"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ7"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ8"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.DQ9"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.~{DM0}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.~{DM1}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.~{DM2}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/A.~{DM3}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ0"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ1"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ10"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ11"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ12"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ13"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ14"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ15"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ16"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ17"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ18"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ19"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ2"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ20"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ21"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ22"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ23"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ24"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ25"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ26"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ27"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ28"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ29"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ3"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ30"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ31"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ4"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ5"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ6"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ7"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ8"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.DQ9"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.~{DM0}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.~{DM1}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.~{DM2}"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 SODIMM/B.~{DM3}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA10"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA11"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA12"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA5"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA6"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA7"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA8"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CA9"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CB0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CB1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CB2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.CB3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.~{CS0}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/A.~{CS1}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA10"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA11"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA12"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA5"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA6"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA7"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA8"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CA9"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CB0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CB1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CB2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.CB3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.~{CS0}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/DDR5 SODIMM/B.~{CS1}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.MDC"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.MDIO"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.REF_CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RXC"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RXD2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RXD3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.RX_CTL"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TXC"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TXD0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TXD1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TXD2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TXD3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.TX_CTL"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.~{INT}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/Ethernet/ETH.~{RESET}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.IO0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.IO1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.IO2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.IO3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.SCK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA Config/FLASH.~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ4"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ5"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ6"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.DQ7"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.RWDS"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.~{CS}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 12/HyperRAM.~{RESET}"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/GCLK100"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.CD"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.CLK"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.CMD"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.DAT0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.DAT1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.DAT2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/FPGA bank 16/SD.DAT3"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HyperRAM + QSPI Flash/IO0"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HyperRAM + QSPI Flash/IO1"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HyperRAM + QSPI Flash/IO2"
+      },
+      {
+        "netclass": "50Ohm-se",
+        "pattern": "/HyperRAM + QSPI Flash/IO3"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS0_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS0_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS1_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS1_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS2_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS2_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS3_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS3_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS4_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/A.DQS4_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS0_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS0_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS1_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS1_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS2_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS2_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS3_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS3_P"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS4_N"
+      },
+      {
+        "netclass": "80Ohm-diff_DQS",
+        "pattern": "/DDR5 SODIMM/B.DQS4_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTR_REFCLK0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTR_REFCLK0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/GTX_TX3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.CLK_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.CLK_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.RXD3_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD0_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD0_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD1_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD1_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD2_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD2_P"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD3_N"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "/FPGA MGT Interface/PCIE.TXD3_P"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/Debug FTDI/DBG_USB_N"
+      },
+      {
+        "netclass": "90Ohm-diff",
+        "pattern": "/Debug FTDI/DBG_USB_P"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V0"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V0_MGTAVCC"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V2"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V2_MGTAVTT"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+3V3_AON"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Debug FTDI/VBUS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Ethernet/AVDDH"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Ethernet/AVDDL"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Ethernet/AVDDL_PLL"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_BS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_FB"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_REG"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_SS"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_SW"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V0_VCC"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V1_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V1_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V1_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V2_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V2_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V2_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V7"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V7_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V7_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V7_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V8_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V8_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/1V8_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/3V3_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/3V3_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/3V3_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/5V_SEN_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/5V_SEN_-"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/5V_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/spare"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "/Supply/spare_local"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "DAC_VREF"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "GND"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": "data-center-rdimm-ddr4-tester.wrl"
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "Pg. ",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": true,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "./doc",
+    "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "1faa6543-e26a-4449-8bac-ee14b9f19e5f",
+      ""
+    ],
+    [
+      "00000000-0000-0000-0000-00005fea2994",
+      "HyperRAM + QSPI Flash"
+    ],
+    [
+      "00000000-0000-0000-0000-00005fd53c7d",
+      "FPGA Config"
+    ],
+    [
+      "00000000-0000-0000-0000-000061827943",
+      "DDR5 SODIMM"
+    ],
+    [
+      "00000000-0000-0000-0000-0000600295c1",
+      "FPGA power"
+    ],
+    [
+      "00000000-0000-0000-0000-0000600e76d8",
+      "Debug FTDI"
+    ],
+    [
+      "00000000-0000-0000-0000-00005f982999",
+      "Ethernet"
+    ],
+    [
+      "00000000-0000-0000-0000-000061b4860c",
+      "FPGA banks HP"
+    ],
+    [
+      "00000000-0000-0000-0000-000060225b0c",
+      "Supply"
+    ],
+    [
+      "e98c799f-d02e-47b6-ad5c-871bd722b830",
+      "FPGA MGT Interface"
+    ],
+    [
+      "fea793c3-bc28-42ef-95e7-45c2f3eee090",
+      "PCIe connector"
+    ],
+    [
+      "38c9b230-412f-4879-8fc8-e1b4a3d643e0",
+      "FPGA bank 12"
+    ],
+    [
+      "e240eeea-be8a-4736-b415-db6627c3e732",
+      "FPGA banks unused"
+    ],
+    [
+      "34ebf93d-6b28-4c40-a799-aace59d6d135",
+      "FPGA bank 14"
+    ],
+    [
+      "c1ddaa09-f59e-4e22-abc1-585fde8776d6",
+      "FPGA bank 16"
+    ],
+    [
+      "3f0d6799-172b-44a7-b59e-98d6f5f3049b",
+      "I^{2}C"
+    ],
+    [
+      "59a8849d-b77a-4f79-b7ae-cd57b3cb4d28",
+      "HDMI + SD Card"
+    ]
+  ],
+  "text_variables": {}
+}
