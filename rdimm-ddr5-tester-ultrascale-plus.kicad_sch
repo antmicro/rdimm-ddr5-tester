@@ -2587,7 +2587,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid db2d24d8-2cc3-4834-a0c1-5f56faba7aa3)
   )
-  (text "SO-DIMM DDR5 Tester" (at 172.085 35.56 0)
+  (text "RDIMM DDR5 Tester Ultrascale Plus" (at 172.085 35.56 0)
     (effects (font (size 3.9878 3.9878) (thickness 0.7976) bold) (justify left bottom))
     (uuid f82ea12b-8c64-4a5b-ac57-b419a8621567)
   )
