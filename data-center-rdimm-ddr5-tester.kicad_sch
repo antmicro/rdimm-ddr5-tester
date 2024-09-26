@@ -2599,7 +2599,7 @@
   (symbol (lib_id "antmicroMechanicalParts:Heatsink_960-27-12-D-AB-0") (at 254 262.255 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 949b7e24-0651-4587-877e-d6c94c4dbb56)
-    (property "Reference" "H1" (at 260.35 263.6469 0)
+    (property "Reference" "A1" (at 260.35 263.6469 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "Heatsink_960-27-12-D-AB-0" (at 260.35 266.1706 0)
@@ -2626,7 +2626,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f"
-          (reference "H1") (unit 1)
+          (reference "A1") (unit 1)
         )
       )
     )
