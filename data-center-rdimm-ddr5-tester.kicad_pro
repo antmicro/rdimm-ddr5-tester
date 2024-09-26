@@ -1735,6 +1735,14 @@
       {
         "netclass": "Supply",
         "pattern": "GND"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "*GTY*"
+      },
+      {
+        "netclass": "85Ohm-diff_PCIe",
+        "pattern": "*PCIE.*"
       }
     ]
   },
