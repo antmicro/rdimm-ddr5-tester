@@ -1,0 +1,92 @@
+(version 1)
+
+(rule "50OHM_SE_outer" 
+	(constraint track_width (opt 0.256mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '50Ohm-se')")
+	(layer outer)
+)
+
+(rule "50OHM_SE_inner" 
+	(constraint track_width (opt 0.1mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '50Ohm-se')")
+	(layer inner)
+)
+
+(rule "PCIe_85Ohm_outer" 
+# calculated as 85Ohm @ 50 Ohm SE
+	(constraint track_width (opt 0.22mm) )
+	(constraint diff_pair_gap (opt 0.16mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')")
+	(layer outer)
+)
+
+(rule "PCIe_85Ohm_outer_FPGA" 
+# calculated as 85Ohm @ 50 Ohm SE
+	(constraint track_width (opt 0.1mm) )
+	(constraint diff_pair_gap (opt 0.1mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "A.NetClass == '85Ohm-diff_PCIe' && A.insideCourtyard('U3002')")
+	(layer outer)
+)
+
+(rule "DDR_80OHM_diff_outer" 
+# calculated as 80Ohm @ 45 Ohm SE
+	(constraint track_width (opt 0.26mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '80Ohm-diff_DQS') ")
+	(layer outer)
+)
+
+(rule "DDR_40OHM_SE_outer" 
+	(constraint track_width (opt 0.38mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '40Ohm-se_DQ')")
+	(layer outer)
+)
+
+(rule "DDR_80OHM_diff_inner" 
+# calculated as 80Ohm @ 45 Ohm SE
+	(constraint track_width (opt 0.13mm))
+	(constraint diff_pair_gap (opt 0.11mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '80Ohm-diff_DQS') ")
+	(layer inner)
+)
+
+(rule "DDR_40OHM_SE_inner" 
+	(constraint track_width (opt 0.148mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '40Ohm-se_DQ')")
+	(layer inner)
+)
+
+(rule "100OHM_diff_inner" 
+# calculated as 95Ohm @ 51 Ohm SE
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap (opt 0.15mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '100Ohm-diff') ")
+	(layer inner)
+)
+
+(rule "100OHM_diff_outer" 
+# calculated as 100Ohm @ 55 Ohm SE
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap (opt 0.15mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '100Ohm-diff') ")
+	(layer outer)
+)
+
+(rule "90OHM_diff_outer" 
+# calculated as 90Ohm @ 55 Ohm SE
+	(constraint track_width (opt 0.2mm))
+	(constraint diff_pair_gap (opt 0.13mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '90Ohm-diff') ")
+	(layer outer)
+)

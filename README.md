@@ -2,8 +2,8 @@
 
 Copyright (c) 2024 [Antmicro](https://antmicro.com)
 
-[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/rdimm-ddr5-tester-ultrascale-plus/)
-[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/rdimm-ddr5-tester-ultrascale-plus/?tab=features)
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/data-center-rdimm-ddr5-tester/)
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?tab=features)
 ![](img/so-dimm-ddr5-tester-rev.1.1.0-photo.jpg)
 
 ## Overview

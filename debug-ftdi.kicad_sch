@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "SO-DIMM DDR5 Tester")
-    (date "2024-04-23")
-    (rev "1.2.0")
+    (title "RDIMM DDR5 Tester")
+    (date "2024-09-26")
+    (rev "2.0.0")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd")
@@ -6639,7 +6639,7 @@
     (pin "1" (uuid 4bef19ce-9deb-4b92-a7c8-52d9b8c84c48))
     (pin "2" (uuid c641005b-5cbe-4af7-b494-e27faa1c1da6))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R52") (unit 1)
         )
@@ -6683,7 +6683,7 @@
     (pin "1" (uuid fcb169ba-00df-4355-b632-b49acc417dde))
     (pin "2" (uuid 0a8f8e42-f70d-4574-a2b8-c3841bf24859))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R55") (unit 1)
         )
@@ -6727,7 +6727,7 @@
     (pin "1" (uuid 90df9a34-f48a-45e8-888e-3359001c15cc))
     (pin "2" (uuid 57b95042-b44a-452f-9640-8751d02a4802))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R53") (unit 1)
         )
@@ -6771,7 +6771,7 @@
     (pin "1" (uuid 559ebb7c-8eaa-49ed-8f8f-1971d5d1c439))
     (pin "2" (uuid 1c660d5c-a148-40cf-ba16-9743533a36c7))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R54") (unit 1)
         )
@@ -6818,7 +6818,7 @@
     (pin "1" (uuid affa44c1-eb62-4eab-918a-191bc39148ef))
     (pin "2" (uuid 5e54c389-da11-4377-b23a-b76a99a37962))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C112") (unit 1)
         )
@@ -6865,7 +6865,7 @@
     (pin "1" (uuid 5efb48e4-31e3-4a06-a2d1-2491b323f28d))
     (pin "2" (uuid 377f9f40-fa52-4dae-923b-9de641ccc954))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C116") (unit 1)
         )
@@ -6912,7 +6912,7 @@
     (pin "1" (uuid c45b74e0-2005-4800-a8f0-84110d04d430))
     (pin "2" (uuid 40eefb15-2683-4426-a9da-b36df9a7215e))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C110") (unit 1)
         )
@@ -6959,7 +6959,7 @@
     (pin "1" (uuid 4624adb8-a4f0-4919-889d-e13f14a1361b))
     (pin "2" (uuid 2da9b37d-de8c-4a4b-b760-b5b1487b9edd))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C114") (unit 1)
         )
@@ -7003,7 +7003,7 @@
     (pin "1" (uuid 7a3196bc-06f2-400c-b82d-32c721608206))
     (pin "2" (uuid 73501f07-1c62-40b4-9cbd-02a6ea8fc83d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R44") (unit 1)
         )
@@ -7047,7 +7047,7 @@
     (pin "1" (uuid 867910a3-45e9-4145-94c6-c43c3993a508))
     (pin "2" (uuid fd7e2ef5-48fd-4530-af95-3d9edc533e7a))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R43") (unit 1)
         )
@@ -7094,7 +7094,7 @@
     (pin "1" (uuid 0be98a53-f7fb-44dd-ab55-80bbebb00aca))
     (pin "2" (uuid f0d1c0e7-08c2-4ecf-b766-dba170d26e63))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C111") (unit 1)
         )
@@ -7141,7 +7141,7 @@
     (pin "1" (uuid 9c9dfbb4-117c-4127-b9ae-9c5fe454c48e))
     (pin "2" (uuid 4be8a1c6-9616-4773-be69-481f95bbe36b))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C117") (unit 1)
         )
@@ -7172,7 +7172,7 @@
     )
     (pin "1" (uuid e3d74f8e-9d20-4a08-89df-b3c69133ed8a))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0231") (unit 1)
         )
@@ -7203,7 +7203,7 @@
     )
     (pin "1" (uuid fdd4f3c9-6eb4-4217-890e-c478916a7f51))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0232") (unit 1)
         )
@@ -7234,7 +7234,7 @@
     )
     (pin "1" (uuid e2d38c2c-4601-48ae-8efa-3c905b98fb0d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0235") (unit 1)
         )
@@ -7281,7 +7281,7 @@
     (pin "1" (uuid e35294d8-9293-4b8a-bfc2-40842a046673))
     (pin "2" (uuid f51bbd0e-2d01-4fe7-9108-d3ab2072c0c0))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C115") (unit 1)
         )
@@ -7328,7 +7328,7 @@
     (pin "1" (uuid 585f0faf-52bc-4467-9107-6b63cadaa52d))
     (pin "2" (uuid 15bf6fbe-a422-4cd5-8ebd-865eacf956b2))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C118") (unit 1)
         )
@@ -7375,7 +7375,7 @@
     (pin "1" (uuid 4fd7ab93-31d1-40f9-9ca4-1954544f31d3))
     (pin "2" (uuid 91fe4781-ec5e-4b22-a487-8c704513eed4))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C119") (unit 1)
         )
@@ -7422,7 +7422,7 @@
     (pin "1" (uuid 045ccdf9-0806-4459-b811-5d833e62511b))
     (pin "2" (uuid eda475fb-5b0b-4704-bf22-bf153a057a62))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C120") (unit 1)
         )
@@ -7453,7 +7453,7 @@
     )
     (pin "1" (uuid d411189f-6d4d-45b8-9e9b-1d0f0cdcaa67))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0347") (unit 1)
         )
@@ -7484,7 +7484,7 @@
     )
     (pin "1" (uuid f20ae9df-84a9-43de-89d1-cb394878b1b8))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0348") (unit 1)
         )
@@ -7515,7 +7515,7 @@
     )
     (pin "1" (uuid 4aa89049-a246-4715-8166-b8ef71de6b0c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0260") (unit 1)
         )
@@ -7546,7 +7546,7 @@
     )
     (pin "1" (uuid f6645fdc-b024-4524-802f-a475144df72b))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0334") (unit 1)
         )
@@ -7593,7 +7593,7 @@
     (pin "1" (uuid 90e80acc-b348-4768-ba86-0b568fbc28c3))
     (pin "2" (uuid 3b516ae7-678f-4e51-8644-4fac50003b9f))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C123") (unit 1)
         )
@@ -7640,7 +7640,7 @@
     (pin "1" (uuid a8574e9b-1f94-459a-81f1-583a0aa8c08a))
     (pin "2" (uuid 068615e1-13d7-469c-b06a-8f6ec2a93d5a))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C125") (unit 1)
         )
@@ -7671,7 +7671,7 @@
     )
     (pin "1" (uuid f1985e88-5cdc-4360-aa92-b4b6b06d6957))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0239") (unit 1)
         )
@@ -7702,7 +7702,7 @@
     )
     (pin "1" (uuid 3bb93a45-7598-4d61-8cb1-061f53f6ff92))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0246") (unit 1)
         )
@@ -7749,7 +7749,7 @@
     (pin "1" (uuid 4b901035-5b1e-4c23-bd71-945afdd94bcc))
     (pin "2" (uuid c96661c2-6c08-4f4c-8eba-61aa0aa42118))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C122") (unit 1)
         )
@@ -7780,7 +7780,7 @@
     )
     (pin "1" (uuid ef9c497f-553f-43fa-a62e-a34d889f6a88))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0229") (unit 1)
         )
@@ -7824,7 +7824,7 @@
     (pin "1" (uuid 0c7f42b9-cb9c-43ca-9c6d-7b8a95b71357))
     (pin "2" (uuid 7bd93455-d154-4a53-b4a5-09fcb65f849c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R47") (unit 1)
         )
@@ -7868,7 +7868,7 @@
     (pin "1" (uuid cd510940-b918-4451-b658-b52591581237))
     (pin "2" (uuid eca5df47-d2a9-43b6-8df7-adc3b3a71b94))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R49") (unit 1)
         )
@@ -7912,7 +7912,7 @@
     (pin "1" (uuid c61edf2f-f98c-4ab8-b485-405da5d9ca62))
     (pin "2" (uuid 47450953-2ef8-419f-8c44-63921f651ece))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R50") (unit 1)
         )
@@ -7956,7 +7956,7 @@
     (pin "1" (uuid 6b18bbf8-04cb-4f8d-8d32-17b24caf46e4))
     (pin "2" (uuid 6038dbb2-fb29-4c8b-b714-abc7392fde45))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R48") (unit 1)
         )
@@ -7987,7 +7987,7 @@
     )
     (pin "1" (uuid 978af717-0ee3-4f75-955f-a1fbab389ba2))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0234") (unit 1)
         )
@@ -8024,7 +8024,7 @@
     )
     (pin "1" (uuid 4ba2ffea-549d-4445-81c3-e47e124166a6))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "TP1") (unit 1)
         )
@@ -8055,7 +8055,7 @@
     )
     (pin "1" (uuid 4394c56b-3afc-4dae-9047-521728b42afd))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0212") (unit 1)
         )
@@ -8102,7 +8102,7 @@
     (pin "1" (uuid e345994d-4018-43a3-a79e-53c5de3cfaa9))
     (pin "2" (uuid a8adb0f8-531e-42f9-b44d-860b812abc41))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C236") (unit 1)
         )
@@ -8146,7 +8146,7 @@
     (pin "1" (uuid ca944360-4fae-4391-ac8e-688aec3e016b))
     (pin "2" (uuid ef861cbf-e834-4c8d-a847-26f0f41e852d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R68") (unit 1)
         )
@@ -8177,7 +8177,7 @@
     )
     (pin "1" (uuid 4e3dec75-1eb7-4dd4-9ecc-6f4bee8f5dd0))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0197") (unit 1)
         )
@@ -8224,7 +8224,7 @@
     (pin "1" (uuid 40a5f610-e408-45d0-99ff-8a268bd7b70e))
     (pin "2" (uuid 627a017e-fab1-4edd-9e93-9c75ac89d42d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R57") (unit 1)
         )
@@ -8255,7 +8255,7 @@
     )
     (pin "1" (uuid b0068b5f-fd82-4467-8fd8-3db24a8d2a42))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR016") (unit 1)
         )
@@ -8286,7 +8286,7 @@
     )
     (pin "1" (uuid 0c192b88-1423-4295-966f-f437f2599813))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR09") (unit 1)
         )
@@ -8336,7 +8336,7 @@
     (pin "1" (uuid 5b354bd8-4cd2-471e-853b-da0180614cc8))
     (pin "2" (uuid b4a00b21-ea40-46b8-98b1-c3f619eb256c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R91") (unit 1)
         )
@@ -8367,7 +8367,7 @@
     )
     (pin "1" (uuid 98d6dd51-5b89-437e-949e-9477045fb25f))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0207") (unit 1)
         )
@@ -8414,7 +8414,7 @@
     (pin "1" (uuid 5cdf2f16-cc46-40c0-aabd-9585b0fa834f))
     (pin "2" (uuid 4ad1ebff-4ba5-4d97-822e-b25cd196a151))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R92") (unit 1)
         )
@@ -8461,7 +8461,7 @@
     (pin "1" (uuid 09887f01-d0b7-487c-8912-5193e2be4f58))
     (pin "2" (uuid 0d347c5d-51a9-4149-a3a5-ed9dc98b00d0))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C109") (unit 1)
         )
@@ -8512,7 +8512,7 @@
     (pin "8" (uuid 054d7e75-3d4c-49d5-b37d-ad49bbe23488))
     (pin "9" (uuid d8190865-c756-4893-a8a7-232ef95e150c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U7") (unit 1)
         )
@@ -8543,7 +8543,7 @@
     )
     (pin "1" (uuid 9a637099-7077-4392-8fbd-efa0250d092b))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR015") (unit 1)
         )
@@ -8590,7 +8590,7 @@
     (pin "1" (uuid 204d779f-94be-45b5-8a04-b9ade2fb827c))
     (pin "2" (uuid 98846db0-55b9-48c1-bac3-2d3f19542865))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R88") (unit 1)
         )
@@ -8634,7 +8634,7 @@
     (pin "1" (uuid dc25e8e6-1a72-4fcf-a4d0-69623c61c580))
     (pin "2" (uuid 9ecde83e-9b2e-446b-a362-5d54708e3d25))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R69") (unit 1)
         )
@@ -8665,7 +8665,7 @@
     )
     (pin "1" (uuid ebf93455-e0a7-40da-9fc7-d3ec0e6ccae3))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR010") (unit 1)
         )
@@ -8712,7 +8712,7 @@
     (pin "1" (uuid 1efef40d-e831-4e8c-92b5-ec21d6b4a817))
     (pin "2" (uuid 479ec0c8-d497-4ffc-b935-74fb6ab094fb))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C238") (unit 1)
         )
@@ -8743,7 +8743,7 @@
     )
     (pin "1" (uuid bed009cd-dbef-4325-a079-7b92794e54c1))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR012") (unit 1)
         )
@@ -8787,7 +8787,7 @@
     (pin "5" (uuid 7be70560-a794-40d2-b2b3-5db65776e566))
     (pin "6" (uuid 4681e8d1-87d6-4a86-95df-082a8a6449ac))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U33") (unit 1)
         )
@@ -8818,7 +8818,7 @@
     )
     (pin "1" (uuid e1a619ae-990c-4b21-afa9-f7f1a46ef819))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0206") (unit 1)
         )
@@ -8856,7 +8856,7 @@
     (pin "1" (uuid 4c811938-91fd-424f-8da9-2b3e06b468aa))
     (pin "2" (uuid 880e6367-a684-4005-8ba7-145ad228c68d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "D11") (unit 1)
         )
@@ -8903,7 +8903,7 @@
     (pin "1" (uuid 46af57ac-fe72-4926-87b4-8a448b07a36a))
     (pin "2" (uuid a1b46dd3-7515-4b09-9aba-2ce82a8e166e))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R59") (unit 1)
         )
@@ -8928,7 +8928,7 @@
     )
     (pin "1" (uuid 698048a0-48dd-452d-a08a-be3c3a8501ba))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#FLG0103") (unit 1)
         )
@@ -8966,7 +8966,7 @@
     (pin "1" (uuid f19dd822-2ff2-4fd2-ac8f-73bbad466aac))
     (pin "2" (uuid b69fc3ad-5a67-44c6-ae4b-72bd2fcd2e6f))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "D12") (unit 1)
         )
@@ -8991,7 +8991,7 @@
     )
     (pin "1" (uuid b9284844-8d93-4760-84d7-95e1d568c9d9))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0194") (unit 1)
         )
@@ -9038,7 +9038,7 @@
     (pin "1" (uuid 1db84049-b345-475b-b420-e4bf9acee97f))
     (pin "2" (uuid 5d929dc8-d30e-4f3d-8152-52d276cd2855))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C121") (unit 1)
         )
@@ -9069,7 +9069,7 @@
     )
     (pin "1" (uuid c0ccf8ca-f1d2-4924-bbdf-b48c66db731c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0196") (unit 1)
         )
@@ -9100,7 +9100,7 @@
     )
     (pin "1" (uuid d3395e3b-0406-42d6-a81d-3a249db0c859))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0257") (unit 1)
         )
@@ -9138,7 +9138,7 @@
     (pin "1" (uuid 6663d83a-2400-4ccd-9dfb-931fc77aaf05))
     (pin "2" (uuid f2d1b5a6-b306-485b-b25a-e8235b9907ba))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "D15") (unit 1)
         )
@@ -9185,7 +9185,7 @@
     (pin "1" (uuid ede89391-87f9-457d-b11c-74d52392ff40))
     (pin "2" (uuid 9e49c3f1-7e08-4ad3-8c46-e46db025fcc6))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C128") (unit 1)
         )
@@ -9228,7 +9228,7 @@
     (pin "3" (uuid 74b8e8f4-d633-4432-be9e-309199bb5cf4))
     (pin "4" (uuid 3830e267-53d4-4e0b-a0a9-f915ac4864c5))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "Y1") (unit 1)
         )
@@ -9253,7 +9253,7 @@
     )
     (pin "1" (uuid 2267a86f-580a-4f8a-a738-fd0122652606))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#FLG01") (unit 1)
         )
@@ -9278,7 +9278,7 @@
     )
     (pin "1" (uuid dcb40937-dabc-43c9-98be-05be28c4de7c))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#FLG0101") (unit 1)
         )
@@ -9325,7 +9325,7 @@
     (pin "1" (uuid 11ab8cb7-fc45-44f8-bc82-b6a596e3e14a))
     (pin "2" (uuid cef99f94-c5cb-4e72-bc21-bb52958634b6))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C113") (unit 1)
         )
@@ -9369,7 +9369,7 @@
     (pin "1" (uuid 782241b6-fe79-4816-afad-f54d8d6510fb))
     (pin "2" (uuid ae102123-a986-4018-919f-fb1c098eb782))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R67") (unit 1)
         )
@@ -9413,7 +9413,7 @@
     (pin "1" (uuid c430959a-f88a-48a8-9f2b-9ee1da5b6c52))
     (pin "2" (uuid 5fcbfaa4-b8c1-4fd1-afb8-45a9f1b5dd34))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R51") (unit 1)
         )
@@ -9454,7 +9454,7 @@
     (pin "4" (uuid c65014d9-a63f-4b23-8cd9-c4b87650ddd0))
     (pin "5" (uuid 861abb1a-be33-475e-ab88-562c29a571fe))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U5") (unit 1)
         )
@@ -9501,7 +9501,7 @@
     (pin "1" (uuid fd835fa6-c570-4fe7-ac27-3eba46caa4da))
     (pin "2" (uuid 6104165d-04d1-457c-8447-0a230975ec91))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C235") (unit 1)
         )
@@ -9548,7 +9548,7 @@
     (pin "1" (uuid 3198b7c4-658b-421f-8971-5f98a36b8a49))
     (pin "2" (uuid d514ed87-06cf-410e-953a-8eb68e19a720))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R60") (unit 1)
         )
@@ -9594,7 +9594,7 @@
     (pin "8" (uuid 0083808e-eaab-401a-ba48-30a6110af306))
     (pin "9" (uuid cb510489-7d56-4783-b384-d589306e3881))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U8") (unit 1)
         )
@@ -9625,7 +9625,7 @@
     )
     (pin "1" (uuid e1043433-40d8-4c98-8a5b-60db7272884e))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR017") (unit 1)
         )
@@ -9669,7 +9669,7 @@
     (pin "1" (uuid e9b0952d-4b29-4aff-b06e-d5a54e51a6f5))
     (pin "2" (uuid 71ffa93b-63c3-43d0-930b-66867f83fa7f))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R90") (unit 1)
         )
@@ -9694,7 +9694,7 @@
     )
     (pin "1" (uuid 6b6a583e-457a-43bf-ab15-b7a265e9b021))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0193") (unit 1)
         )
@@ -9719,7 +9719,7 @@
     )
     (pin "1" (uuid c09da784-f82f-406d-ac46-f57a65668ce4))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0191") (unit 1)
         )
@@ -9770,7 +9770,7 @@
     (pin "8" (uuid 59cc0a3c-0a88-4b1b-8e9b-ad02df0fd51e))
     (pin "9" (uuid fa6f2be5-82ca-4cb7-8fb5-6d733a51b380))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U13") (unit 1)
         )
@@ -9801,7 +9801,7 @@
     )
     (pin "1" (uuid f90648a7-ffb7-4972-91c0-a679320c75bd))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0204") (unit 1)
         )
@@ -9848,7 +9848,7 @@
     (pin "1" (uuid 8020fc0b-f728-494c-be4e-1398860b2819))
     (pin "2" (uuid 3cdc6887-2b86-4d44-8622-ba10df82e796))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R58") (unit 1)
         )
@@ -9895,7 +9895,7 @@
     (pin "1" (uuid f4c15614-4c0d-4cfd-ba97-b1529ada07be))
     (pin "2" (uuid 61a6e75e-c555-4a7f-b490-8a344bc2abc8))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R93") (unit 1)
         )
@@ -9942,7 +9942,7 @@
     (pin "1" (uuid 3f684838-5fa8-4562-9a62-9929127afed8))
     (pin "2" (uuid e667a29d-676d-4b06-a6ce-154ec8b6a155))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C133") (unit 1)
         )
@@ -9973,7 +9973,7 @@
     )
     (pin "1" (uuid 8071fa35-f806-4a6b-beab-e48f4ed0435d))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0225") (unit 1)
         )
@@ -10004,7 +10004,7 @@
     )
     (pin "1" (uuid 9b3ecd8c-bfe8-412c-b9fe-fc08f492d8c3))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0213") (unit 1)
         )
@@ -10060,7 +10060,7 @@
     (pin "B9" (uuid c68617aa-fa9b-42b3-a644-6c681a9d4788))
     (pin "SH" (uuid 039c51c3-3aa5-4b75-8ca5-7d847516c299))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "J3") (unit 1)
         )
@@ -10107,7 +10107,7 @@
     (pin "1" (uuid f119f629-c42d-4c32-b189-d02e0d9fe483))
     (pin "2" (uuid 19a36728-bf07-4893-8ace-b6bab86b571b))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C124") (unit 1)
         )
@@ -10138,7 +10138,7 @@
     )
     (pin "1" (uuid 380757c0-046a-41ba-89c0-88ed8e8de063))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0352") (unit 1)
         )
@@ -10179,7 +10179,7 @@
     (pin "1" (uuid 8b3dbd4d-b14f-4a91-b245-ff18935bf2bf))
     (pin "2" (uuid 09795675-80a9-441f-b400-0a69831cf873))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "FB2") (unit 1)
         )
@@ -10210,7 +10210,7 @@
     )
     (pin "1" (uuid dc4bf7e1-827d-4577-9990-1e29cde3ddd4))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR013") (unit 1)
         )
@@ -10241,7 +10241,7 @@
     )
     (pin "1" (uuid 6fc278cf-b118-400f-b321-0b30aa77bd29))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR014") (unit 1)
         )
@@ -10285,7 +10285,7 @@
     (pin "1" (uuid 402ff195-3999-4caf-8791-1320e4a96137))
     (pin "2" (uuid 5a55076f-0a30-467e-90b6-ccf693e96b89))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R79") (unit 1)
         )
@@ -10316,7 +10316,7 @@
     )
     (pin "1" (uuid 1c0c9a13-7012-4ea7-9f53-eaf6310e6474))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0215") (unit 1)
         )
@@ -10360,7 +10360,7 @@
     (pin "1" (uuid 26bc0521-75d4-414d-ac8e-75ea44d74424))
     (pin "2" (uuid d6f2e1a1-69ee-4ae6-a5fc-0e5f9412a1c2))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R64") (unit 1)
         )
@@ -10391,7 +10391,7 @@
     )
     (pin "1" (uuid 9bb1dc1d-01db-4211-a65b-956fd5c524a8))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0248") (unit 1)
         )
@@ -10428,7 +10428,7 @@
     )
     (pin "1" (uuid 518a0092-e8e4-46b2-820b-3dbc3298f317))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "TP22") (unit 1)
         )
@@ -10459,7 +10459,7 @@
     )
     (pin "1" (uuid 0925864d-98a0-4f69-a4a2-fe4f43839ecb))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR011") (unit 1)
         )
@@ -10503,7 +10503,7 @@
     (pin "1" (uuid 80463dde-0ec0-4ae4-9c57-735cf6585281))
     (pin "2" (uuid 2b9f5533-720e-4ccb-b3e9-b7c5530826dc))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R94") (unit 1)
         )
@@ -10547,7 +10547,7 @@
     (pin "5" (uuid b0edccdd-1f61-47f5-b2e2-126a045498f7))
     (pin "6" (uuid 7c34f1ad-adca-4b20-b35a-2673b73c0086))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U32") (unit 1)
         )
@@ -10578,7 +10578,7 @@
     )
     (pin "1" (uuid 65c6f11a-8540-464f-956e-f20f64e07143))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0200") (unit 1)
         )
@@ -10603,7 +10603,7 @@
     )
     (pin "1" (uuid 62b71a7d-e8c6-460b-b9b9-2ca8dbebde38))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#FLG0102") (unit 1)
         )
@@ -10634,7 +10634,7 @@
     )
     (pin "1" (uuid 3391ae83-a20e-4e6d-ad1d-f3e4060852a3))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0230") (unit 1)
         )
@@ -10665,7 +10665,7 @@
     )
     (pin "1" (uuid 2f2e62c7-7e3e-4416-b1d9-4fdbcea25e60))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0195") (unit 1)
         )
@@ -10696,7 +10696,7 @@
     )
     (pin "1" (uuid 25677315-f50f-47ec-b322-ad9af7e677ad))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0198") (unit 1)
         )
@@ -10743,7 +10743,7 @@
     (pin "1" (uuid 909e5e6f-0cb0-4f94-b98b-4cea3e3ca063))
     (pin "2" (uuid 78b3dbd1-1228-4ab4-a863-3f332736f0e6))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C237") (unit 1)
         )
@@ -10796,7 +10796,7 @@
     (pin "8" (uuid fed99c30-024b-473b-a1d1-c6ce745ff5bb))
     (pin "9" (uuid 6a1df591-54f9-473c-8683-4248a0fcc6a7))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U9") (unit 1)
         )
@@ -10840,7 +10840,7 @@
     (pin "1" (uuid 444e5f9b-7912-4841-9099-7cb238074540))
     (pin "2" (uuid c47026be-fa98-45a8-8221-ca7170eef7ce))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R65") (unit 1)
         )
@@ -10878,7 +10878,7 @@
     (pin "1" (uuid aac24453-9631-497f-a36e-b36b7165efde))
     (pin "2" (uuid 7a1ea20b-2f77-4ede-9fd8-46d8af3c4203))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "D10") (unit 1)
         )
@@ -10916,7 +10916,7 @@
     (pin "1" (uuid d337e923-2ca2-44bd-810a-1c9d3d58a39a))
     (pin "2" (uuid 4179e9af-e244-495d-b4fc-c5559fe5f02b))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "D13") (unit 1)
         )
@@ -10957,7 +10957,7 @@
     (pin "1" (uuid 48419879-5d4d-4e69-9730-a0548ba0a205))
     (pin "2" (uuid 31904a63-ed22-4079-89d4-3776145b5866))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "FB1") (unit 1)
         )
@@ -11001,7 +11001,7 @@
     (pin "1" (uuid 4b6dca1b-75ec-4647-9d47-77d014990ad6))
     (pin "2" (uuid ba78a2b1-1cde-47c4-bad7-056a3ba07438))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R66") (unit 1)
         )
@@ -11048,7 +11048,7 @@
     (pin "1" (uuid 30605646-4204-4e97-bdc9-4d751a1a12b6))
     (pin "2" (uuid 1fff170a-717a-44bd-8ae5-7672525b3c74))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C130") (unit 1)
         )
@@ -11079,7 +11079,7 @@
     )
     (pin "1" (uuid 684f18ca-8edb-418b-9676-5fc37f2308c4))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0192") (unit 1)
         )
@@ -11110,7 +11110,7 @@
     )
     (pin "1" (uuid 77f1a6c5-ef52-47da-8ce3-ddaf60eb4834))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0227") (unit 1)
         )
@@ -11141,7 +11141,7 @@
     )
     (pin "1" (uuid 0a612e58-e5b9-4db4-81a1-d1db054f33b1))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0223") (unit 1)
         )
@@ -11172,7 +11172,7 @@
     )
     (pin "1" (uuid 291571a2-79fd-4533-85f4-b55e1433d006))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0247") (unit 1)
         )
@@ -11203,7 +11203,7 @@
     )
     (pin "1" (uuid 9c2ddee4-df96-4fbb-a05e-1129352ca033))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR08") (unit 1)
         )
@@ -11234,7 +11234,7 @@
     )
     (pin "1" (uuid 34c152e3-bf5c-42bf-987e-5c47542a70ae))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "#PWR0222") (unit 1)
         )
@@ -11281,7 +11281,7 @@
     (pin "1" (uuid caeb2d79-70ee-468f-9fcd-13cd06291c0f))
     (pin "2" (uuid f0aea23b-2ca1-4b5f-a596-ffe8d62bff09))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R56") (unit 1)
         )
@@ -11325,7 +11325,7 @@
     (pin "1" (uuid 7c4372b7-0638-41d0-ae75-e4d9a9971985))
     (pin "2" (uuid 4902174e-a529-4eb8-b59e-f6254b3cc17a))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "R95") (unit 1)
         )
@@ -11418,7 +11418,7 @@
     (pin "8" (uuid 592ad7b3-2893-41cc-9791-99298ae6124a))
     (pin "9" (uuid 8c7f308e-1673-43ce-8bf0-250a15995cc8))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "U6") (unit 1)
         )
@@ -11465,7 +11465,7 @@
     (pin "1" (uuid ffa66315-73e2-42c4-9268-3212848ed429))
     (pin "2" (uuid 8b5bf980-ecee-48f3-92ae-4d3118fa5cfb))
     (instances
-      (project "rdimm-ddr5-tester-ultrascale-plus"
+      (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-0000600e76d8"
           (reference "C131") (unit 1)
         )
