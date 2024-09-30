@@ -2854,7 +2854,7 @@
     (property "Sheetname" "FPGA banks HP" (at 190.5 81.8384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "fpga-banks-32-34.kicad_sch" (at 190.5 102.1846 0)
+    (property "Sheetfile" "fpga-hp-banks.kicad_sch" (at 190.5 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "A{DDR5}" input (at 273.05 89.535 0)
