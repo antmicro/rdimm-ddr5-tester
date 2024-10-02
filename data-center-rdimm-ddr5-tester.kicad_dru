@@ -28,7 +28,7 @@
 	(constraint track_width (opt 0.1mm) )
 	(constraint diff_pair_gap (opt 0.1mm))
 	(constraint clearance (opt 0.1mm))
-	(condition "A.NetClass == '85Ohm-diff_PCIe' && A.insideCourtyard('U3002')")
+	(condition "A.NetClass == '85Ohm-diff_PCIe' && A.insideCourtyard('U34')")
 	(layer outer)
 )
 
@@ -89,4 +89,13 @@
 	(constraint clearance (opt 0.1mm))
 	(condition "(A.NetClass == '90Ohm-diff') ")
 	(layer outer)
+)
+
+(rule "DDR_80OHM_diff_inner" 
+# calculated as 80Ohm @ 45 Ohm SE
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap (opt 0.1mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "A.NetClass == '80Ohm-diff_DQS' && A.insideCourtyard('U34')")
+	(layer inner)
 )
