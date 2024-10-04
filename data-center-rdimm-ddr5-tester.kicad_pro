@@ -1202,7 +1202,7 @@
       },
       {
         "netclass": "50Ohm-se",
-        "pattern": "/DDR5 RDIMM/?.C*"
+        "pattern": "/DDR5 RDIMM/?.CA*"
       },
       {
         "netclass": "100Ohm-diff",
@@ -1211,6 +1211,10 @@
       {
         "netclass": "40Ohm-se_DQ",
         "pattern": "/DDR5 RDIMM/CTRL.*DQ*"
+      },
+      {
+        "netclass": "40Ohm-se_DQ",
+        "pattern": "/DDR5 RDIMM/?.CB*"
       }
     ]
   },
