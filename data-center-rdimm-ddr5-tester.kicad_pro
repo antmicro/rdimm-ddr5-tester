@@ -1337,6 +1337,18 @@
     [
       "59a8849d-b77a-4f79-b7ae-cd57b3cb4d28",
       "HDMI + SD Card"
+    ],
+    [
+      "3cfc3a6a-24b0-4207-8c35-05eeccc29696",
+      "DC-DC VCCINT"
+    ],
+    [
+      "0d757288-805e-4f45-ad8e-e9ee6afc6379",
+      "DC-DC AUX, MGT"
+    ],
+    [
+      "5b621c5d-ceb0-481d-9809-c89bf3097b70",
+      "DC-DC IO"
     ]
   ],
   "text_variables": {}
