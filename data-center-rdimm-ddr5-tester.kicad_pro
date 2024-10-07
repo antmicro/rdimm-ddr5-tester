@@ -1205,7 +1205,7 @@
         "pattern": "/DDR5 RDIMM/?.CA*"
       },
       {
-        "netclass": "100Ohm-diff",
+        "netclass": "80Ohm-diff_DQS",
         "pattern": "/DDR5 RDIMM/*CK*"
       },
       {

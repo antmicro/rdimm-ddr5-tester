@@ -4051,7 +4051,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 80.01 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a45d25d0-4745-4298-b946-7fb4736c91a6)
-    (property "Reference" "#PWR0236" (at 80.01 85.725 0)
+    (property "Reference" "#PWR0463" (at 80.01 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 76.835 79.375 0)
@@ -4073,7 +4073,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e240eeea-be8a-4736-b415-db6627c3e732"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR0463") (unit 1)
         )
       )
     )
@@ -4866,7 +4866,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 264.16 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edad7628-7568-4194-bcf5-d8ac6eb1f9ca)
-    (property "Reference" "#PWR0238" (at 264.16 85.725 0)
+    (property "Reference" "#PWR0462" (at 264.16 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 260.985 79.375 0)
@@ -4888,7 +4888,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e240eeea-be8a-4736-b415-db6627c3e732"
-          (reference "#PWR0238") (unit 1)
+          (reference "#PWR0462") (unit 1)
         )
       )
     )

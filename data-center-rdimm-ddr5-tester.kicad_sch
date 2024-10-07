@@ -126,7 +126,7 @@
     )
   )
 
-  (bus_alias "DDR5_RDIMM" (members "DQ[0..31]" "CA[0..6]" "CB[0..7]" "CK_t" "CK_c" "PAR" "DLBDQ" "DLBDQS" "~{ALERT}" "~{RESET}" "DQS0_P" "DQS0_N" "DQS1_P" "DQS1_N" "DQS2_P" "DQS2_N" "DQS3_P" "DQS3_N" "DQS4_P" "DQS4_N" "DQS5_P" "DQS5_N" "DQS6_P" "DQS6_N" "DQS7_P" "DQS7_N" "DQS8_P" "DQS8_N" "DQS9_P" "DQS9_N" "CS0_c" "CS1_c"))
+  (bus_alias "DDR5_RDIMM" (members "DQ[0..31]" "CA[0..6]" "CB[0..7]" "CK_P" "CK_N" "PAR" "DLBDQ" "DLBDQS" "~{ALERT}" "~{RESET}" "DQS0_P" "DQS0_N" "DQS1_P" "DQS1_N" "DQS2_P" "DQS2_N" "DQS3_P" "DQS3_N" "DQS4_P" "DQS4_N" "DQS5_P" "DQS5_N" "DQS6_P" "DQS6_N" "DQS7_P" "DQS7_N" "DQS8_P" "DQS8_N" "DQS9_P" "DQS9_N" "CS0_c" "CS1_c"))
   (bus_alias "HyperBus" (members "~{CS}" "CK_P" "CK_N" "RWDS" "DQ[0..7]" "~{RESET}"))
   (bus_alias "I^{2}C" (members "SDA" "SCL"))
   (bus_alias "JTAG" (members "TDO" "TMS" "TCK" "RST" "TDI"))
