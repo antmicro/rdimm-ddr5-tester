@@ -1205,7 +1205,7 @@
         "pattern": "/DDR5 RDIMM/?.CA*"
       },
       {
-        "netclass": "80Ohm-diff_DQS",
+        "netclass": "100Ohm-diff",
         "pattern": "/DDR5 RDIMM/*CK*"
       },
       {
@@ -1320,19 +1320,7 @@
     ],
     [
       "38c9b230-412f-4879-8fc8-e1b4a3d643e0",
-      "FPGA bank 12"
-    ],
-    [
-      "e240eeea-be8a-4736-b415-db6627c3e732",
-      "FPGA banks unused"
-    ],
-    [
-      "34ebf93d-6b28-4c40-a799-aace59d6d135",
-      "FPGA bank 14"
-    ],
-    [
-      "c1ddaa09-f59e-4e22-abc1-585fde8776d6",
-      "FPGA bank 16"
+      "FPGA banks HD"
     ],
     [
       "3f0d6799-172b-44a7-b59e-98d6f5f3049b",
