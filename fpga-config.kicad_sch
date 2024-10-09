@@ -9164,31 +9164,6 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GNDA") (at 121.285 95.885 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4c65a2f3-af0a-48a0-9060-ec747ccdec86)
-    (property "Reference" "#PWR018" (at 121.285 102.235 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 121.285 100.965 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.285 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 121.285 95.885 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f004953f-9319-405c-bb93-20157ec748a9))
-    (instances
-      (project "data-center-rdimm-ddr5-tester"
-        (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-00005fd53c7d"
-          (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "antmicropower:+1V8") (at 347.345 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cb7fe07-16d9-47c8-b4e5-8117085fa7be)
@@ -9330,6 +9305,37 @@
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-00005fd53c7d"
           (reference "#PWR0372") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "antmicropower:GND") (at 121.285 95.885 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ce04087-a0b1-41cb-b42e-8fcf0c048abe)
+    (property "Reference" "#PWR018" (at 121.285 102.235 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 119.38 100.33 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 130.175 103.505 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" "" (at 130.175 108.585 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 130.175 100.965 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 130.175 103.505 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 03bf3573-868a-4921-b84d-0a0cf0811bec))
+    (instances
+      (project "data-center-rdimm-ddr5-tester"
+        (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-00005fd53c7d"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -10808,31 +10814,6 @@
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-00005fd53c7d"
           (reference "TP4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "antmicropower:GNDA") (at 127 64.135 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ba541cdb-9f02-4771-874e-fea1b6bb973e)
-    (property "Reference" "#PWR0373" (at 127 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 127 69.215 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127 64.135 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dcd04eda-85e3-4a95-bb18-4225691d90c2))
-    (instances
-      (project "data-center-rdimm-ddr5-tester"
-        (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-00005fd53c7d"
-          (reference "#PWR0373") (unit 1)
         )
       )
     )
