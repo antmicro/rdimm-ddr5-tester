@@ -10003,7 +10003,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_1k_0402") (at 33.02 247.65 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 927d0d73-ab03-4743-ba70-80ebc0b10b32)
     (property "Reference" "R130" (at 35.56 243.84 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
