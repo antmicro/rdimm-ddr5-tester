@@ -666,35 +666,7 @@
       },
       {
         "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_CLK_N"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_CLK_P"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D0_N"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D0_P"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D1_N"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D1_P"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D2_N"
-      },
-      {
-        "netclass": "100Ohm-diff",
-        "pattern": "/HDMI + SD Card/HDMI_CONN_D2_P"
+        "pattern": "/HDMI + SD Card/HDMI_OUT_CONN*"
       },
       {
         "netclass": "12V",
