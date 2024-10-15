@@ -3070,7 +3070,7 @@
   (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 114.935 158.75 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 29df583d-ae35-4ccf-afed-9fb97e29520a)
-    (property "Reference" "C29" (at 118.745 153.6636 90)
+    (property "Reference" "C313" (at 118.745 153.6636 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_22u_25V_0805" (at 125.095 138.43 0)
@@ -3111,7 +3111,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/3cfc3a6a-24b0-4207-8c35-05eeccc29696"
-          (reference "C29") (unit 1)
+          (reference "C313") (unit 1)
         )
       )
     )
@@ -3934,7 +3934,7 @@
   (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 125.095 159.385 90) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 6420c48a-7183-4653-becb-f3269575f38a)
-    (property "Reference" "C82" (at 128.905 154.2986 90)
+    (property "Reference" "C314" (at 128.905 154.2986 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_22u_25V_0805" (at 135.255 139.065 0)
@@ -3975,7 +3975,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/3cfc3a6a-24b0-4207-8c35-05eeccc29696"
-          (reference "C82") (unit 1)
+          (reference "C314") (unit 1)
         )
       )
     )

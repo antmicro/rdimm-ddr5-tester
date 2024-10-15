@@ -309,6 +309,18 @@
           (name "RATE0" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect line (at 20.32 -31.75 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 20.32 -33.02 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 20.32 -34.29 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
         (pin input line (at 0 -26.67 0) (length 2.54)
           (name "RATE1" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
@@ -377,6 +389,10 @@
           (name "INT_CB" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect line (at 20.32 -35.56 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "30" (effects (font (size 1.27 1.27))))
+        )
         (pin power_in line (at 0 -52.07 0) (length 2.54) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "31" (effects (font (size 1.27 1.27))))
@@ -384,6 +400,18 @@
         (pin power_in line (at 0 0 0) (length 2.54) hide
           (name "VDD" (effects (font (size 1.27 1.27))))
           (number "32" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 20.32 -36.83 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "33" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 20.32 -38.1 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "34" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 20.32 -39.37 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "35" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at 0 -13.97 0) (length 2.54)
           (name "CMODE" (effects (font (size 1.27 1.27))))
@@ -396,34 +424,6 @@
         (pin power_in line (at 0 0 0) (length 2.54)
           (name "VDD" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -31.75 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "51" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -33.02 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "52" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -34.29 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "53" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -35.56 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "54" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -36.83 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "55" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -38.1 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "56" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 20.32 -39.37 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "57" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at 0 -7.62 0) (length 2.54)
           (name "XA" (effects (font (size 1.27 1.27))))
@@ -6860,7 +6860,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 274.32 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1274f183-02fa-4264-8b50-6c4676bb4c8d)
-    (property "Reference" "C310" (at 273.05 195.58 0)
+    (property "Reference" "C315" (at 273.05 195.58 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "C_100n_0402" (at 294.64 207.01 0)
@@ -6898,7 +6898,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "C310") (unit 1)
+          (reference "C315") (unit 1)
         )
       )
     )
@@ -8872,7 +8872,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 306.07 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43e07707-e96f-42f4-aec0-61496a8b5164)
-    (property "Reference" "C21" (at 299.72 77.47 0)
+    (property "Reference" "C244" (at 299.72 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C_100n_0402" (at 285.75 88.9 0)
@@ -8910,7 +8910,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "C21") (unit 1)
+          (reference "C244") (unit 1)
         )
       )
     )
@@ -9006,7 +9006,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 309.88 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e8f796c-0ca2-4d5e-bb45-424a5d4dc6ff)
-    (property "Reference" "C28" (at 311.15 80.01 0)
+    (property "Reference" "C245" (at 311.15 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C_100n_0402" (at 289.56 91.44 0)
@@ -9044,7 +9044,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "C28") (unit 1)
+          (reference "C245") (unit 1)
         )
       )
     )
@@ -9554,7 +9554,7 @@
   (symbol (lib_name "GND_1") (lib_id "antmicropower:GND") (at 308.61 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88c19084-9d8f-4709-ae29-873fd1cc3f2f)
-    (property "Reference" "#PWR0463" (at 317.5 238.76 0)
+    (property "Reference" "#PWR0425" (at 317.5 238.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 308.61 240.03 0)
@@ -9576,7 +9576,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "#PWR0463") (unit 1)
+          (reference "#PWR0425") (unit 1)
         )
       )
     )
@@ -9785,18 +9785,18 @@
     (pin "3" (uuid 503b38db-960f-451d-b7d5-827a4910674c))
     (pin "27" (uuid 49270821-f483-4d58-be9c-534e375fe435))
     (pin "1" (uuid db4aaf60-b0ef-4592-9996-6ff129ecdcb8))
-    (pin "51" (uuid 6a03492e-0bb1-4307-b3be-3ad67cd220da))
+    (pin "14" (uuid 6a03492e-0bb1-4307-b3be-3ad67cd220da))
     (pin "5" (uuid cb952a5b-c33c-4ceb-bc23-1e143577eabf))
     (pin "28" (uuid 3967729a-7770-40d9-87a1-673d2d5957ef))
     (pin "29" (uuid 2dbbbe36-dc81-47ca-91a0-853fde2e6e3c))
     (pin "4" (uuid 1b9fa457-2b7e-4a62-b56f-1e9ae321a896))
     (pin "23" (uuid ba3d9f5d-4864-4a8a-82c9-21e734308b20))
     (pin "2" (uuid 1cf481ce-4232-496b-b439-2ff5c77a1924))
-    (pin "55" (uuid 928096f7-5307-4ff2-8797-b820ccadef23))
+    (pin "35" (uuid 928096f7-5307-4ff2-8797-b820ccadef23))
     (pin "20" (uuid 14983fda-70fd-4ece-b211-9469d1025a7c))
     (pin "26" (uuid b91fbc1a-6c36-4299-b1d6-8f757efaa658))
     (pin "36" (uuid 3d4e4e91-8392-4403-b1f4-5c818f4a3820))
-    (pin "57" (uuid b38b8c0c-e4e1-4d2f-94fd-cd49f9608937))
+    (pin "12" (uuid b38b8c0c-e4e1-4d2f-94fd-cd49f9608937))
     (pin "6" (uuid 2090bdc7-ef1c-460d-a917-089d192def01))
     (pin "9" (uuid 922b7936-4704-4c7d-bf76-ba0cfe78bb4c))
     (pin "7" (uuid 43555338-6e9e-41e3-b0ad-f23a29044009))
@@ -9809,10 +9809,10 @@
     (pin "32" (uuid 97fc617c-61f4-4bcc-898a-5d560b3d9dba))
     (pin "22" (uuid 4e7940a8-5769-42dc-af27-bd46e74961b7))
     (pin "11" (uuid 7149650c-b84a-4c2a-a052-64649682cefc))
-    (pin "52" (uuid 7601d5d2-ee31-4c05-9326-ec5a4ae99d4b))
-    (pin "53" (uuid 722c0854-3f4f-4488-b720-2b23703e3887))
-    (pin "56" (uuid e004e525-257f-4a1a-bac4-eb5a968e2733))
-    (pin "54" (uuid 5b6ffbf1-555f-4ed9-a18d-77bd7b991531))
+    (pin "33" (uuid 7601d5d2-ee31-4c05-9326-ec5a4ae99d4b))
+    (pin "13" (uuid 722c0854-3f4f-4488-b720-2b23703e3887))
+    (pin "30" (uuid e004e525-257f-4a1a-bac4-eb5a968e2733))
+    (pin "34" (uuid 5b6ffbf1-555f-4ed9-a18d-77bd7b991531))
     (pin "16" (uuid 28e810c7-080c-4ef8-ab50-638147e3c2f9))
     (pin "18" (uuid 2fa4ca62-04ef-455d-9a15-8a5c1c661eb8))
     (pin "17" (uuid 0bf27289-c912-4b18-a8c0-c01cff82014c))
@@ -9923,7 +9923,7 @@
   (symbol (lib_name "GND_1") (lib_id "antmicropower:GND") (at 304.8 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a960148b-a2c6-41bb-b269-dd4cad588c4e)
-    (property "Reference" "#PWR0462" (at 313.69 238.76 0)
+    (property "Reference" "#PWR0373" (at 313.69 238.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 304.8 240.03 0)
@@ -9945,7 +9945,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "#PWR0462") (unit 1)
+          (reference "#PWR0373") (unit 1)
         )
       )
     )
@@ -10154,7 +10154,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_100n_0402") (at 274.32 204.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb52c1da-e6ba-425b-b0ad-fa3fffcddaac)
-    (property "Reference" "C311" (at 273.05 205.74 0)
+    (property "Reference" "C316" (at 273.05 205.74 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "C_100n_0402" (at 294.64 194.31 0)
@@ -10192,7 +10192,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/e98c799f-d02e-47b6-ad5c-871bd722b830"
-          (reference "C311") (unit 1)
+          (reference "C316") (unit 1)
         )
       )
     )
