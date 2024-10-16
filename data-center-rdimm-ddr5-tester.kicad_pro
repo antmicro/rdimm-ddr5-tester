@@ -1187,6 +1187,22 @@
       {
         "netclass": "40Ohm-se_DQ",
         "pattern": "/DDR5 RDIMM/?.CB*"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA MGT Interface/HDMI_OUT.*"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "/FPGA MGT Interface/HDMI_IN.*"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "*HDMI_FPGA.RX*"
+      },
+      {
+        "netclass": "100Ohm-diff",
+        "pattern": "*HDMI_REC_CLK*"
       }
     ]
   },
