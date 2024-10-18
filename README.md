@@ -4,7 +4,7 @@ Copyright (c) 2024 [Antmicro](https://antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/data-center-rdimm-ddr5-tester/)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?tab=features)
-![](img/so-dimm-ddr5-tester-rev.1.1.0-photo.jpg)
+![](assets/previews/orthoT_photo.png)
 
 ## Overview
 
@@ -15,8 +15,6 @@ This project contains open hardware KiCad design files for an experimental platf
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
-* `img` - contains graphics for this README
 * `doc` - contains pdf schematics
 * `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
 
