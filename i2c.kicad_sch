@@ -1973,7 +1973,7 @@
     (uuid 605cbd0c-b44a-44b8-9259-22e1beb62194)
   )
 
-  (wire (pts (xy 334.01 110.49) (xy 353.06 110.49))
+  (wire (pts (xy 331.47 110.49) (xy 353.06 110.49))
     (stroke (width 0) (type default))
     (uuid 606cf2c5-abe5-4d69-bd37-682f04366f72)
   )
@@ -1985,7 +1985,7 @@
     (stroke (width 0) (type default))
     (uuid 6340cc2b-e072-41da-83c5-ee08c6d46214)
   )
-  (wire (pts (xy 334.01 107.95) (xy 353.06 107.95))
+  (wire (pts (xy 331.47 107.95) (xy 353.06 107.95))
     (stroke (width 0) (type default))
     (uuid 6423a5cc-8374-4728-a2b2-dde13030452a)
   )
@@ -2697,7 +2697,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9dac1f32-b6fa-4524-a9cf-93ef9d10f241)
   )
-  (label "I3C_EXT.SCL" (at 334.01 110.49 0) (fields_autoplaced)
+  (label "I3C_EXT.SCL" (at 331.47 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a17bc8ed-917a-4799-9b91-8583df13b234)
   )
@@ -2721,7 +2721,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f58047f7-2f0d-400d-9e1d-9f27d90bfab6)
   )
-  (label "I3C_EXT.SDA" (at 334.01 107.95 0) (fields_autoplaced)
+  (label "I3C_EXT.SDA" (at 331.47 107.95 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f79b33ca-8f55-4002-ac7a-0384fd3120bc)
   )
@@ -4045,7 +4045,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS84AKW") (at 228.6 68.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b66a1f0-94ad-41a7-8330-ade91e4efbb5)
-    (property "Reference" "Q21" (at 231.14 54.61 90)
+    (property "Reference" "Q22" (at 231.14 54.61 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "BSS84AKW" (at 220.98 45.72 0)
@@ -4075,7 +4075,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/3f0d6799-172b-44a7-b59e-98d6f5f3049b"
-          (reference "Q21") (unit 1)
+          (reference "Q22") (unit 1)
         )
       )
     )
@@ -5365,7 +5365,7 @@
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS84AKW") (at 330.2 68.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e56605b9-5527-432c-a8fb-3007efc11476)
-    (property "Reference" "Q23" (at 332.74 54.61 90)
+    (property "Reference" "Q24" (at 332.74 54.61 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "BSS84AKW" (at 322.58 45.72 0)
@@ -5395,7 +5395,7 @@
     (instances
       (project "data-center-rdimm-ddr5-tester"
         (path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/3f0d6799-172b-44a7-b59e-98d6f5f3049b"
-          (reference "Q23") (unit 1)
+          (reference "Q24") (unit 1)
         )
       )
     )
