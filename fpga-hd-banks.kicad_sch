@@ -6,7 +6,7 @@
 
   (title_block
     (title "RDIMM DDR5 Tester")
-    (date "2024-09-26")
+    (date "2024-10")
     (rev "2.0.0")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd")
@@ -3818,7 +3818,7 @@
     (uuid b5a9062c-8ac7-4434-a963-9c9bc05f1f22)
   )
 
-  (polyline (pts (xy 12.065 184.15) (xy 407.67 184.15))
+  (polyline (pts (xy 12.7 184.15) (xy 407.67 184.15))
     (stroke (width 0) (type default))
     (uuid b60a5267-f662-4f7a-942e-c06aeca82c7d)
   )

@@ -6,7 +6,7 @@
 
   (title_block
     (title "RDIMM DDR5 Tester")
-    (date "2024-09-26")
+    (date "2024-10")
     (rev "2.0.0")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
@@ -8338,7 +8338,7 @@
     (uuid b9253f8c-1851-489b-a0a0-b48e38aff248)
   )
   (text "Pinout 1.1.1" (at 386.08 220.98 0)
-    (effects (font (size 2 2)) (justify left bottom))
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid d1236af4-5f15-421b-84b6-0391de0026a7)
   )
   (text "VREF" (at 13.335 227.33 0)
