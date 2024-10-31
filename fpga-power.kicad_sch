@@ -797,7 +797,7 @@
           (name "INIT_B_0" (effects (font (size 1.27 1.27))))
           (number "W10" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -82.55 0) (length 5.08)
+        (pin input line (at 0 -81.28 0) (length 5.08)
           (name "PUDC_B_0" (effects (font (size 1.27 1.27))))
           (number "W9" (effects (font (size 1.27 1.27))))
         )
@@ -809,7 +809,7 @@
           (name "CCLK_0" (effects (font (size 1.27 1.27))))
           (number "Y11" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -80.01 0) (length 5.08)
+        (pin input line (at 0 -78.74 0) (length 5.08)
           (name "POR_OVERRIDE" (effects (font (size 1.27 1.27))))
           (number "Y12" (effects (font (size 1.27 1.27))))
         )
@@ -2431,11 +2431,11 @@
         (text "GTX 226" (at 6.35 2.54 0)
           (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
         )
-        (pin input line (at 0 -38.1 0) (length 5.08)
+        (pin input line (at 0 -40.64 0) (length 5.08)
           (name "MGTYRXN3_226" (effects (font (size 1.27 1.27))))
           (number "F1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -40.64 0) (length 5.08)
+        (pin input line (at 0 -38.1 0) (length 5.08)
           (name "MGTYRXP3_226" (effects (font (size 1.27 1.27))))
           (number "F2" (effects (font (size 1.27 1.27))))
         )
@@ -2447,11 +2447,11 @@
           (name "MGTYTXP3_226" (effects (font (size 1.27 1.27))))
           (number "G5" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -33.02 0) (length 5.08)
+        (pin input line (at 0 -35.56 0) (length 5.08)
           (name "MGTYRXN2_226" (effects (font (size 1.27 1.27))))
           (number "H1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -35.56 0) (length 5.08)
+        (pin input line (at 0 -33.02 0) (length 5.08)
           (name "MGTYRXP2_226" (effects (font (size 1.27 1.27))))
           (number "H2" (effects (font (size 1.27 1.27))))
         )
@@ -2463,11 +2463,11 @@
           (name "MGTYTXP2_226" (effects (font (size 1.27 1.27))))
           (number "J5" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -27.94 0) (length 5.08)
+        (pin input line (at 0 -30.48 0) (length 5.08)
           (name "MGTYRXN1_226" (effects (font (size 1.27 1.27))))
           (number "K1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -30.48 0) (length 5.08)
+        (pin input line (at 0 -27.94 0) (length 5.08)
           (name "MGTYRXP1_226" (effects (font (size 1.27 1.27))))
           (number "K2" (effects (font (size 1.27 1.27))))
         )
@@ -2479,11 +2479,11 @@
           (name "MGTYTXP1_226" (effects (font (size 1.27 1.27))))
           (number "L5" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -22.86 0) (length 5.08)
+        (pin input line (at 0 -25.4 0) (length 5.08)
           (name "MGTYRXN0_226" (effects (font (size 1.27 1.27))))
           (number "M1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -25.4 0) (length 5.08)
+        (pin input line (at 0 -22.86 0) (length 5.08)
           (name "MGTYRXP0_226" (effects (font (size 1.27 1.27))))
           (number "M2" (effects (font (size 1.27 1.27))))
         )
@@ -2513,53 +2513,53 @@
         )
       )
       (symbol "XCAU25P-2FFVB676I_12_1"
-        (rectangle (start 5.08 2.54) (end 33.655 -29.21)
+        (rectangle (start 5.08 2.54) (end 35.56 -27.94)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
-        (text "" (at 41.91 -31.75 0)
-          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+        (text "" (at 21.59 -3.175 900)
+          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
         )
-        (text "" (at 41.91 -31.75 0)
-          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+        (text "" (at 21.59 -3.175 900)
+          (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
         )
-        (pin power_in line (at 0 -26.67 0) (length 5.08)
+        (pin power_in line (at 0 -25.4 0) (length 5.08)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A21" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A26" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -20.32 0) (length 5.08) hide
+        (pin no_connect line (at 15.24 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "A3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -11.43 180) (length 5.08) hide
+        (pin no_connect line (at 10.16 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "A4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A6" (effects (font (size 1.27 1.27))))
         )
@@ -2567,31 +2567,31 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "A7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "A8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA26" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA6" (effects (font (size 1.27 1.27))))
         )
@@ -2599,23 +2599,23 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "AA7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AA8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AB13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AB23" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AB3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AB4" (effects (font (size 1.27 1.27))))
         )
@@ -2623,35 +2623,35 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "AB5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AB8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC20" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC25" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC6" (effects (font (size 1.27 1.27))))
         )
@@ -2659,31 +2659,31 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "AC7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AC9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AD10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AD17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AD3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AD4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AD5" (effects (font (size 1.27 1.27))))
         )
@@ -2695,35 +2695,35 @@
           (name "MGTRREF_R" (effects (font (size 1.27 1.27))))
           (number "AD9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE19" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE24" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AE6" (effects (font (size 1.27 1.27))))
         )
@@ -2731,123 +2731,123 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "AE7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF21" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF26" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "AF9" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -19.05 0) (length 5.08) hide
+        (pin no_connect line (at 17.78 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "B1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B18" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -6.35 180) (length 5.08) hide
+        (pin no_connect line (at 7.62 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "B2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B23" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -17.78 180) (length 5.08) hide
+        (pin no_connect line (at 20.32 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "B6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -24.13 180) (length 5.08) hide
+        (pin no_connect line (at 30.48 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "B7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "B8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C25" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -17.78 0) (length 5.08) hide
+        (pin no_connect line (at 20.32 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "C3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -5.08 180) (length 5.08) hide
+        (pin no_connect line (at 10.16 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "C4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C6" (effects (font (size 1.27 1.27))))
         )
@@ -2855,75 +2855,75 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "C7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "C8" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -16.51 0) (length 5.08) hide
+        (pin no_connect line (at 22.86 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "D1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D12" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -3.81 180) (length 5.08) hide
+        (pin no_connect line (at 12.7 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "D2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D22" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -16.51 180) (length 5.08) hide
+        (pin no_connect line (at 17.78 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "D6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -22.86 180) (length 5.08) hide
+        (pin no_connect line (at 27.94 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "D7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "D8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E19" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E3" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -13.97 180) (length 5.08) hide
+        (pin no_connect line (at 15.24 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "E4" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -21.59 180) (length 5.08) hide
+        (pin no_connect line (at 25.4 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "E5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E6" (effects (font (size 1.27 1.27))))
         )
@@ -2931,31 +2931,31 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "E7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "E8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F21" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F26" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F4" (effects (font (size 1.27 1.27))))
         )
@@ -2963,39 +2963,39 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "F5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -12.7 180) (length 5.08) hide
+        (pin no_connect line (at 12.7 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "F6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 33.655 -19.05 180) (length 5.08) hide
+        (pin no_connect line (at 22.86 -27.94 90) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "F7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "F8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G23" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G6" (effects (font (size 1.27 1.27))))
         )
@@ -3003,19 +3003,19 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "G7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "G8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "H20" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "H3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "H4" (effects (font (size 1.27 1.27))))
         )
@@ -3023,35 +3023,35 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "H5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -13.97 0) (length 5.08) hide
+        (pin no_connect line (at 27.94 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "H6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -15.24 0) (length 5.08) hide
+        (pin no_connect line (at 25.4 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "H7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "H8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J6" (effects (font (size 1.27 1.27))))
         )
@@ -3059,51 +3059,51 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "J7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "J8" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 0 180) (length 5.08)
+        (pin power_in line (at 40.64 0 180) (length 5.08)
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "K11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "K13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "K15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "K17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K19" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K24" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K4" (effects (font (size 1.27 1.27))))
         )
@@ -3111,71 +3111,71 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "K5" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -11.43 0) (length 5.08) hide
+        (pin no_connect line (at 33.02 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "K6" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 5.08 -12.7 0) (length 5.08) hide
+        (pin no_connect line (at 30.48 2.54 270) (length 5.08) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "K7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "K8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "L10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "L12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "L14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "L16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L21" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L26" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L6" (effects (font (size 1.27 1.27))))
         )
@@ -3183,59 +3183,59 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "L7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "L8" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -2.54 180) (length 5.08)
+        (pin power_in line (at 40.64 -2.54 180) (length 5.08)
           (name "VCCINT_IO" (effects (font (size 1.27 1.27))))
           (number "L9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "M11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "M13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "M15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "M17" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -7.62 180) (length 5.08)
+        (pin power_in line (at 40.64 -7.62 180) (length 5.08)
           (name "VCCAUX" (effects (font (size 1.27 1.27))))
           (number "M18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M23" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M4" (effects (font (size 1.27 1.27))))
         )
@@ -3243,71 +3243,71 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "M5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "M8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -2.54 180) (length 5.08) hide
+        (pin passive line (at 40.64 -2.54 180) (length 5.08) hide
           (name "VCCINT_IO" (effects (font (size 1.27 1.27))))
           (number "M9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "N10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "N12" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -24.13 0) (length 5.08)
+        (pin input line (at 0 -22.86 0) (length 5.08)
           (name "GNDADC" (effects (font (size 1.27 1.27))))
           (number "N13" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -20.32 180) (length 5.08)
+        (pin power_in line (at 40.64 -20.32 180) (length 5.08)
           (name "VCCADC" (effects (font (size 1.27 1.27))))
           (number "N14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "N16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -7.62 180) (length 5.08) hide
+        (pin passive line (at 40.64 -7.62 180) (length 5.08) hide
           (name "VCCAUX" (effects (font (size 1.27 1.27))))
           (number "N18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N20" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N25" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N6" (effects (font (size 1.27 1.27))))
         )
@@ -3315,47 +3315,47 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "N7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "N8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -2.54 180) (length 5.08) hide
+        (pin passive line (at 40.64 -2.54 180) (length 5.08) hide
           (name "VCCINT_IO" (effects (font (size 1.27 1.27))))
           (number "N9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "P11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "P15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "P17" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -10.16 180) (length 5.08)
+        (pin power_in line (at 40.64 -10.16 180) (length 5.08)
           (name "VCCAUX_IO" (effects (font (size 1.27 1.27))))
           (number "P18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P4" (effects (font (size 1.27 1.27))))
         )
@@ -3363,63 +3363,63 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "P5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "P8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -2.54 180) (length 5.08) hide
+        (pin passive line (at 40.64 -2.54 180) (length 5.08) hide
           (name "VCCINT_IO" (effects (font (size 1.27 1.27))))
           (number "P9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "R10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "R12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "R16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -10.16 180) (length 5.08) hide
+        (pin passive line (at 40.64 -10.16 180) (length 5.08) hide
           (name "VCCAUX_IO" (effects (font (size 1.27 1.27))))
           (number "R18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R19" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R24" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R6" (effects (font (size 1.27 1.27))))
         )
@@ -3427,55 +3427,55 @@
           (name "MGTVCCAUX_R" (effects (font (size 1.27 1.27))))
           (number "R7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "R8" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -15.24 180) (length 5.08)
+        (pin power_in line (at 40.64 -15.24 180) (length 5.08)
           (name "VCCBRAM" (effects (font (size 1.27 1.27))))
           (number "R9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "T11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "T15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "T17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -10.16 180) (length 5.08) hide
+        (pin passive line (at 40.64 -10.16 180) (length 5.08) hide
           (name "VCCAUX_IO" (effects (font (size 1.27 1.27))))
           (number "T18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T21" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T26" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T4" (effects (font (size 1.27 1.27))))
         )
@@ -3483,63 +3483,63 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "T5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "T8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -15.24 180) (length 5.08) hide
+        (pin passive line (at 40.64 -15.24 180) (length 5.08) hide
           (name "VCCBRAM" (effects (font (size 1.27 1.27))))
           (number "T9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "U10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "U12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "U14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "U16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U6" (effects (font (size 1.27 1.27))))
         )
@@ -3547,59 +3547,59 @@
           (name "MGTVCCAUX_R" (effects (font (size 1.27 1.27))))
           (number "U7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "U8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -15.24 180) (length 5.08) hide
+        (pin passive line (at 40.64 -15.24 180) (length 5.08) hide
           (name "VCCBRAM" (effects (font (size 1.27 1.27))))
           (number "U9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V10" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "V11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "V13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V14" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "V15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 0 180) (length 5.08) hide
+        (pin passive line (at 40.64 0 180) (length 5.08) hide
           (name "VCCINT" (effects (font (size 1.27 1.27))))
           (number "V17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V20" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V25" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V4" (effects (font (size 1.27 1.27))))
         )
@@ -3607,39 +3607,39 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "V5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "V8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 38.735 -15.24 180) (length 5.08) hide
+        (pin passive line (at 40.64 -15.24 180) (length 5.08) hide
           (name "VCCBRAM" (effects (font (size 1.27 1.27))))
           (number "V9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -21.59 0) (length 5.08)
+        (pin input line (at 0 -20.32 0) (length 5.08)
           (name "RSVDGND" (effects (font (size 1.27 1.27))))
           (number "W11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W17" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W22" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W6" (effects (font (size 1.27 1.27))))
         )
@@ -3647,19 +3647,19 @@
           (name "MGTAVCC_R" (effects (font (size 1.27 1.27))))
           (number "W7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "W8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "Y19" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "Y3" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "Y4" (effects (font (size 1.27 1.27))))
         )
@@ -3667,11 +3667,11 @@
           (name "MGTAVTT_R" (effects (font (size 1.27 1.27))))
           (number "Y5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -26.67 0) (length 5.08) hide
+        (pin passive line (at 0 -25.4 0) (length 5.08) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "Y8" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 38.735 -25.4 180) (length 5.08)
+        (pin power_in line (at 40.64 -25.4 180) (length 5.08)
           (name "VBATT" (effects (font (size 1.27 1.27))))
           (number "Y9" (effects (font (size 1.27 1.27))))
         )
@@ -4203,7 +4203,7 @@
   (junction (at 86.36 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 36fe1560-c37e-4fa1-af60-9cab271607a0)
   )
-  (junction (at 226.06 135.89) (diameter 0) (color 0 0 0 0)
+  (junction (at 226.06 134.62) (diameter 0) (color 0 0 0 0)
     (uuid 371514c4-395a-4e2f-ba7f-6742338a4089)
   )
   (junction (at 102.87 163.83) (diameter 0) (color 0 0 0 0)
@@ -4221,7 +4221,7 @@
   (junction (at 95.25 187.96) (diameter 0) (color 0 0 0 0)
     (uuid 490c8e1c-4004-4766-9f9c-0a200b6a402d)
   )
-  (junction (at 226.06 138.43) (diameter 0) (color 0 0 0 0)
+  (junction (at 226.06 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 4a88987c-56b9-4b45-9eca-e1f8c97efbfd)
   )
   (junction (at 36.83 138.43) (diameter 0) (color 0 0 0 0)
@@ -4455,7 +4455,7 @@
     (stroke (width 0) (type default))
     (uuid 06d64302-7366-4b15-b280-88be30e1bbe9)
   )
-  (wire (pts (xy 173.99 132.08) (xy 184.785 132.08))
+  (wire (pts (xy 173.99 132.08) (xy 182.88 132.08))
     (stroke (width 0) (type default))
     (uuid 06eccfe9-1dc4-41b0-a5ae-bbd372b4b7de)
   )
@@ -4772,7 +4772,7 @@
     (stroke (width 0) (type default))
     (uuid 353e92dd-309b-4822-9de0-5749fad1eb9d)
   )
-  (wire (pts (xy 223.52 133.35) (xy 226.06 133.35))
+  (wire (pts (xy 223.52 132.08) (xy 226.06 132.08))
     (stroke (width 0) (type default))
     (uuid 3709b76c-9c6c-49db-b170-5f7420a3beff)
   )
@@ -4817,7 +4817,7 @@
     (stroke (width 0) (type default))
     (uuid 3c82b6c5-3406-4681-a85c-4c7bfdff95d5)
   )
-  (wire (pts (xy 181.61 127) (xy 184.785 127))
+  (wire (pts (xy 181.61 127) (xy 182.88 127))
     (stroke (width 0) (type default))
     (uuid 3e276500-ab55-4f7c-be12-0ce52366977f)
   )
@@ -4909,7 +4909,7 @@
     (stroke (width 0) (type default))
     (uuid 481d4831-4853-48c2-a509-2520dcb2e0a0)
   )
-  (wire (pts (xy 181.61 114.3) (xy 184.785 114.3))
+  (wire (pts (xy 181.61 114.3) (xy 182.88 114.3))
     (stroke (width 0) (type default))
     (uuid 486ca8df-bf78-4cd4-add5-12f2ede333bf)
   )
@@ -5086,7 +5086,7 @@
     (stroke (width 0) (type default))
     (uuid 640ff16b-d0da-4880-ac78-99346b65c850)
   )
-  (wire (pts (xy 181.61 111.76) (xy 184.785 111.76))
+  (wire (pts (xy 181.61 111.76) (xy 182.88 111.76))
     (stroke (width 0) (type default))
     (uuid 65022be1-b26e-485d-8e0d-63bd03f38a7c)
   )
@@ -5275,7 +5275,7 @@
     (stroke (width 0) (type default))
     (uuid 84ecbe59-27c8-44f1-9e64-b3863f12fabb)
   )
-  (wire (pts (xy 173.99 137.16) (xy 184.785 137.16))
+  (wire (pts (xy 173.99 137.16) (xy 182.88 137.16))
     (stroke (width 0) (type default))
     (uuid 85c7e50a-011c-436f-a454-7de6107c75d5)
   )
@@ -5329,7 +5329,7 @@
     (stroke (width 0) (type default))
     (uuid 8a2d864e-0cf7-406f-b20c-4147fcd5bba2)
   )
-  (wire (pts (xy 223.52 138.43) (xy 226.06 138.43))
+  (wire (pts (xy 223.52 137.16) (xy 226.06 137.16))
     (stroke (width 0) (type default))
     (uuid 8a5396db-4c28-4bbc-b929-9656bba17fd5)
   )
@@ -5453,7 +5453,7 @@
     (stroke (width 0) (type default))
     (uuid 9d94fb7c-835e-42ef-a585-6432c1c2eb7f)
   )
-  (wire (pts (xy 226.06 138.43) (xy 226.06 151.13))
+  (wire (pts (xy 226.06 137.16) (xy 226.06 149.86))
     (stroke (width 0) (type default))
     (uuid 9ddb7fcb-a242-4fcc-99d6-dc46771e082c)
   )
@@ -5503,7 +5503,7 @@
     (stroke (width 0) (type default))
     (uuid a575fc94-ebc5-4bea-b89a-8cb8acd8088b)
   )
-  (wire (pts (xy 226.06 135.89) (xy 226.06 138.43))
+  (wire (pts (xy 226.06 134.62) (xy 226.06 137.16))
     (stroke (width 0) (type default))
     (uuid a59cfb2e-f280-428c-85a7-b7bc350e2588)
   )
@@ -5613,7 +5613,7 @@
     (stroke (width 0) (type default))
     (uuid b376eb5b-77e9-442d-888d-2d1fb4f316a0)
   )
-  (wire (pts (xy 173.99 121.92) (xy 184.785 121.92))
+  (wire (pts (xy 173.99 121.92) (xy 182.88 121.92))
     (stroke (width 0) (type default))
     (uuid b3c410a6-7dfc-4b5a-8608-4f4c91901145)
   )
@@ -5839,7 +5839,7 @@
     (stroke (width 0) (type default))
     (uuid d274faca-a137-4185-bb45-8f34354021c1)
   )
-  (wire (pts (xy 173.99 119.38) (xy 184.785 119.38))
+  (wire (pts (xy 173.99 119.38) (xy 182.88 119.38))
     (stroke (width 0) (type default))
     (uuid d3247a74-aa56-4431-976e-a112d53189cb)
   )
@@ -5892,11 +5892,11 @@
     (stroke (width 0) (type default))
     (uuid db2f6b85-1528-40e7-92c2-339b607e0e05)
   )
-  (wire (pts (xy 223.52 135.89) (xy 226.06 135.89))
+  (wire (pts (xy 223.52 134.62) (xy 226.06 134.62))
     (stroke (width 0) (type default))
     (uuid db6d83f8-1b6d-451d-b9c7-8a0e1d8a6d0f)
   )
-  (wire (pts (xy 226.06 133.35) (xy 226.06 135.89))
+  (wire (pts (xy 226.06 132.08) (xy 226.06 134.62))
     (stroke (width 0) (type default))
     (uuid dde0a4cf-dd35-42a1-bb94-3a2fc731af4e)
   )
@@ -8455,7 +8455,7 @@
     (property "Value" "C_10u_10V_0402" (at 220.98 251.46 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 223.52 251.46 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 223.52 251.46 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 226.06 251.46 0)
@@ -8502,7 +8502,7 @@
     (property "Value" "C_10u_10V_0402" (at 177.8 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 180.34 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 180.34 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 182.88 250.19 0)
@@ -8642,7 +8642,7 @@
     (property "Value" "C_100n_0402" (at 359.41 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 361.95 113.03 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 361.95 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 364.49 113.03 0)
@@ -8689,7 +8689,7 @@
     (property "Value" "C_100n_0402" (at 248.92 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 251.46 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 251.46 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 254 219.71 0)
@@ -8736,7 +8736,7 @@
     (property "Value" "C_1u_25V_0402" (at 54.61 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 57.15 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 57.15 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 59.69 152.4 0)
@@ -8783,7 +8783,7 @@
     (property "Value" "C_1u_25V_0402" (at 121.92 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 124.46 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 124.46 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 127 152.4 0)
@@ -8830,7 +8830,7 @@
     (property "Value" "C_1u_25V_0402" (at 121.92 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 124.46 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 124.46 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 127 127 0)
@@ -9033,7 +9033,7 @@
     (property "Value" "C_1u_25V_0402" (at 46.99 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 49.53 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 49.53 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 52.07 127 0)
@@ -9224,25 +9224,25 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 226.06 151.13 0) (unit 1)
+  (symbol (lib_id "antmicropower:GND") (at 226.06 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a5b5d0d-b47a-4bf5-96e1-093df9f198d3)
-    (property "Reference" "#PWR041" (at 226.06 157.48 0)
+    (property "Reference" "#PWR041" (at 226.06 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 224.155 155.575 0)
+    (property "Value" "GND" (at 224.155 154.305 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
     )
-    (property "Footprint" "" (at 234.95 158.75 0)
+    (property "Footprint" "" (at 234.95 157.48 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "" (at 234.95 163.83 0)
+    (property "Datasheet" "" (at 234.95 162.56 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Author" "Antmicro" (at 234.95 156.21 0)
+    (property "Author" "Antmicro" (at 234.95 154.94 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (at 234.95 158.75 0)
+    (property "License" "Apache-2.0" (at 234.95 157.48 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 63f91819-7939-4272-95b5-d8ebf9d2ff4a))
@@ -9289,7 +9289,7 @@
     (property "Value" "C_10u_10V_0402" (at 287.02 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 289.56 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 289.56 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 292.1 250.19 0)
@@ -9336,7 +9336,7 @@
     (property "Value" "C_1u_25V_0402" (at 80.01 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 82.55 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 82.55 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 85.09 127 0)
@@ -9476,7 +9476,7 @@
     (property "Value" "C_100n_0402" (at 386.08 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 388.62 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 388.62 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 391.16 44.45 0)
@@ -9616,7 +9616,7 @@
     (property "Value" "C_100n_0402" (at 46.99 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 49.53 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 49.53 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 52.07 99.06 0)
@@ -9694,7 +9694,7 @@
     (property "Value" "C_100n_0402" (at 97.79 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 100.33 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 100.33 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 102.87 99.06 0)
@@ -9741,7 +9741,7 @@
     (property "Value" "C_1u_25V_0402" (at 88.9 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 91.44 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 91.44 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 93.98 176.53 0)
@@ -9906,7 +9906,7 @@
     (property "Value" "C_10u_10V_0402" (at 273.05 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 275.59 218.44 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 275.59 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 278.13 218.44 0)
@@ -10158,7 +10158,7 @@
     (property "Value" "C_100n_0402" (at 215.9 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 218.44 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 218.44 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 220.98 219.71 0)
@@ -10205,7 +10205,7 @@
     (property "Value" "C_100n_0402" (at 364.49 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 367.03 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 367.03 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 369.57 80.01 0)
@@ -10345,7 +10345,7 @@
     (property "Value" "C_100n_0402" (at 191.77 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 194.31 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 194.31 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 196.85 250.19 0)
@@ -10392,7 +10392,7 @@
     (property "Value" "C_1u_25V_0402" (at 46.99 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 49.53 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 49.53 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 52.07 152.4 0)
@@ -10464,7 +10464,7 @@
     (property "Value" "C_10u_10V_0402" (at 50.8 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 53.34 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 53.34 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 55.88 219.71 0)
@@ -10542,7 +10542,7 @@
     (property "Value" "C_100n_0402" (at 114.3 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 116.84 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 116.84 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 119.38 99.06 0)
@@ -10639,7 +10639,7 @@
     (property "Value" "C_100n_0402" (at 383.54 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 386.08 113.03 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 386.08 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 388.62 113.03 0)
@@ -10898,7 +10898,7 @@
     (property "Value" "C_100n_0402" (at 372.11 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 374.65 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 374.65 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 377.19 80.01 0)
@@ -11023,7 +11023,7 @@
     (property "Value" "C_1u_25V_0402" (at 80.01 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 82.55 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 82.55 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 85.09 176.53 0)
@@ -11095,7 +11095,7 @@
     (property "Value" "C_100n_0402" (at 367.03 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 369.57 113.03 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 369.57 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 372.11 113.03 0)
@@ -11142,7 +11142,7 @@
     (property "Value" "C_1u_25V_0402" (at 54.61 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 57.15 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 57.15 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 59.69 127 0)
@@ -12087,7 +12087,7 @@
     (property "Value" "C_100n_0402" (at 365.76 153.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 368.3 153.67 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 368.3 153.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 370.84 153.67 0)
@@ -12258,7 +12258,7 @@
     (property "Value" "C_100n_0402" (at 280.67 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 283.21 218.44 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 283.21 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 285.75 218.44 0)
@@ -12485,7 +12485,7 @@
     (property "Value" "C_100n_0402" (at 60.96 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 63.5 220.98 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 63.5 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 66.04 220.98 0)
@@ -12675,7 +12675,7 @@
     (property "Value" "C_1u_25V_0402" (at 96.52 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 99.06 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 99.06 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 101.6 152.4 0)
@@ -12753,7 +12753,7 @@
     (property "Value" "C_4u7_0402" (at 330.2 148.59 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 327.66 148.59 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 327.66 148.59 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 325.12 148.59 0)
@@ -12831,7 +12831,7 @@
     (property "Value" "C_10u_10V_0402" (at 234.95 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 237.49 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 237.49 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 240.03 219.71 0)
@@ -12878,7 +12878,7 @@
     (property "Value" "C_100n_0402" (at 356.87 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 359.41 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 359.41 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 361.95 80.01 0)
@@ -13099,7 +13099,7 @@
     (property "Value" "C_100n_0402" (at 55.88 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 58.42 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 58.42 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 60.96 99.06 0)
@@ -13177,7 +13177,7 @@
     (property "Value" "C_1u_25V_0402" (at 80.01 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 82.55 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 82.55 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 85.09 152.4 0)
@@ -13224,7 +13224,7 @@
     (property "Value" "C_1u_25V_0402" (at 63.5 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 66.04 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 66.04 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 68.58 176.53 0)
@@ -13271,7 +13271,7 @@
     (property "Value" "C_1u_25V_0402" (at 63.5 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 66.04 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 66.04 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 68.58 127 0)
@@ -13390,7 +13390,7 @@
     (property "Value" "C_1u_25V_0402" (at 113.03 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 115.57 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 115.57 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 118.11 152.4 0)
@@ -13437,7 +13437,7 @@
     (property "Value" "C_100n_0402" (at 379.73 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 382.27 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 382.27 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 384.81 80.01 0)
@@ -13705,7 +13705,7 @@
     (property "Value" "C_100n_0402" (at 364.49 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 367.03 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 367.03 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 369.57 44.45 0)
@@ -13752,7 +13752,7 @@
     (property "Value" "C_100n_0402" (at 105.41 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 107.95 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 107.95 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 110.49 99.06 0)
@@ -13799,7 +13799,7 @@
     (property "Value" "C_1u_25V_0402" (at 105.41 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 107.95 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 107.95 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 110.49 176.53 0)
@@ -13877,7 +13877,7 @@
     (property "Value" "C_100n_0402" (at 372.11 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 374.65 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 374.65 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 377.19 44.45 0)
@@ -14073,7 +14073,7 @@
     (property "Value" "C_4u7_0402" (at 328.93 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 326.39 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 326.39 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 323.85 80.01 0)
@@ -14120,7 +14120,7 @@
     (property "Value" "C_10u_10V_0402" (at 137.16 45.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 139.7 45.72 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 139.7 45.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 142.24 45.72 0)
@@ -14167,7 +14167,7 @@
     (property "Value" "C_4u7_0402" (at 335.28 189.23 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 332.74 189.23 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 332.74 189.23 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 330.2 189.23 0)
@@ -14245,7 +14245,7 @@
     (property "Value" "C_1u_25V_0402" (at 105.41 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 107.95 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 107.95 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 110.49 127 0)
@@ -14292,7 +14292,7 @@
     (property "Value" "C_100n_0402" (at 184.15 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 186.69 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 186.69 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 189.23 250.19 0)
@@ -14339,7 +14339,7 @@
     (property "Value" "C_100n_0402" (at 378.46 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 381 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 381 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 383.54 44.45 0)
@@ -14479,7 +14479,7 @@
     (property "Value" "C_1u_25V_0402" (at 121.92 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 124.46 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 124.46 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 127 176.53 0)
@@ -14557,7 +14557,7 @@
     (property "Value" "C_100n_0402" (at 80.01 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 82.55 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 82.55 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 85.09 99.06 0)
@@ -14635,7 +14635,7 @@
     (property "Value" "C_100n_0402" (at 350.52 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 353.06 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 353.06 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 355.6 80.01 0)
@@ -14682,7 +14682,7 @@
     (property "Value" "C_1u_25V_0402" (at 71.12 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 73.66 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 73.66 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 76.2 152.4 0)
@@ -14729,7 +14729,7 @@
     (property "Value" "C_10u_10V_0402" (at 339.09 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 341.63 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 341.63 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 344.17 44.45 0)
@@ -14838,7 +14838,7 @@
     (property "Value" "C_1u_25V_0402" (at 68.58 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 71.12 220.98 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 71.12 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 73.66 220.98 0)
@@ -14947,7 +14947,7 @@
     (property "Value" "C_10u_10V_0402" (at 173.99 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 176.53 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 176.53 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 179.07 219.71 0)
@@ -14994,7 +14994,7 @@
     (property "Value" "C_1u_25V_0402" (at 88.9 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 91.44 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 91.44 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 93.98 152.4 0)
@@ -15041,7 +15041,7 @@
     (property "Value" "C_100n_0402" (at 121.92 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 124.46 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 124.46 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 127 99.06 0)
@@ -15119,7 +15119,7 @@
     (property "Value" "C_4u7_0402" (at 322.58 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 320.04 115.57 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 320.04 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 317.5 115.57 0)
@@ -15166,7 +15166,7 @@
     (property "Value" "C_100n_0402" (at 187.96 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 190.5 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 190.5 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 193.04 219.71 0)
@@ -15291,7 +15291,7 @@
     (property "Value" "C_100n_0402" (at 72.39 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 74.93 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 74.93 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 77.47 99.06 0)
@@ -15338,7 +15338,7 @@
     (property "Value" "C_10u_10V_0402" (at 335.28 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 337.82 80.01 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 337.82 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 340.36 80.01 0)
@@ -15410,7 +15410,7 @@
     (property "Value" "C_1u_25V_0402" (at 96.52 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 99.06 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 99.06 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 101.6 127 0)
@@ -15457,7 +15457,7 @@
     (property "Value" "C_10u_10V_0402" (at 340.36 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 342.9 113.03 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 342.9 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 345.44 113.03 0)
@@ -15535,7 +15535,7 @@
     (property "Value" "C_1u_25V_0402" (at 77.47 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 80.01 220.98 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 80.01 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 82.55 220.98 0)
@@ -15582,7 +15582,7 @@
     (property "Value" "C_100n_0402" (at 287.02 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 289.56 218.44 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 289.56 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 292.1 218.44 0)
@@ -15629,7 +15629,7 @@
     (property "Value" "C_1u_25V_0402" (at 113.03 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 115.57 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 115.57 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 118.11 127 0)
@@ -15707,7 +15707,7 @@
     (property "Value" "C_100n_0402" (at 256.54 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 259.08 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 259.08 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 261.62 250.19 0)
@@ -15785,7 +15785,7 @@
     (property "Value" "C_10u_10V_0402" (at 250.19 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 252.73 250.19 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 252.73 250.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 255.27 250.19 0)
@@ -15956,7 +15956,7 @@
     (property "Value" "C_100n_0402" (at 88.9 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 91.44 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 91.44 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 93.98 99.06 0)
@@ -16003,7 +16003,7 @@
     (property "Value" "C_100n_0402" (at 356.87 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 359.41 44.45 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 359.41 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 361.95 44.45 0)
@@ -16050,7 +16050,7 @@
     (property "Value" "C_1u_25V_0402" (at 63.5 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 66.04 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 66.04 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 68.58 152.4 0)
@@ -16128,7 +16128,7 @@
     (property "Value" "C_1u_25V_0402" (at 88.9 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 91.44 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 91.44 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 93.98 127 0)
@@ -16175,7 +16175,7 @@
     (property "Value" "C_100n_0402" (at 242.57 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 245.11 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 245.11 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 247.65 219.71 0)
@@ -16315,7 +16315,7 @@
     (property "Value" "C_100n_0402" (at 375.92 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 378.46 113.03 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 378.46 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 381 113.03 0)
@@ -16393,7 +16393,7 @@
     (property "Value" "C_10u_10V_0402" (at 208.28 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 210.82 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 210.82 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 213.36 219.71 0)
@@ -16518,7 +16518,7 @@
     (property "Value" "C_10u_10V_0402" (at 44.45 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 46.99 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 46.99 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 49.53 219.71 0)
@@ -16658,7 +16658,7 @@
     (property "Value" "C_1u_25V_0402" (at 105.41 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 107.95 152.4 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 107.95 152.4 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 110.49 152.4 0)
@@ -16736,7 +16736,7 @@
     (property "Value" "C_10u_10V_0402" (at 54.61 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 57.15 72.39 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 57.15 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23" (at 59.69 72.39 0)
@@ -17098,7 +17098,7 @@
     (property "Value" "R_100R_0402" (at 287.02 135.89 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:R_0402_1005Metric_EIA" (at 289.56 135.89 0)
+    (property "Footprint" "antmicro-footprints:R_0402_1005Metric" (at 289.56 135.89 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" (at 292.1 135.89 0)
@@ -17310,7 +17310,7 @@
     (property "Value" "C_100n_0402" (at 181.61 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 184.15 219.71 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 184.15 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 186.69 219.71 0)
@@ -17506,7 +17506,7 @@
     (property "Value" "C_100n_0402" (at 63.5 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 66.04 99.06 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 66.04 99.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 68.58 99.06 0)
@@ -17780,7 +17780,7 @@
     (property "Value" "C_1u_25V_0402" (at 114.3 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 116.84 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 116.84 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 119.38 176.53 0)
@@ -17827,7 +17827,7 @@
     (property "Value" "C_1u_25V_0402" (at 97.79 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 100.33 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 100.33 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 102.87 176.53 0)
@@ -17905,7 +17905,7 @@
     (property "Value" "C_1u_25V_0402" (at 72.39 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 74.93 176.53 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 74.93 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 77.47 176.53 0)
@@ -18030,7 +18030,7 @@
     (property "Value" "C_1u_25V_0402" (at 71.12 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:C_0402_1005Metric_EIA" (at 73.66 127 0)
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 73.66 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23" (at 76.2 127 0)
