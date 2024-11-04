@@ -8975,7 +8975,7 @@
   )
 
   (symbol (lib_id "antmicroGenericPinHeaders:PinHeader_2x7_P2mm_SMD_Shrouded_no-locator") (at 326.39 40.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 51c01594-5605-49dd-bb68-807ce3e5c08a)
     (property "Reference" "J1" (at 331.47 34.925 0)
       (effects (font (size 1.27 1.27)))
@@ -9302,7 +9302,7 @@
   )
 
   (symbol (lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1") (at 382.27 43.18 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 70161fc9-7924-42a9-9626-4d2be1352c22)
     (property "Reference" "U2" (at 372.11 46.355 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
