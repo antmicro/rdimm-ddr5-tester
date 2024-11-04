@@ -3680,7 +3680,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_0R_0402") (at 346.71 201.93 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4cc1dd5e-acd9-40ba-be16-46bca85cea2a)
     (property "Reference" "R203" (at 349.885 198.12 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
