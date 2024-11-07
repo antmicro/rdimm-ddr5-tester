@@ -6,10 +6,10 @@
 
   (title_block
     (title "RDIMM DDR5 Tester")
-    (date "2024-10")
+    (date "2024-11-07")
     (rev "2.0.0")
     (comment 1 "www.antmicro.com")
-    (comment 2 "Antmicro Ltd")
+    (comment 2 "Antmicro")
   )
 
   (lib_symbols
