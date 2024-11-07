@@ -9,8 +9,8 @@ Copyright (c) 2021-2024 [Antmicro](https://antmicro.com)
 ## Overview
 
 This project contains open hardware KiCad design files for an experimental, FPGA-based platform for interfacing with RDIMM DDR5 RAM modules.
-
-The latest design revision (Rev.2.x) features an AMD Artix UltraScale Plus FPGA and is currently under development.
+The latest design revision (Rev.2.x) features an AMD Artix UltraScale Plus FPGA.
+The design files are now being verified with a small series of prototypes.
 The [previous revision](https://github.com/antmicro/ddr5-tester/releases/tag/rev.1.0.1-production) (Rev.1.x) was built around an AMD (Xilinx) Kintex-7 FPGA and the design files were verified with prototypes.
 This hardware DDR5 testing platform integrates with the open source [Rowhammer Tester](https://github.com/antmicro/rowhammer-tester) project.
 
@@ -20,7 +20,7 @@ The main repository directory contains KiCad PCB project files, a LICENSE and RE
 The remaining files are stored in the following directories:
 
 * `doc` - contains PDF schematics
-* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com).
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?view=top-ortho&tab=features).
 
 ## Key features
 
