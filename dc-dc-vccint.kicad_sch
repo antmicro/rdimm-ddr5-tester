@@ -14697,7 +14697,7 @@
 		(dnp no)
 		(uuid "b4348488-21ce-43cf-8b8d-3df54c1e18aa")
 		(property "Reference" "R188"
-			(at 129.54 80.772 0)
+			(at 129.794 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14792,7 +14792,7 @@
 			)
 		)
 		(property "Val" "47k"
-			(at 129.286 83.058 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
