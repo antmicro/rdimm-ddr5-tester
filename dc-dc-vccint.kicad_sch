@@ -4909,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 138.43 87.63)
+			(xy 120.65 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5609,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 138.43 96.52)
+			(xy 138.43 85.09) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5719,7 +5719,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 143.51 96.52)
+			(xy 121.92 85.09) (xy 127 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7129,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 143.51 87.63)
+			(xy 138.43 100.33) (xy 132.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7243,7 @@
 		)
 		(uuid "c0529645-a62b-4dfe-854f-5914e20a9a5d")
 	)
-	(text "Second phase is for VCCINT > 20A applications\nDo Not Populate if not required \n(place R186 and R188 instead)\n"
+	(text "Second phase is for VCCINT > 20A applications\nDo Not Populate if not required \n(place R188 instead)\n"
 		(exclude_from_sim no)
 		(at 16.51 162.56 0)
 		(effects
@@ -7312,7 +7312,7 @@
 		(uuid "1d749fcc-17ac-451b-b2f8-f8f7a1a61356")
 	)
 	(label "PASS0"
-		(at 149.86 87.63 180)
+		(at 138.43 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7334,13 +7334,13 @@
 		(uuid "21767278-a25b-49a9-9f75-33619a0512e0")
 	)
 	(label "V_{CC}"
-		(at 148.59 96.52 180)
+		(at 121.92 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "25010c55-ab74-43e0-a3c4-195a7c18655c")
 	)
@@ -7444,13 +7444,13 @@
 		(uuid "5a796b95-aad1-471b-a0f8-0c3bcb5652d6")
 	)
 	(label "TAKE0"
-		(at 132.08 96.52 0)
+		(at 138.43 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5d2a07b4-0191-4248-8f0d-053eab7b4269")
 	)
@@ -7598,7 +7598,7 @@
 		(uuid "d5965794-a77b-4588-9e62-88d7e639db8f")
 	)
 	(label "TAKE0"
-		(at 132.08 87.63 0)
+		(at 120.65 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9592,7 +9592,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 138.43 87.63 0)
+		(at 127 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9601,7 +9601,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c9ef368-1263-49fa-8be6-5fcfce44065a")
 		(property "Reference" "R186"
-			(at 140.97 81.915 0)
+			(at 129.54 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +9610,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 158.75 100.33 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9621,7 +9621,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 158.75 102.87 0)
+			(at 147.32 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 158.75 105.41 0)
+			(at 147.32 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 87.63 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9652,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 158.75 107.95 0)
+			(at 147.32 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9663,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 158.75 110.49 0)
+			(at 147.32 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +9674,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 158.75 113.03 0)
+			(at 147.32 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9685,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 158.75 115.57 0)
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9696,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 140.97 84.455 0)
+			(at 129.54 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,7 +9705,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 158.75 97.79 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9715,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 158.75 118.11 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10303,10 +10303,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3cdac105-1c01-4d11-9c43-f98fd3255382")
 		(property "Reference" "R201"
-			(at 349.885 204.47 90)
+			(at 349.504 205.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10401,7 @@
 			)
 		)
 		(property "Val" "3k4"
-			(at 349.885 207.01 90)
+			(at 349.504 208.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,6 +10417,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14689,16 +14689,15 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_47k_0402")
-		(at 143.51 96.52 180)
+		(at 127 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "b4348488-21ce-43cf-8b8d-3df54c1e18aa")
 		(property "Reference" "R188"
-			(at 140.97 90.17 0)
+			(at 129.54 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,7 +14706,7 @@
 			)
 		)
 		(property "Value" "R_47k_0402"
-			(at 123.19 83.82 0)
+			(at 147.32 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14718,7 +14717,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 123.19 81.28 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14729,7 +14728,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 123.19 78.74 0)
+			(at 147.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14740,7 +14739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 96.52 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14748,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4702GLF"
-			(at 123.19 76.2 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14760,7 +14759,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 123.19 73.66 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +14770,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 123.19 71.12 0)
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14782,7 +14781,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 123.19 68.58 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14792,7 @@
 			)
 		)
 		(property "Val" "47k"
-			(at 140.97 92.71 0)
+			(at 129.286 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14802,7 +14801,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 123.19 86.36 0)
+			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15863,10 +15862,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7b6e1e2-4f2e-4b9b-a42c-d2e2f77bc08e")
 		(property "Reference" "R202"
-			(at 349.885 213.36 90)
+			(at 349.504 213.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,7 +15960,7 @@
 			)
 		)
 		(property "Val" "8k16"
-			(at 349.885 215.9 90)
+			(at 349.504 215.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
