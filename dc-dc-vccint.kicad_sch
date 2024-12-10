@@ -424,7 +424,7 @@
 				)
 			)
 		)
-		(symbol "antmicroCapacitors0402:C_22n_0402"
+		(symbol "antmicroCapacitors0402:C_22p_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -440,7 +440,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_22n_0402"
+			(property "Value" "C_22p_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -462,7 +462,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155R71H223MA55%23"
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN220"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -473,7 +473,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitors, 0.022 µF, 50 V, 20%, 0402 [1005 Metric], X7R"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, CC Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -482,7 +482,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GCM155R71H223MA55D"
+			(property "MPN" "CC0402JRNPO9BN220"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -493,7 +493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "YAGEO"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -526,7 +526,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "22n"
+			(property "Val" "22p"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -556,7 +556,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +565,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_22n_0402_0_1"
+			(symbol "C_22p_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -591,7 +591,7 @@
 					)
 				)
 			)
-			(symbol "C_22n_0402_1_1"
+			(symbol "C_22p_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -12999,156 +12999,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_22n_0402")
-		(at 336.55 209.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d16f241-f915-4bb6-b8e7-3c11b6e79431")
-		(property "Reference" "C264"
-			(at 338.455 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_22n_0402"
-			(at 346.71 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 349.25 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GCM155R71H223MA55%23"
-			(at 351.79 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 336.55 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM155R71H223MA55D"
-			(at 354.33 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 356.87 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 359.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 361.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "22n"
-			(at 338.455 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Voltage" ""
-			(at 364.49 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 367.03 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13a52a0a-cebc-4196-87f2-9e66db99cb53")
-		)
-		(pin "2"
-			(uuid "327ba471-137e-439a-8236-359deb9bf9a0")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/3cfc3a6a-24b0-4207-8c35-05eeccc29696"
-					(reference "C264")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 207.01 100.33 0)
 		(unit 1)
@@ -18642,6 +18492,157 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/3cfc3a6a-24b0-4207-8c35-05eeccc29696"
 					(reference "#PWR0505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_22p_0402")
+		(at 336.55 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f394538d-013e-41aa-bfcb-35aa8f7bd945")
+		(property "Reference" "C264"
+			(at 339.09 205.7336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_22p_0402"
+			(at 346.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 349.25 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN220"
+			(at 351.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, CC Series"
+			(at 336.55 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRNPO9BN220"
+			(at 354.33 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 356.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 359.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 361.95 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "22p"
+			(at 339.09 208.2736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 364.49 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 367.03 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fede8d9-2e64-4d96-8b95-d34bdd9ae241")
+		)
+		(pin "1"
+			(uuid "d59f91a6-e4df-49a6-b2b1-008af2abaf6a")
+		)
+		(instances
+			(project ""
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/3cfc3a6a-24b0-4207-8c35-05eeccc29696"
+					(reference "C264")
 					(unit 1)
 				)
 			)
