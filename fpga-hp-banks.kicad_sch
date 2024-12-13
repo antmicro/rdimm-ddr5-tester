@@ -66308,9 +66308,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e4f5414-1074-45b5-a306-24f8cea1e3af")
-		(property "Reference" "#PWR0188"
+		(uuid "17ff3c17-80e0-4d89-bc20-7049cf38ec06")
+		(property "Reference" "#PWR0190"
 			(at 52.07 53.34 0)
 			(effects
 				(font
@@ -66319,7 +66318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "VDDQ"
 			(at 52.07 45.974 0)
 			(effects
 				(font
@@ -66355,12 +66354,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "290723c4-d2be-42c8-8da4-f1e321cdd5cf")
+			(uuid "ff7bcfe0-9262-41a8-9849-67e057356330")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
-					(reference "#PWR0188")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -66455,6 +66454,72 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+1V1")
+		(at 142.24 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50c6f83d-a055-4207-8a17-8d6be67fd629")
+		(property "Reference" "#PWR0323"
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDQ"
+			(at 142.24 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e70650a-1dec-4350-afa5-a1c491376ebd")
+		)
+		(instances
+			(project "data-center-rdimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -67023,6 +67088,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:+1V1")
+		(at 241.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609945ef-2ab7-4283-8c0f-635e6cef205a")
+		(property "Reference" "#PWR0189"
+			(at 241.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDQ"
+			(at 241.3 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbaab707-731f-46c0-80bd-dd5fb3a5dab6")
+		)
+		(instances
+			(project "data-center-rdimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 62.23 254 0)
 		(mirror y)
@@ -67357,72 +67488,6 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
 					(reference "C164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V1")
-		(at 241.3 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d3cc283-0206-4ebe-80ea-6b64420f15ad")
-		(property "Reference" "#PWR0190"
-			(at 241.3 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 241.3 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "659bed83-03ee-42ef-9cc0-5eb7ac19f17c")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
-					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -72829,72 +72894,6 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
 					(reference "R132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V1")
-		(at 142.24 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da5d3c57-06de-43c8-9de3-85d1318cac77")
-		(property "Reference" "#PWR0189"
-			(at 142.24 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 142.24 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ec163f9-0dc8-4450-a7fa-ada266d03cb1")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000061b4860c"
-					(reference "#PWR0189")
 					(unit 1)
 				)
 			)

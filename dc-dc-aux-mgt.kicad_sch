@@ -7779,6 +7779,71 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:+0V9_MGTAVCC")
+		(at 229.87 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "184e695b-61a3-4ae8-84ce-897818ff4327")
+		(property "Reference" "#PWR058"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+0V9_MGTAVCC"
+			(at 229.87 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc2c817-0e04-433b-8663-f7baa9f8fe9a")
+		)
+		(instances
+			(project "data-center-rdimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/0d757288-805e-4f45-ad8e-e9ee6afc6379"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 185.42 86.36 0)
 		(unit 1)
@@ -12776,72 +12841,6 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/0d757288-805e-4f45-ad8e-e9ee6afc6379"
 					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+0V9_MGTAVCC")
-		(at 229.87 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0675654-fb18-4b06-90e7-d4f0c29f6c4c")
-		(property "Reference" "#PWR0335"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V0_MGTAVCC"
-			(at 229.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3996b38-9a25-4835-9191-500ef4a8c38c")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/0d757288-805e-4f45-ad8e-e9ee6afc6379"
-					(reference "#PWR0335")
 					(unit 1)
 				)
 			)

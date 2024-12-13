@@ -2923,117 +2923,6 @@
 				)
 			)
 		)
-		(symbol "antmicropower:+1V1"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V1"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+1V1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "antmicropower:+1V2"
 			(power)
 			(pin_names
@@ -3846,6 +3735,117 @@
 				)
 			)
 		)
+		(symbol "antmicropower:VDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 308.61 68.58)
@@ -4161,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 226.06) (xy 198.12 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee066fd-66ff-4644-a4fc-a3ed729876de")
+	)
+	(wire
+		(pts
 			(xy 222.25 59.69) (xy 210.82 59.69)
 		)
 		(stroke
@@ -4318,6 +4328,16 @@
 			(type default)
 		)
 		(uuid "2440e8d1-537e-4cd7-814f-4b6fae1c1de1")
+	)
+	(wire
+		(pts
+			(xy 180.34 217.17) (xy 198.12 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258318d2-2d3e-4900-b4f7-e5f1467b171b")
 	)
 	(wire
 		(pts
@@ -4501,6 +4521,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 210.82) (xy 198.12 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6d790e-d39c-472a-8ce9-913c313044de")
+	)
+	(wire
+		(pts
 			(xy 128.27 58.42) (xy 128.27 59.69)
 		)
 		(stroke
@@ -4568,16 +4598,6 @@
 			(type default)
 		)
 		(uuid "45fe4e5a-33dd-4d22-b7ff-d8dc57834d20")
-	)
-	(wire
-		(pts
-			(xy 173.99 219.71) (xy 196.85 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "462e6ba0-3c70-4893-ac46-668f881201c1")
 	)
 	(wire
 		(pts
@@ -4831,6 +4851,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 213.36) (xy 198.12 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702ee0f7-9296-4118-a2e5-b799269ec6e8")
+	)
+	(wire
+		(pts
 			(xy 339.09 104.14) (xy 339.09 106.68)
 		)
 		(stroke
@@ -4908,16 +4938,6 @@
 			(type default)
 		)
 		(uuid "7fba685b-f011-489c-9fd7-3b095908ef9d")
-	)
-	(wire
-		(pts
-			(xy 173.99 226.06) (xy 196.85 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803b3c0f-1096-45d0-9526-04216853b693")
 	)
 	(polyline
 		(pts
@@ -4999,16 +5019,6 @@
 		)
 		(uuid "86f90125-88b8-4e38-b45e-3fc39ad5f26f")
 	)
-	(wire
-		(pts
-			(xy 173.99 232.41) (xy 196.85 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873a9c74-7bec-4f7c-844e-5307b51f98fb")
-	)
 	(polyline
 		(pts
 			(xy 149.86 128.27) (xy 177.8 128.27)
@@ -5051,16 +5061,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 223.52) (xy 196.85 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ad52f1d-bbb6-420a-be00-f22fbb812bcd")
-	)
-	(wire
-		(pts
 			(xy 147.32 231.14) (xy 147.32 233.68)
 		)
 		(stroke
@@ -5088,6 +5088,16 @@
 			(type default)
 		)
 		(uuid "8dd561f0-9b65-4ca1-b8bb-215e269801a3")
+	)
+	(wire
+		(pts
+			(xy 173.99 232.41) (xy 198.12 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f02886d-635f-4861-b80a-3073fec7d4c6")
 	)
 	(wire
 		(pts
@@ -5168,16 +5178,6 @@
 			(type default)
 		)
 		(uuid "96be5bbb-fb7a-43a2-ad1e-3feb835abcc5")
-	)
-	(wire
-		(pts
-			(xy 180.34 210.82) (xy 196.85 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975d1976-301c-47a7-8a50-8fad3586b000")
 	)
 	(wire
 		(pts
@@ -5431,16 +5431,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 217.17) (xy 196.85 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28093f8-2461-4145-8e52-757bea9c6b55")
-	)
-	(wire
-		(pts
 			(xy 203.2 110.49) (xy 203.2 111.76)
 		)
 		(stroke
@@ -5491,6 +5481,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 219.71) (xy 198.12 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6cd5c5-859d-42f0-9d2c-20b161c34930")
+	)
+	(wire
+		(pts
 			(xy 241.3 50.8) (xy 241.3 52.07)
 		)
 		(stroke
@@ -5501,16 +5501,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 213.36) (xy 196.85 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1222c6e-cd10-4210-82bc-da0661d476ac")
-	)
-	(wire
-		(pts
 			(xy 222.25 80.01) (xy 222.25 81.28)
 		)
 		(stroke
@@ -5518,16 +5508,6 @@
 			(type default)
 		)
 		(uuid "c3308d9a-b21a-44be-9580-23f102ec2f86")
-	)
-	(wire
-		(pts
-			(xy 180.34 229.87) (xy 196.85 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3646b8d-ef40-4e85-b724-1b6c78273fd1")
 	)
 	(wire
 		(pts
@@ -5568,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "c8ada581-8027-4983-995a-b65599c97705")
+	)
+	(wire
+		(pts
+			(xy 180.34 223.52) (xy 198.12 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca45603b-07fd-4812-90d5-e9d75a05f980")
 	)
 	(wire
 		(pts
@@ -5908,6 +5898,16 @@
 			(type default)
 		)
 		(uuid "f5c462ee-7bd4-4b0c-86a3-c32193179785")
+	)
+	(wire
+		(pts
+			(xy 180.34 229.87) (xy 198.12 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e70d33-68f6-4a3b-a502-583c173e13ba")
 	)
 	(polyline
 		(pts
@@ -6255,7 +6255,7 @@
 		)
 		(uuid "fbdb0702-a2df-4ae7-b873-3b0f2ce391b3")
 	)
-	(label "1V1_SEN_+"
+	(label "VDDQ_SEN_+"
 		(at 210.82 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6266,7 +6266,7 @@
 		)
 		(uuid "07635e98-6dbc-4e3f-ba85-c71fa7edab70")
 	)
-	(label "1V1_SEN_-"
+	(label "VDDQ_SEN_-"
 		(at 248.92 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6322,7 +6322,7 @@
 		(uuid "3c1e9783-116d-47f9-9d38-29bb580ce584")
 	)
 	(label "1V2_SEN_+"
-		(at 196.85 229.87 180)
+		(at 198.12 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6344,7 +6344,7 @@
 		(uuid "4a9b527f-f453-40ce-9db1-c93ebc077767")
 	)
 	(label "3V3_SEN_-"
-		(at 196.85 213.36 180)
+		(at 198.12 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6355,7 +6355,7 @@
 		(uuid "4ca2fbf9-6e57-4244-9a3e-13f6a94e19f6")
 	)
 	(label "1V2_SEN_-"
-		(at 196.85 232.41 180)
+		(at 198.12 232.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6366,7 +6366,7 @@
 		(uuid "4cad4693-a05e-4eb1-82c0-d993d7def64b")
 	)
 	(label "5V_SEN_-"
-		(at 196.85 219.71 180)
+		(at 198.12 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6388,7 +6388,7 @@
 		(uuid "660dfd55-9916-400c-906b-6300c782a295")
 	)
 	(label "5V_SEN_+"
-		(at 196.85 217.17 180)
+		(at 198.12 217.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6420,8 +6420,8 @@
 		)
 		(uuid "7a9f851d-0b12-4e33-87b8-a2ab3844df89")
 	)
-	(label "1V1_SEN_-"
-		(at 196.85 226.06 180)
+	(label "VDDQ_SEN_-"
+		(at 198.12 226.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6431,8 +6431,8 @@
 		)
 		(uuid "7e4a6f72-078a-485a-958a-ff8a3da39fe3")
 	)
-	(label "1V1_SEN_+"
-		(at 196.85 223.52 180)
+	(label "VDDQ_SEN_+"
+		(at 198.12 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6553,7 +6553,7 @@
 		(uuid "dfde1946-04a1-4e20-adb2-5896af4b58ba")
 	)
 	(label "3V3_SEN_+"
-		(at 196.85 210.82 180)
+		(at 198.12 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9919,6 +9919,72 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:VDD")
+		(at 250.19 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90183fb2-6324-47a1-8678-bc2efb9c778e")
+		(property "Reference" "#PWR048"
+			(at 250.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDQ"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e992ce9-d7e6-4f73-83d7-b7d8b09a8a1c")
+		)
+		(instances
+			(project "data-center-rdimm-ddr5-tester"
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/5b621c5d-ceb0-481d-9809-c89bf3097b70"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 339.09 111.76 90)
 		(unit 1)
@@ -11956,71 +12022,6 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/5b621c5d-ceb0-481d-9809-c89bf3097b70"
 					(reference "NT7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+1V1")
-		(at 250.19 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b676f923-df0d-4950-afbb-4a672287ba71")
-		(property "Reference" "#PWR0323"
-			(at 250.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V1"
-			(at 250.19 86.614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "262e8096-93eb-4100-ab8f-61a0c6c9610a")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c/5b621c5d-ceb0-481d-9809-c89bf3097b70"
-					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
