@@ -21782,6 +21782,17 @@
 		)
 		(uuid "5ead7709-8ee9-4e4f-aa87-e15308ee87b5")
 	)
+	(text "I2C: 0x4C"
+		(exclude_from_sim no)
+		(at 91.186 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69f87bc0-0ff0-4fb2-a78b-0bf2c8687bee")
+	)
 	(text "Temp sensor"
 		(exclude_from_sim no)
 		(at 15.24 182.88 0)

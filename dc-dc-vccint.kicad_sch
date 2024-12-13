@@ -7241,6 +7241,17 @@
 		)
 		(uuid "5edae7fb-090f-47f1-85c3-ad68ccc2b15d")
 	)
+	(text "I2C: 0x31 (not available as PS is enabled)"
+		(exclude_from_sim no)
+		(at 115.316 241.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f417c66-2623-4b13-b56b-af3c00cc41d1")
+	)
 	(text "I2C: 0x30"
 		(exclude_from_sim no)
 		(at 186.69 102.87 0)

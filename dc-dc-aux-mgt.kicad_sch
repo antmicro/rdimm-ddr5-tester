@@ -6428,7 +6428,7 @@
 		)
 		(uuid "3136a9e8-367b-4c4d-8a2a-c04ae1a91112")
 	)
-	(text "I2C: 0x99"
+	(text "I2C: 0x4D"
 		(exclude_from_sim no)
 		(at 250.19 224.79 0)
 		(effects
@@ -6483,7 +6483,7 @@
 		)
 		(uuid "8fc3dfe2-1f40-48c5-8662-db10bf2302af")
 	)
-	(text "I2C: 0x98"
+	(text "I2C: 0x18"
 		(exclude_from_sim no)
 		(at 163.83 224.79 0)
 		(effects
@@ -11556,9 +11556,9 @@
 		(at 146.05 215.9 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7803237d-9949-4b10-b9fb-293aefbbcfc4")
 		(property "Reference" "R208"

@@ -22329,6 +22329,17 @@
 		)
 		(uuid "08897c23-004d-49ff-a32e-5e5123aec807")
 	)
+	(text "I2C: 0x50"
+		(exclude_from_sim no)
+		(at 251.968 272.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d5c8a34-0585-4d3b-a5af-051d4d7f766a")
+	)
 	(text "Max 10W"
 		(exclude_from_sim no)
 		(at 372.11 85.09 0)
