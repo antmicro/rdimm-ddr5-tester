@@ -558,13 +558,13 @@
 				)
 			)
 		)
-		(symbol "antmicroBarrelPowerConnectors:BarrelJack_Pin1.3mm_694103107102"
+		(symbol "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_694106106102"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 15.24 -7.62 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -573,7 +573,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BarrelJack_Pin1.3mm_694103107102"
+			(property "Value" "BarrelJack_Pin2mm_694106106102"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_694106106102"
 				(at 15.24 -12.7 0)
 				(effects
 					(font
@@ -584,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:BarrelJack_Pin1.3mm_694103107102"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/694106106102.pdf"
 				(at 15.24 -15.24 0)
 				(effects
 					(font
@@ -595,7 +606,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.de/katalog/datasheet/694103107102.pdf"
+			(property "Description" "DC Power Connector, Jack, 5 A, 2 mm, PCB Mount, Surface Mount"
 				(at 15.24 -17.78 0)
 				(effects
 					(font
@@ -606,17 +617,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Power Connector, Jack, 5 A, 1.35 mm, PCB Mount, Surface Mount"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "694103107102"
-				(at 15.24 -10.16 0)
+			(property "MPN" "694106106102"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -667,7 +669,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BarrelJack_Pin1.3mm_694103107102_1_1"
+			(symbol "BarrelJack_Pin2mm_694106106102_1_1"
 				(rectangle
 					(start -12.7 1.905)
 					(end -2.54 -6.985)
@@ -27717,6 +27719,132 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_694106106102")
+		(at 43.18 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54078e57-44a5-4c88-aa2e-d227470e27ba")
+		(property "Reference" "J7"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BarrelJack_Pin2mm_694106106102"
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_694106106102"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/694106106102.pdf"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Power Connector, Jack, 5 A, 2 mm, PCB Mount, Surface Mount"
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "694106106102"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 58.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ceb46dc5-665e-4fae-95d1-23a45e218b7a")
+		)
+		(pin "3"
+			(uuid "d2826572-2989-4ebd-8cc4-9fe0e58a12a7")
+		)
+		(pin "1"
+			(uuid "b0ed4ab4-1e93-4ef0-91f4-143bda706535")
+		)
+		(pin "1"
+			(uuid "1de1e4b0-d003-4f87-81c5-4eeb801ca305")
+		)
+		(instances
+			(project ""
+				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_4k7_0402")
 		(at 229.87 175.26 90)
 		(unit 1)
@@ -36839,130 +36967,6 @@
 			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c"
 					(reference "#PWR0294")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroBarrelPowerConnectors:BarrelJack_Pin1.3mm_694103107102")
-		(at 43.18 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe0fc024-316e-407d-9884-46ac2da2f9ce")
-		(property "Reference" "J7"
-			(at 35.56 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "BarrelJack_Pin1.3mm_694103107102"
-			(at 58.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:BarrelJack_Pin1.3mm_694103107102"
-			(at 58.42 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.de/katalog/datasheet/694103107102.pdf"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "694103107102"
-			(at 35.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 58.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 58.42 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3e8e79f5-1e23-4506-bde6-ccf13928a233")
-		)
-		(pin "1"
-			(uuid "b8d085ea-bea3-4081-84fc-cd3d6acab8c6")
-		)
-		(pin "1"
-			(uuid "8efad4a3-0e15-4adc-9f45-b08c84d1c6bc")
-		)
-		(pin "2"
-			(uuid "a4f72447-585c-41e3-93f3-9f4a794f922f")
-		)
-		(instances
-			(project "data-center-rdimm-ddr5-tester"
-				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/00000000-0000-0000-0000-000060225b0c"
-					(reference "J7")
 					(unit 1)
 				)
 			)
