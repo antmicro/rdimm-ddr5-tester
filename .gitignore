@@ -9,6 +9,7 @@
 *.kicad_sch-bak
 *.kicad_prl
 *.sch-bak
+*.lck
 *~
 _autosave-*
 *.tmp
