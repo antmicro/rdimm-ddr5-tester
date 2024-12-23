@@ -4,7 +4,7 @@ Copyright (c) 2021-2024 [Antmicro](https://antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/ddr5-tester/)
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?tab=features)
-![](assets/previews/orthoT.png)
+![](img/rdimm-ddr5-tester-2.0.0-photo.png)
 
 ## Overview
 
