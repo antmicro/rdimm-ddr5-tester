@@ -1,32 +1,32 @@
-Name;Type;Material;Thickness[mm];Constant
-F.Mask;Top Solder Mask;;0.01;
-F.Cu;copper;;0.035;
-dielectric 1 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 1 (2/2);prepreg;PR1080;0.07;3.92
-In1.Cu;copper;;0.018;
-dielectric 2;core;Isola 370HR;0.1;4.04
-In2.Cu;copper;;0.018;
-dielectric 3 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 3 (2/2);prepreg;PR1080;0.07;3.92
-In3.Cu;copper;;0.018;
-dielectric 4;core;Isola 370HR;0.1;4.04
-In4.Cu;copper;;0.018;
-dielectric 5 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 5 (2/2);prepreg;PR1080;0.07;3.92
-In5.Cu;copper;;0.018;
-dielectric 6;core;Isola 370HR;0.1;4.04
-In6.Cu;copper;;0.018;
-dielectric 7 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 7 (2/2);prepreg;PR1080;0.07;3.92
-In7.Cu;copper;;0.018;
-dielectric 8;core;Isola 370HR;0.1;4.04
-In8.Cu;copper;;0.018;
-dielectric 9 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 9 (2/2);prepreg;PR1080;0.07;3.92
-In9.Cu;copper;;0.018;
-dielectric 10;core;Isola 370HR;0.1;4.04
-In10.Cu;copper;;0.018;
-dielectric 11 (1/2);prepreg;PR1080;0.07;3.92
-dielectric 11 (2/2);prepreg;PR1080;0.07;3.92
-B.Cu;copper;;0.035;
-B.Mask;Bottom Solder Mask;;0.01;
+Name;Type;Material;Thickness[mm];Constant;User-Name
+F.Mask;Top Solder Mask;;0.01;;F_Mask
+F.Cu;copper;;0.035;;F_Cu
+dielectric 1 (1/2);prepreg;PR1080;0.07;3.92;dielectric 1 (1/2)
+dielectric 1 (2/2);prepreg;PR1080;0.07;3.92;dielectric 1 (2/2)
+In1.Cu;copper;;0.018;;In1_Cu
+dielectric 2;core;Isola 370HR;0.1;4.04;dielectric 2
+In2.Cu;copper;;0.018;;In2_Cu
+dielectric 3 (1/2);prepreg;PR1080;0.07;3.92;dielectric 3 (1/2)
+dielectric 3 (2/2);prepreg;PR1080;0.07;3.92;dielectric 3 (2/2)
+In3.Cu;copper;;0.018;;In3_Cu
+dielectric 4;core;Isola 370HR;0.1;4.04;dielectric 4
+In4.Cu;copper;;0.018;;In4_Cu
+dielectric 5 (1/2);prepreg;PR1080;0.07;3.92;dielectric 5 (1/2)
+dielectric 5 (2/2);prepreg;PR1080;0.07;3.92;dielectric 5 (2/2)
+In5.Cu;copper;;0.018;;In5_Cu
+dielectric 6;core;Isola 370HR;0.1;4.04;dielectric 6
+In6.Cu;copper;;0.018;;In6_Cu
+dielectric 7 (1/2);prepreg;PR1080;0.07;3.92;dielectric 7 (1/2)
+dielectric 7 (2/2);prepreg;PR1080;0.07;3.92;dielectric 7 (2/2)
+In7.Cu;copper;;0.018;;In7_Cu
+dielectric 8;core;Isola 370HR;0.1;4.04;dielectric 8
+In8.Cu;copper;;0.018;;In8_Cu
+dielectric 9 (1/2);prepreg;PR1080;0.07;3.92;dielectric 9 (1/2)
+dielectric 9 (2/2);prepreg;PR1080;0.07;3.92;dielectric 9 (2/2)
+In9.Cu;copper;;0.018;;In9_Cu
+dielectric 10;core;Isola 370HR;0.1;4.04;dielectric 10
+In10.Cu;copper;;0.018;;In10_Cu
+dielectric 11 (1/2);prepreg;PR1080;0.07;3.92;dielectric 11 (1/2)
+dielectric 11 (2/2);prepreg;PR1080;0.07;3.92;dielectric 11 (2/2)
+B.Cu;copper;;0.035;;B_Cu
+B.Mask;Bottom Solder Mask;;0.01;;B_Mask
