@@ -22341,7 +22341,7 @@
 		)
 		(uuid "08897c23-004d-49ff-a32e-5e5123aec807")
 	)
-	(text "I2C: 0x50"
+	(text "I2C: 0x50, 0x58"
 		(exclude_from_sim no)
 		(at 251.968 272.288 0)
 		(effects

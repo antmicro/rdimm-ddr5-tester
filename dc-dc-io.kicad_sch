@@ -6112,7 +6112,7 @@
 		)
 		(uuid "93606f1a-54e9-4a19-9341-5033c85e11a9")
 	)
-	(text "+1V1"
+	(text "VDDQ"
 		(exclude_from_sim no)
 		(at 153.67 135.89 0)
 		(effects
@@ -6453,7 +6453,7 @@
 		)
 		(uuid "84fe975a-b8bd-4228-8183-c39c186f4849")
 	)
-	(label "1V1_local"
+	(label "VDDQ_local"
 		(at 331.47 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6585,7 +6585,7 @@
 		)
 		(uuid "f5f9fc95-16d6-4fbd-a653-9b7d3e3419aa")
 	)
-	(label "1V1_local"
+	(label "VDDQ_local"
 		(at 203.2 91.44 0)
 		(fields_autoplaced yes)
 		(effects
