@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "sodimm-ddr5-tester")(type "KiCad")(uri "${KIPRJMOD}/lib/sodimm-ddr5-tester.kicad_sym")(options "")(descr ""))
-)

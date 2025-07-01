@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f615b7f9-71a6-4d50-ae2c-96b2e5b2e861")
 	(paper "A3")
 	(title_block
@@ -13,8 +13,12 @@
 	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -217,10 +221,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0402:C_220n_16V_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -423,10 +432,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0402:C_22p_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -629,10 +643,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0402:C_4u7_25V_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -835,10 +854,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitors0603:C_22u_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1041,10 +1065,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroCapacitorsmisc:C_22u_25V_0805"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1256,6 +1285,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroDCDCConverters:MP8796B"
 			(exclude_from_sim no)
@@ -1395,35 +1425,18 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 0 -15.24 0)
+				(pin passive line
+					(at 0 0 0)
 					(length 2.54)
-					(name "PG"
+					(hide yes)
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "PASS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1449,6 +1462,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "PASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 0 -10.16 0)
 					(length 2.54)
@@ -1467,35 +1498,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -33.02 180)
+				(pin input line
+					(at 0 -12.7 0)
 					(length 2.54)
-					(name "P_{GND}"
+					(name "CTRL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -33.02 180)
-					(length 2.54) hide
-					(name "P_{GND}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1503,17 +1516,35 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54) hide
-					(name "IN"
+				(pin open_collector line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -20.32 0)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1539,17 +1570,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -25.4 180)
+				(pin open_collector line
+					(at 0 -30.48 0)
 					(length 2.54)
-					(name "ADDR"
+					(name "~{ALT}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "18"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1557,17 +1588,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -17.78 180)
+				(pin open_collector line
+					(at 0 -33.02 0)
 					(length 2.54)
-					(name "I_{SUM}"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1575,107 +1606,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -5.08 180)
+				(pin open_collector line
+					(at 0 -35.56 0)
 					(length 2.54)
-					(name "SW"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -27.94 180)
-					(length 2.54)
-					(name "I_{REF}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -15.24 180)
-					(length 2.54)
-					(name "V_{OSNS}-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 2.54)
-					(name "V_{OSNS}+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -35.56 180)
-					(length 2.54)
-					(name "A_{GND}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -20.32 0)
-					(length 2.54)
-					(name "V_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1703,7 +1644,26 @@
 				)
 				(pin passive line
 					(at 25.4 -5.08 180)
-					(length 2.54) hide
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 2.54)
+					(hide yes)
 					(name "SW"
 						(effects
 							(font
@@ -1720,16 +1680,52 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -33.02 180)
-					(length 2.54) hide
-					(name "P_{GND}"
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "V_{OSNS}+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 2.54)
+					(name "V_{OSNS}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 2.54)
+					(name "I_{SUM}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1755,17 +1751,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 0 -35.56 0)
+				(pin passive line
+					(at 25.4 -25.4 180)
 					(length 2.54)
-					(name "SCL"
+					(name "ADDR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1773,17 +1769,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 0 -33.02 0)
+				(pin passive line
+					(at 25.4 -27.94 180)
 					(length 2.54)
-					(name "SDA"
+					(name "I_{REF}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1791,17 +1787,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 0 -30.48 0)
+				(pin power_in line
+					(at 25.4 -33.02 180)
 					(length 2.54)
-					(name "~{ALT}"
+					(name "P_{GND}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1809,17 +1805,55 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -12.7 0)
+				(pin passive line
+					(at 25.4 -33.02 180)
 					(length 2.54)
-					(name "CTRL"
+					(hide yes)
+					(name "P_{GND}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -33.02 180)
+					(length 2.54)
+					(hide yes)
+					(name "P_{GND}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -35.56 180)
+					(length 2.54)
+					(name "A_{GND}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1828,10 +1862,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroFixedInductors:L_150n_30A_WE-HCM-7050"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1984,20 +2023,8 @@
 			)
 			(symbol "L_150n_30A_WE-HCM-7050_0_1"
 				(arc
-					(start 1.524 0)
+					(start 0.508 0)
 					(mid 1.016 0.5058)
-					(end 0.508 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 2.032 0.5058)
 					(end 1.524 0)
 					(stroke
 						(width 0)
@@ -2008,8 +2035,8 @@
 					)
 				)
 				(arc
-					(start 3.556 0)
-					(mid 3.048 0.5058)
+					(start 1.524 0)
+					(mid 2.032 0.5058)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -2020,9 +2047,21 @@
 					)
 				)
 				(arc
-					(start 4.572 0)
-					(mid 4.064 0.5058)
+					(start 2.54 0)
+					(mid 3.048 0.5058)
 					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 4.064 0.5058)
+					(end 4.572 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -2070,10 +2109,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_0R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2264,10 +2308,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_10R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2447,10 +2496,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_15k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2630,10 +2684,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_3k4_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2813,10 +2872,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_47k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2996,10 +3060,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_4k99_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3179,10 +3248,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_60k4_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3362,10 +3436,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0402:R_8k16_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3545,10 +3624,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroResistors0603:R_0R_22.4A_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3737,9 +3821,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroShuntsJumpers:Net-Tie_P0.127mm"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -3896,9 +3983,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroTestPoints:TP_1mm_SMD"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -4034,6 +4124,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:+0V85"
 			(power)
@@ -4102,7 +4193,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4114,7 +4205,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4128,7 +4219,8 @@
 			(symbol "+0V85_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+0V85"
 						(effects
 							(font
@@ -4145,11 +4237,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4259,12 +4356,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4346,6 +4448,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:VDC"
 			(power)
@@ -4414,7 +4517,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4426,7 +4529,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4440,7 +4543,8 @@
 			(symbol "VDC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VDC"
 						(effects
 							(font
@@ -4457,7 +4561,89 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "DC-DC INT"
+		(exclude_from_sim no)
+		(at 16.51 20.32 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "54228bfd-9614-4ec3-8782-c6e1abd7e198")
+	)
+	(text "MP8796BGVT-0000-Z selected due to its wide availability on the market\nReplace with MPQ8655GVT when it becomes available on the market"
+		(exclude_from_sim no)
+		(at 146.05 138.43 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5edae7fb-090f-47f1-85c3-ad68ccc2b15d")
+	)
+	(text "I2C: 0x31 (not available as PS is enabled)"
+		(exclude_from_sim no)
+		(at 115.316 241.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f417c66-2623-4b13-b56b-af3c00cc41d1")
+	)
+	(text "I2C: 0x30"
+		(exclude_from_sim no)
+		(at 186.69 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cda4b2b-84a3-41b9-8fab-461059538f9b")
+	)
+	(text "remove after bringup"
+		(exclude_from_sim no)
+		(at 343.535 200.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0529645-a62b-4dfe-854f-5914e20a9a5d")
+	)
+	(text "Second phase is for VCCINT > 20A applications\nDo Not Populate if not required \n(place R188 instead)\n"
+		(exclude_from_sim no)
+		(at 16.51 162.56 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5a17501-5cdc-4e22-ba1b-e41def71d618")
+	)
+	(text "Pin compatible PN: MPQ8645P, MPQ8655GVT"
+		(exclude_from_sim no)
+		(at 163.83 144.78 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d79a3978-3179-4c61-a041-09495b15b7e8")
 	)
 	(junction
 		(at 246.38 96.52)
@@ -7217,90 +7403,8 @@
 		)
 		(uuid "ffdfd6ba-b8e1-4077-8953-5f83c07eb77f")
 	)
-	(text "DC-DC INT"
-		(exclude_from_sim no)
-		(at 16.51 20.32 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "54228bfd-9614-4ec3-8782-c6e1abd7e198")
-	)
-	(text "MP8796BGVT-0000-Z selected due to its wide availability on the market\nReplace with MPQ8655GVT when it becomes available on the market"
-		(exclude_from_sim no)
-		(at 146.05 138.43 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "5edae7fb-090f-47f1-85c3-ad68ccc2b15d")
-	)
-	(text "I2C: 0x31 (not available as PS is enabled)"
-		(exclude_from_sim no)
-		(at 115.316 241.046 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f417c66-2623-4b13-b56b-af3c00cc41d1")
-	)
-	(text "I2C: 0x30"
-		(exclude_from_sim no)
-		(at 186.69 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cda4b2b-84a3-41b9-8fab-461059538f9b")
-	)
-	(text "remove after bringup"
-		(exclude_from_sim no)
-		(at 343.535 200.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0529645-a62b-4dfe-854f-5914e20a9a5d")
-	)
-	(text "Second phase is for VCCINT > 20A applications\nDo Not Populate if not required \n(place R188 instead)\n"
-		(exclude_from_sim no)
-		(at 16.51 162.56 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5a17501-5cdc-4e22-ba1b-e41def71d618")
-	)
-	(text "Pin compatible PN: MPQ8645P, MPQ8655GVT"
-		(exclude_from_sim no)
-		(at 163.83 144.78 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "d79a3978-3179-4c61-a041-09495b15b7e8")
-	)
 	(label "V_{0SNS+}"
 		(at 213.36 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7311,7 +7415,6 @@
 	)
 	(label "I_{SUM}"
 		(at 163.83 217.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7322,7 +7425,6 @@
 	)
 	(label "V_{CC}"
 		(at 109.22 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7333,7 +7435,6 @@
 	)
 	(label "PWR.~{ALT}1"
 		(at 165.1 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7344,7 +7445,6 @@
 	)
 	(label "PASS0"
 		(at 138.43 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7355,7 +7455,6 @@
 	)
 	(label "SET"
 		(at 172.72 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7366,7 +7465,6 @@
 	)
 	(label "V_{CC}"
 		(at 121.92 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7377,7 +7475,6 @@
 	)
 	(label "SET"
 		(at 127 209.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,7 +7485,6 @@
 	)
 	(label "TAKE0"
 		(at 100.33 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,7 +7495,6 @@
 	)
 	(label "V_{0SNS+}"
 		(at 328.93 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7410,7 +7505,6 @@
 	)
 	(label "V_{0SNS+}"
 		(at 167.64 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7421,7 +7515,6 @@
 	)
 	(label "VREF-"
 		(at 328.93 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7432,7 +7525,6 @@
 	)
 	(label "V_{CC}"
 		(at 226.06 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7443,7 +7535,6 @@
 	)
 	(label "V_{CC}"
 		(at 175.26 212.09 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7454,7 +7545,6 @@
 	)
 	(label "PASS1"
 		(at 82.55 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7465,7 +7555,6 @@
 	)
 	(label "PASS0"
 		(at 82.55 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7476,7 +7565,6 @@
 	)
 	(label "TAKE0"
 		(at 138.43 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7487,7 +7575,6 @@
 	)
 	(label "TAKE1"
 		(at 100.33 224.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7498,7 +7585,6 @@
 	)
 	(label "~{PS}"
 		(at 119.38 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7509,7 +7595,6 @@
 	)
 	(label "VREF-"
 		(at 167.64 214.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7520,7 +7605,6 @@
 	)
 	(label "~{PS}"
 		(at 100.33 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7531,7 +7615,6 @@
 	)
 	(label "0V85_REG0"
 		(at 346.71 185.42 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7542,7 +7625,6 @@
 	)
 	(label "VREF-"
 		(at 213.36 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7553,7 +7635,6 @@
 	)
 	(label "PWR.~{ALT}2"
 		(at 119.38 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7564,7 +7645,6 @@
 	)
 	(label "VREF+"
 		(at 360.68 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7575,7 +7655,6 @@
 	)
 	(label "EN1"
 		(at 127 212.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7586,7 +7665,6 @@
 	)
 	(label "TAKE1"
 		(at 127 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7597,7 +7675,6 @@
 	)
 	(label "TAKE0"
 		(at 172.72 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7608,7 +7685,6 @@
 	)
 	(label "I_{SUM}"
 		(at 209.55 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,7 +7695,6 @@
 	)
 	(label "PASS1"
 		(at 127 207.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7630,7 +7705,6 @@
 	)
 	(label "V_{CC}"
 		(at 154.94 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7641,7 +7715,6 @@
 	)
 	(label "TAKE0"
 		(at 120.65 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,7 +7725,6 @@
 	)
 	(label "0V85_REG1"
 		(at 213.36 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7663,7 +7735,6 @@
 	)
 	(label "V_{CC}"
 		(at 82.55 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7674,7 +7745,6 @@
 	)
 	(label "PASS0"
 		(at 172.72 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7685,7 +7755,6 @@
 	)
 	(label "0V85_REG0"
 		(at 259.08 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7739,7 +7808,6 @@
 	(hierarchical_label "PWR.SDA"
 		(shape input)
 		(at 170.18 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7751,7 +7819,6 @@
 	(hierarchical_label "EN1"
 		(shape input)
 		(at 177.8 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7763,7 +7830,6 @@
 	(hierarchical_label "PWR.SCL"
 		(shape input)
 		(at 170.18 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7775,7 +7841,6 @@
 	(hierarchical_label "PWR.SDA"
 		(shape input)
 		(at 124.46 232.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7787,7 +7852,6 @@
 	(hierarchical_label "PWR.SCL"
 		(shape input)
 		(at 124.46 234.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

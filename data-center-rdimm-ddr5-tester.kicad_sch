@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1faa6543-e26a-4449-8bac-ee14b9f19e5f")
 	(paper "A3")
 	(title_block
@@ -13,7 +13,9 @@
 	)
 	(lib_symbols
 		(symbol "antmicroMechanicalParts:Heatsink_ATS-61500R-C2-R0"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -146,6 +148,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:Lightpipe_Mentor_1296.2013"
 			(exclude_from_sim no)
@@ -267,16 +270,6 @@
 						(type background)
 					)
 				)
-				(text "1x3"
-					(at -1.905 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(thickness 0.15)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "Horizontal"
 					(at -5.08 1.524 0)
 					(effects
@@ -297,7 +290,18 @@
 						(justify left bottom)
 					)
 				)
+				(text "1x3"
+					(at -1.905 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.15)
+						)
+						(justify left bottom)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "DDR5_RDIMM"
@@ -344,6 +348,65 @@
 	)
 	(bus_alias "USB"
 		(members "D+")
+	)
+	(text "FPGA\nArtix US+\nXCAU25P"
+		(exclude_from_sim no)
+		(at 201.295 141.605 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a6527e-e1aa-44cf-8475-29b61f391a28")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 177.8 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "073e5ff3-2f30-4094-945e-fd3720ab91a8")
+	)
+	(text "Mechanical"
+		(exclude_from_sim no)
+		(at 254 256.54 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "baa2abd5-608c-4859-820a-c9430f16009c")
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 171.45 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db2d24d8-2cc3-4834-a0c1-5f56faba7aa3")
+	)
+	(text "RDIMM DDR5 Tester"
+		(exclude_from_sim no)
+		(at 181.61 33.02 0)
+		(effects
+			(font
+				(size 3.9878 3.9878)
+				(thickness 0.7976)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f82ea12b-8c64-4a5b-ac57-b419a8621567")
 	)
 	(junction
 		(at 142.24 217.17)
@@ -3398,65 +3461,6 @@
 			"bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII="
 		)
 	)
-	(text "FPGA\nArtix US+\nXCAU25P"
-		(exclude_from_sim no)
-		(at 201.295 141.605 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "06a6527e-e1aa-44cf-8475-29b61f391a28")
-	)
-	(text "JTAG"
-		(exclude_from_sim no)
-		(at 177.8 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "073e5ff3-2f30-4094-945e-fd3720ab91a8")
-	)
-	(text "Mechanical"
-		(exclude_from_sim no)
-		(at 254 256.54 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "baa2abd5-608c-4859-820a-c9430f16009c")
-	)
-	(text "Status LEDs"
-		(exclude_from_sim no)
-		(at 171.45 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db2d24d8-2cc3-4834-a0c1-5f56faba7aa3")
-	)
-	(text "RDIMM DDR5 Tester"
-		(exclude_from_sim no)
-		(at 181.61 33.02 0)
-		(effects
-			(font
-				(size 3.9878 3.9878)
-				(thickness 0.7976)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f82ea12b-8c64-4a5b-ac57-b419a8621567")
-	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Heatsink_ATS-61500R-C2-R0")
 		(at 255.27 262.89 0)
@@ -3688,6 +3692,10 @@
 	(sheet
 		(at 71.12 82.55)
 		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -3717,13 +3725,13 @@
 		)
 		(pin "ETH{RGMII}" bidirectional
 			(at 109.22 87.63 0)
+			(uuid "af9ccb9a-6053-40a5-994d-0efa33279ace")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "af9ccb9a-6053-40a5-994d-0efa33279ace")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -3736,6 +3744,10 @@
 	(sheet
 		(at 146.05 120.65)
 		(size 38.1 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -3765,33 +3777,33 @@
 		)
 		(pin "JTAG{JTAG}" bidirectional
 			(at 146.05 148.59 180)
+			(uuid "af1da9f9-3346-47e5-b1fb-1b1a0ce1e1e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af1da9f9-3346-47e5-b1fb-1b1a0ce1e1e8")
 		)
 		(pin "FLASH{QSPI}" bidirectional
 			(at 146.05 130.81 180)
+			(uuid "77960253-7da4-4411-8cd5-a36d05fd6c5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "77960253-7da4-4411-8cd5-a36d05fd6c5d")
 		)
 		(pin "FPGA_PWR{I^{2}C}" bidirectional
 			(at 146.05 195.58 180)
+			(uuid "da99128f-b5c6-43ae-bd93-6c1013bcbae5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "da99128f-b5c6-43ae-bd93-6c1013bcbae5")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -3804,6 +3816,10 @@
 	(sheet
 		(at 71.12 114.3)
 		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -3833,23 +3849,23 @@
 		)
 		(pin "HyperRAM{HyperBus}" bidirectional
 			(at 109.22 116.84 0)
+			(uuid "1a383927-72d3-4a25-8c54-26c68f327d7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1a383927-72d3-4a25-8c54-26c68f327d7d")
 		)
 		(pin "FLASH{QSPI}" bidirectional
 			(at 109.22 130.81 0)
+			(uuid "f98fcef1-f367-4013-a1ed-db076911e21d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f98fcef1-f367-4013-a1ed-db076911e21d")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -3862,6 +3878,10 @@
 	(sheet
 		(at 234.95 114.3)
 		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -3900,6 +3920,10 @@
 	(sheet
 		(at 71.12 146.05)
 		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -3929,53 +3953,53 @@
 		)
 		(pin "UART1{UART}" bidirectional
 			(at 109.22 156.21 0)
+			(uuid "6faca155-a1eb-4009-9c91-7ff8ad967558")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6faca155-a1eb-4009-9c91-7ff8ad967558")
 		)
 		(pin "AUX{JTAG}" bidirectional
 			(at 109.22 151.13 0)
+			(uuid "9a931614-8375-43d0-89f8-1edd25851fc4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9a931614-8375-43d0-89f8-1edd25851fc4")
 		)
 		(pin "UART0{UART}" bidirectional
 			(at 109.22 153.67 0)
+			(uuid "c10e16e7-381d-4cd4-81a3-00d944aa5861")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c10e16e7-381d-4cd4-81a3-00d944aa5861")
 		)
 		(pin "JTAG{JTAG}" bidirectional
 			(at 109.22 148.59 0)
+			(uuid "30911314-0ce3-45a8-b3ff-3c73c19a3bca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "30911314-0ce3-45a8-b3ff-3c73c19a3bca")
 		)
 		(pin "FTDI{I^{2}C}" bidirectional
 			(at 109.22 158.75 0)
+			(uuid "5f12c6fb-2a44-464c-971d-1f5cf2265eb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f12c6fb-2a44-464c-971d-1f5cf2265eb7")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -3988,6 +4012,10 @@
 	(sheet
 		(at 295.91 50.8)
 		(size 38.1 177.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -4017,13 +4045,13 @@
 		)
 		(pin "PWR{I^{2}C}" bidirectional
 			(at 334.01 226.06 0)
+			(uuid "6ac9621c-a76b-42c1-9522-bf3a9d4d5784")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6ac9621c-a76b-42c1-9522-bf3a9d4d5784")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4036,6 +4064,10 @@
 	(sheet
 		(at 144.78 50.8)
 		(size 128.27 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -4065,43 +4097,43 @@
 		)
 		(pin "DDR{I^{2}C}" bidirectional
 			(at 144.78 53.34 180)
+			(uuid "fb829ad9-885e-4164-8e2f-f00f30c33ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fb829ad9-885e-4164-8e2f-f00f30c33ab2")
 		)
 		(pin "CTRL{DDR5_RDIMM}" input
 			(at 273.05 67.31 0)
+			(uuid "8fa24c07-5bae-4cde-aff5-cd37b558394f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8fa24c07-5bae-4cde-aff5-cd37b558394f")
 		)
 		(pin "B{DDR5_RDIMM}" input
 			(at 273.05 64.77 0)
+			(uuid "02c4ad68-9dcc-4a8a-9df1-81257c95ed38")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02c4ad68-9dcc-4a8a-9df1-81257c95ed38")
 		)
 		(pin "A{DDR5_RDIMM}" input
 			(at 273.05 62.23 0)
+			(uuid "23d925a1-f365-44fb-9d13-d6c2d6395737")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "23d925a1-f365-44fb-9d13-d6c2d6395737")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4114,6 +4146,10 @@
 	(sheet
 		(at 210.82 82.55)
 		(size 62.23 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -4143,63 +4179,63 @@
 		)
 		(pin "B{DDR5_RDIMM}" input
 			(at 273.05 87.63 0)
+			(uuid "46ee3b24-5780-4e7f-af7b-c4c265bae851")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "46ee3b24-5780-4e7f-af7b-c4c265bae851")
 		)
 		(pin "A{DDR5_RDIMM}" input
 			(at 273.05 90.17 0)
+			(uuid "75628ac5-540f-43ba-811b-cbcbe2de2686")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "75628ac5-540f-43ba-811b-cbcbe2de2686")
 		)
 		(pin "CTRL{DDR5_RDIMM}" input
 			(at 273.05 85.09 0)
+			(uuid "77ccb0bb-642c-4042-8d29-68335ac15f4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "77ccb0bb-642c-4042-8d29-68335ac15f4c")
 		)
 		(pin "ETH{RGMII}" bidirectional
 			(at 273.05 96.52 0)
+			(uuid "97b26a62-b7ed-451e-afee-f7b6e1419ca1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "97b26a62-b7ed-451e-afee-f7b6e1419ca1")
 		)
 		(pin "HyperRAM{HyperBus}" bidirectional
 			(at 273.05 93.98 0)
+			(uuid "a358daf5-56bb-425a-a860-231e5fa0b195")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a358daf5-56bb-425a-a860-231e5fa0b195")
 		)
 		(pin "SD{SDIO}" bidirectional
 			(at 273.05 99.06 0)
+			(uuid "0bde8625-41b4-46d3-809e-5d3ceba2c464")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0bde8625-41b4-46d3-809e-5d3ceba2c464")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4212,6 +4248,10 @@
 	(sheet
 		(at 146.05 82.55)
 		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4241,93 +4281,93 @@
 		)
 		(pin "FPGA_PWR{I^{2}C}" bidirectional
 			(at 146.05 102.87 180)
+			(uuid "ad146123-6622-4b6d-8683-28ae8cf40fad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ad146123-6622-4b6d-8683-28ae8cf40fad")
 		)
 		(pin "FPGA_DDR{I^{2}C}" bidirectional
 			(at 146.05 100.33 180)
+			(uuid "ad3aef55-57df-4037-b5a6-b9fb892a5999")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ad3aef55-57df-4037-b5a6-b9fb892a5999")
 		)
 		(pin "AUX{JTAG}" bidirectional
 			(at 146.05 87.63 180)
+			(uuid "14f870d0-6505-45fd-8f81-f3d43e08c432")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14f870d0-6505-45fd-8f81-f3d43e08c432")
 		)
 		(pin "UART1{UART}" bidirectional
 			(at 146.05 92.71 180)
+			(uuid "58f00891-b610-4e7f-9251-fe00d3aaa4c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58f00891-b610-4e7f-9251-fe00d3aaa4c5")
 		)
 		(pin "HDMI_OUT_I2C{I^{2}C}" bidirectional
 			(at 146.05 109.22 180)
+			(uuid "8aee9b5b-29bf-4a1b-a1c4-1d7ddadbe6f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8aee9b5b-29bf-4a1b-a1c4-1d7ddadbe6f2")
 		)
 		(pin "HDMI_CTL{I^{2}C}" bidirectional
 			(at 146.05 111.76 180)
+			(uuid "6b47a6ef-6ff6-4c28-bd59-6ebb7fe19d77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6b47a6ef-6ff6-4c28-bd59-6ebb7fe19d77")
 		)
 		(pin "UART0{UART}" bidirectional
 			(at 146.05 90.17 180)
+			(uuid "af0bfc45-f773-46a8-ba9f-f125ceb857c9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "af0bfc45-f773-46a8-ba9f-f125ceb857c9")
 		)
 		(pin "HDMI_IN_I2C{I^{2}C}" bidirectional
 			(at 146.05 106.68 180)
+			(uuid "c5e894b7-ef92-400f-a861-2a6c4ed42ffd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5e894b7-ef92-400f-a861-2a6c4ed42ffd")
 		)
 		(pin "FPGA_I3C{I^{2}C}" bidirectional
 			(at 146.05 97.79 180)
+			(uuid "b1130b7e-6d41-4a30-bdcb-8a77d73cfb02")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1130b7e-6d41-4a30-bdcb-8a77d73cfb02")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4340,6 +4380,10 @@
 	(sheet
 		(at 71.12 177.8)
 		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4369,63 +4413,63 @@
 		)
 		(pin "FPGA_DDR{I^{2}C}" bidirectional
 			(at 109.22 193.04 0)
+			(uuid "116aaf81-8e53-4652-9e82-d7f976f869a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "116aaf81-8e53-4652-9e82-d7f976f869a7")
 		)
 		(pin "FPGA_PWR{I^{2}C}" bidirectional
 			(at 109.22 195.58 0)
+			(uuid "df0480eb-2c08-498d-90bf-33da4f09f6d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df0480eb-2c08-498d-90bf-33da4f09f6d5")
 		)
 		(pin "FTDI{I^{2}C}" bidirectional
 			(at 109.22 180.34 0)
+			(uuid "be897da0-b482-4c01-8a23-bd0bc262891b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be897da0-b482-4c01-8a23-bd0bc262891b")
 		)
 		(pin "PWR{I^{2}C}" bidirectional
 			(at 71.12 194.31 180)
+			(uuid "f55265a8-e0a7-4190-a01d-9674f1dd7906")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f55265a8-e0a7-4190-a01d-9674f1dd7906")
 		)
 		(pin "DDR{I^{2}C}" bidirectional
 			(at 71.12 180.34 180)
+			(uuid "445b0d56-3a02-4f46-a4d2-7ef65bc4832e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "445b0d56-3a02-4f46-a4d2-7ef65bc4832e")
 		)
 		(pin "FPGA_I3C{I^{2}C}" bidirectional
 			(at 109.22 190.5 0)
+			(uuid "d2134c81-2760-4447-b4ef-6e780941cef6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d2134c81-2760-4447-b4ef-6e780941cef6")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4438,6 +4482,10 @@
 	(sheet
 		(at 71.12 209.55)
 		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4467,63 +4515,63 @@
 		)
 		(pin "SD{SDIO}" bidirectional
 			(at 109.22 226.06 0)
+			(uuid "8999a397-546c-49a8-b938-64ca6288cca1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8999a397-546c-49a8-b938-64ca6288cca1")
 		)
 		(pin "HDMI_OUT{TMDS}" bidirectional
 			(at 109.22 219.71 0)
+			(uuid "52d59fd5-5439-4278-9971-a95537aee4b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52d59fd5-5439-4278-9971-a95537aee4b7")
 		)
 		(pin "HDMI_IN{TMDS}" bidirectional
 			(at 109.22 222.25 0)
+			(uuid "5e2bd969-6aac-4b5b-b0a0-1fcb70a9a1a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5e2bd969-6aac-4b5b-b0a0-1fcb70a9a1a8")
 		)
 		(pin "HDMI_CTL{I^{2}C}" bidirectional
 			(at 109.22 217.17 0)
+			(uuid "f44f1266-e560-4b8d-aadf-b7152fa9953b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f44f1266-e560-4b8d-aadf-b7152fa9953b")
 		)
 		(pin "HDMI_OUT_I2C{I^{2}C}" bidirectional
 			(at 109.22 214.63 0)
+			(uuid "772d86d8-6c78-4d8e-82c1-80905a86cdc8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "772d86d8-6c78-4d8e-82c1-80905a86cdc8")
 		)
 		(pin "HDMI_IN_I2C{I^{2}C}" bidirectional
 			(at 109.22 212.09 0)
+			(uuid "042ff9b4-5fa5-4c6b-8d45-555c5d95c336")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "042ff9b4-5fa5-4c6b-8d45-555c5d95c336")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4536,6 +4584,10 @@
 	(sheet
 		(at 234.95 146.05)
 		(size 38.1 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4565,43 +4617,43 @@
 		)
 		(pin "PCIE{PCIe_x8}" bidirectional
 			(at 273.05 194.31 0)
+			(uuid "42c94e54-8daf-472b-b788-94861b04e07e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "42c94e54-8daf-472b-b788-94861b04e07e")
 		)
 		(pin "HDMI_OUT{TMDS}" bidirectional
 			(at 273.05 154.94 0)
+			(uuid "df10ba64-a570-45d6-a642-1dface9a8243")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df10ba64-a570-45d6-a642-1dface9a8243")
 		)
 		(pin "HDMI_IN{TMDS}" bidirectional
 			(at 273.05 152.4 0)
+			(uuid "c679da32-8777-4f48-ad9e-66891c086393")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c679da32-8777-4f48-ad9e-66891c086393")
 		)
 		(pin "HDMI_CTL{I^{2}C}" bidirectional
 			(at 273.05 157.48 0)
+			(uuid "c5d1b7c8-d090-48b9-96a2-615aa95ca4d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c5d1b7c8-d090-48b9-96a2-615aa95ca4d6")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4614,6 +4666,10 @@
 	(sheet
 		(at 147.32 205.74)
 		(size 127 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4643,13 +4699,13 @@
 		)
 		(pin "PCIE{PCIe_x8}" tri_state
 			(at 274.32 208.28 0)
+			(uuid "9633c917-3631-43d7-823e-819b409afb52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9633c917-3631-43d7-823e-819b409afb52")
 		)
 		(instances
 			(project "data-center-rdimm-ddr5-tester"
@@ -4664,4 +4720,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
