@@ -1,0 +1,4660 @@
+{
+    "_boardAhid": "data-center-rdimm-ddr5-tester",
+    "_repository": "antmicro-rdimm-ddr5-tester-hw",
+    "_branch": "add-ci",
+    "C6": {
+        "posx": "150.400000",
+        "posy": "86.720000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C7": {
+        "posx": "142.800000",
+        "posy": "88.000000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C12": {
+        "posx": "116.440000",
+        "posy": "42.300000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kemet-t520d108m2r5ate030"
+    },
+    "C21": {
+        "posx": "119.325000",
+        "posy": "16.900000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C25": {
+        "posx": "107.290002",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kemet-t520b337m006ate040"
+    },
+    "C28": {
+        "posx": "119.325001",
+        "posy": "15.030001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C29": {
+        "posx": "31.726000",
+        "posy": "32.148000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C32": {
+        "posx": "111.600002",
+        "posy": "42.300000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kemet-t520d108m2r5ate030"
+    },
+    "C66": {
+        "posx": "121.290002",
+        "posy": "42.300000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kemet-t520d108m2r5ate030"
+    },
+    "C109": {
+        "posx": "9.273499",
+        "posy": "63.401000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C110": {
+        "posx": "33.815000",
+        "posy": "38.215000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C111": {
+        "posx": "37.184328",
+        "posy": "46.703843",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl05c180jb51pnc"
+    },
+    "C112": {
+        "posx": "34.813500",
+        "posy": "42.716000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C113": {
+        "posx": "14.773499",
+        "posy": "63.617000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r60j106me15d"
+    },
+    "C114": {
+        "posx": "34.813500",
+        "posy": "38.216000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C115": {
+        "posx": "40.396843",
+        "posy": "46.698672",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C116": {
+        "posx": "33.815000",
+        "posy": "42.715000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C117": {
+        "posx": "32.648000",
+        "posy": "48.076000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl05c180jb51pnc"
+    },
+    "C118": {
+        "posx": "42.971843",
+        "posy": "46.708672",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C119": {
+        "posx": "41.024499",
+        "posy": "33.651000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C120": {
+        "posx": "48.592843",
+        "posy": "40.483672",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C121": {
+        "posx": "39.624499",
+        "posy": "33.601000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C122": {
+        "posx": "48.591843",
+        "posy": "36.983672",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C123": {
+        "posx": "38.396843",
+        "posy": "46.698672",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C124": {
+        "posx": "39.674499",
+        "posy": "31.551000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C125": {
+        "posx": "44.051843",
+        "posy": "46.708672",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C126": {
+        "posx": "15.781000",
+        "posy": "27.815000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r60j106me15d"
+    },
+    "C128": {
+        "posx": "36.124499",
+        "posy": "24.251000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C130": {
+        "posx": "50.375499",
+        "posy": "33.667000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C131": {
+        "posx": "50.375499",
+        "posy": "31.533000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C132": {
+        "posx": "13.026000",
+        "posy": "31.165500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C133": {
+        "posx": "9.349499",
+        "posy": "54.136000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C138": {
+        "posx": "29.625000",
+        "posy": "60.192149",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C147": {
+        "posx": "28.525000",
+        "posy": "60.192149",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C149": {
+        "posx": "29.625000",
+        "posy": "62.517843",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C150": {
+        "posx": "29.625000",
+        "posy": "56.670000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C154": {
+        "posx": "43.725000",
+        "posy": "57.792149",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C157": {
+        "posx": "42.625000",
+        "posy": "57.792149",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C159": {
+        "posx": "41.525000",
+        "posy": "57.792149",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C162": {
+        "posx": "45.125000",
+        "posy": "64.092149",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl05c180jb51pnc"
+    },
+    "C163": {
+        "posx": "43.925000",
+        "posy": "59.292149",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl05c180jb51pnc"
+    },
+    "C165": {
+        "posx": "142.980000",
+        "posy": "70.380000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C166": {
+        "posx": "135.570000",
+        "posy": "70.380000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C169": {
+        "posx": "150.400000",
+        "posy": "82.000000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C171": {
+        "posx": "161.020000",
+        "posy": "29.790500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C173": {
+        "posx": "162.905500",
+        "posy": "47.329000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C175": {
+        "posx": "143.047000",
+        "posy": "78.343901",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C176": {
+        "posx": "52.730000",
+        "posy": "9.200000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C178": {
+        "posx": "160.955500",
+        "posy": "47.329000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C179": {
+        "posx": "142.400000",
+        "posy": "73.343901",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl10a105ka8nnnc"
+    },
+    "C180": {
+        "posx": "52.910000",
+        "posy": "14.165000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl10a105ka8nnnc"
+    },
+    "C181": {
+        "posx": "151.337998",
+        "posy": "74.311000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl10a105ka8nnnc"
+    },
+    "C182": {
+        "posx": "162.900000",
+        "posy": "29.790500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C183": {
+        "posx": "150.350000",
+        "posy": "28.728000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C184": {
+        "posx": "148.793000",
+        "posy": "46.179000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C185": {
+        "posx": "150.293000",
+        "posy": "48.779000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C186": {
+        "posx": "148.870000",
+        "posy": "31.327999",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C187": {
+        "posx": "148.870000",
+        "posy": "28.727999",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C188": {
+        "posx": "150.350000",
+        "posy": "31.327999",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C189": {
+        "posx": "157.605500",
+        "posy": "35.200000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C190": {
+        "posx": "150.293000",
+        "posy": "46.179000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C191": {
+        "posx": "148.793000",
+        "posy": "48.779000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C192": {
+        "posx": "157.149499",
+        "posy": "52.529000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C193": {
+        "posx": "157.500000",
+        "posy": "42.129000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C194": {
+        "posx": "156.825000",
+        "posy": "73.775000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C196": {
+        "posx": "141.774499",
+        "posy": "17.601000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C197": {
+        "posx": "141.774499",
+        "posy": "21.351000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C198": {
+        "posx": "130.200000",
+        "posy": "41.350000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C199": {
+        "posx": "141.774499",
+        "posy": "28.430000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C206": {
+        "posx": "141.774499",
+        "posy": "47.391500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C207": {
+        "posx": "141.774499",
+        "posy": "38.300000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C208": {
+        "posx": "122.980000",
+        "posy": "21.960000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155c61e475me15j"
+    },
+    "C210": {
+        "posx": "133.465001",
+        "posy": "21.975000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155c61e475me15j"
+    },
+    "C211": {
+        "posx": "121.290000",
+        "posy": "23.520000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C213": {
+        "posx": "132.000000",
+        "posy": "23.525000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C214": {
+        "posx": "141.774499",
+        "posy": "33.990000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C215": {
+        "posx": "123.150000",
+        "posy": "23.850000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r71c224ka12d"
+    },
+    "C216": {
+        "posx": "133.465001",
+        "posy": "23.909000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r71c224ka12d"
+    },
+    "C217": {
+        "posx": "115.659999",
+        "posy": "23.495000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155c61e475me15j"
+    },
+    "C218": {
+        "posx": "126.365000",
+        "posy": "23.514999",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155c61e475me15j"
+    },
+    "C219": {
+        "posx": "121.955000",
+        "posy": "33.970000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C220": {
+        "posx": "121.955000",
+        "posy": "32.590001",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C221": {
+        "posx": "132.650000",
+        "posy": "32.595001",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C225": {
+        "posx": "49.224499",
+        "posy": "8.951000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C260": {
+        "posx": "157.000000",
+        "posy": "24.800000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C262": {
+        "posx": "132.650000",
+        "posy": "33.945000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C265": {
+        "posx": "115.944999",
+        "posy": "32.590001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C266": {
+        "posx": "115.965000",
+        "posy": "33.940000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C267": {
+        "posx": "126.639999",
+        "posy": "32.595001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C271": {
+        "posx": "126.635000",
+        "posy": "33.945000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C273": {
+        "posx": "27.306000",
+        "posy": "26.678000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C274": {
+        "posx": "24.756000",
+        "posy": "16.112500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C277": {
+        "posx": "28.306000",
+        "posy": "26.678000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C278": {
+        "posx": "21.086000",
+        "posy": "26.668000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C280": {
+        "posx": "22.076000",
+        "posy": "26.668000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C281": {
+        "posx": "27.711000",
+        "posy": "16.562500",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C282": {
+        "posx": "20.941000",
+        "posy": "16.562500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C283": {
+        "posx": "26.306000",
+        "posy": "26.678000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C284": {
+        "posx": "20.096000",
+        "posy": "26.668000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C285": {
+        "posx": "63.950000",
+        "posy": "41.545001",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C286": {
+        "posx": "55.670000",
+        "posy": "43.545001",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C287": {
+        "posx": "60.100000",
+        "posy": "45.500001",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C288": {
+        "posx": "64.940000",
+        "posy": "41.545001",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C295": {
+        "posx": "21.500000",
+        "posy": "38.700000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C300": {
+        "posx": "18.190000",
+        "posy": "57.090000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C301": {
+        "posx": "18.190000",
+        "posy": "56.090000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r60j106me15d"
+    },
+    "C308": {
+        "posx": "64.450000",
+        "posy": "39.635001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C309": {
+        "posx": "64.450000",
+        "posy": "38.665001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C313": {
+        "posx": "130.010000",
+        "posy": "16.900000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C314": {
+        "posx": "130.010001",
+        "posy": "15.030001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C320": {
+        "posx": "144.250000",
+        "posy": "16.351000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C322": {
+        "posx": "149.800000",
+        "posy": "16.251000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C325": {
+        "posx": "152.920000",
+        "posy": "20.622000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "D1": {
+        "posx": "9.730000",
+        "posy": "87.975000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "D2": {
+        "posx": "4.640000",
+        "posy": "87.975000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "D3": {
+        "posx": "7.190000",
+        "posy": "87.975000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "D4": {
+        "posx": "13.405000",
+        "posy": "100.475000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D5": {
+        "posx": "10.706000",
+        "posy": "100.476000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D6": {
+        "posx": "8.005000",
+        "posy": "100.475000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D7": {
+        "posx": "5.305000",
+        "posy": "100.475000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D8": {
+        "posx": "2.605000",
+        "posy": "100.475000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D9": {
+        "posx": "157.800000",
+        "posy": "63.875000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "nexperia-pesd5v0x1ub-135"
+    },
+    "D10": {
+        "posx": "35.823499",
+        "posy": "17.151000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D11": {
+        "posx": "37.424499",
+        "posy": "17.151000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D12": {
+        "posx": "39.424499",
+        "posy": "17.151000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D13": {
+        "posx": "41.024499",
+        "posy": "17.151000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "kingbright-kp-1608cgck"
+    },
+    "D14": {
+        "posx": "16.981000",
+        "posy": "28.032000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "vishay-bat54-02v-g3-08"
+    },
+    "D15": {
+        "posx": "47.774500",
+        "posy": "29.766000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "vishay-bat54-02v-g3-08"
+    },
+    "D16": {
+        "posx": "143.449499",
+        "posy": "80.400000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "stmicroelectronics-esda25p35-1u1m"
+    },
+    "D17": {
+        "posx": "16.480000",
+        "posy": "63.617000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "D18": {
+        "posx": "8.840000",
+        "posy": "55.740000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-pesd5v0x1ub-135"
+    },
+    "D19": {
+        "posx": "15.750000",
+        "posy": "50.200000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "nexperia-pesd5v0x1ub-135"
+    },
+    "D20": {
+        "posx": "154.100000",
+        "posy": "57.650000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "kingbright-aptf1616surkcgksykc"
+    },
+    "D21": {
+        "posx": "143.051000",
+        "posy": "86.300000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "D22": {
+        "posx": "143.051000",
+        "posy": "101.100000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "vishay-vlmtg1500-gs08"
+    },
+    "F1": {
+        "posx": "150.400000",
+        "posy": "78.300000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "littelfuse-0466004-nr"
+    },
+    "F2": {
+        "posx": "46.610000",
+        "posy": "10.415000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "littelfuse-0466004-nr"
+    },
+    "F3": {
+        "posx": "143.400000",
+        "posy": "83.100000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "littelfuse-04671-25nr"
+    },
+    "FB1": {
+        "posx": "32.435000",
+        "posy": "37.716000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "murata-blm18ag601sn1d"
+    },
+    "FB2": {
+        "posx": "32.435000",
+        "posy": "43.216000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-blm18ag601sn1d"
+    },
+    "FB3": {
+        "posx": "16.981000",
+        "posy": "30.537500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "murata-blm18pg121sn1d"
+    },
+    "FB6": {
+        "posx": "45.625000",
+        "posy": "58.027851",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-blm18pg121sn1d"
+    },
+    "FB7": {
+        "posx": "20.100000",
+        "posy": "57.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "murata-blm15pd121sn1d"
+    },
+    "J2": {
+        "posx": "88.325000",
+        "posy": "94.403000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "amphenol-ddr504111002kq"
+    },
+    "J3": {
+        "posx": "2.825000",
+        "posy": "58.935000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "gct-usb4105-gf-a"
+    },
+    "J4": {
+        "posx": "4.145000",
+        "posy": "23.485000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "wurth-elektronik-685119134923"
+    },
+    "J5": {
+        "posx": "5.584000",
+        "posy": "41.835000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "wurth-elektronik-693071020811"
+    },
+    "J6": {
+        "posx": "18.114999",
+        "posy": "82.452513",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "te-connectivity-6-2337992-8"
+    },
+    "J7": {
+        "posx": "159.670000",
+        "posy": "83.230000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "wurth-elektronik-694106106102"
+    },
+    "J8": {
+        "posx": "127.150000",
+        "posy": "42.358999",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "jst-automotive-connectors-bm04b-srss-tb-lf-sn"
+    },
+    "J12": {
+        "posx": "155.975000",
+        "posy": "17.725000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "jst-automotive-connectors-bm04b-srss-tb-lf-sn"
+    },
+    "J17": {
+        "posx": "139.550000",
+        "posy": "82.780000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "jst-automotive-connectors-bm02b-srss-tb-lf-sn"
+    },
+    "L1": {
+        "posx": "118.910000",
+        "posy": "27.980000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "wurth-elektronik-744302015"
+    },
+    "L2": {
+        "posx": "129.150000",
+        "posy": "27.975000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "wurth-elektronik-744302015"
+    },
+    "L3": {
+        "posx": "21.025000",
+        "posy": "53.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L4": {
+        "posx": "21.025000",
+        "posy": "54.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L5": {
+        "posx": "21.025000",
+        "posy": "52.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L6": {
+        "posx": "21.025000",
+        "posy": "55.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L7": {
+        "posx": "21.025000",
+        "posy": "48.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L8": {
+        "posx": "21.025000",
+        "posy": "49.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L9": {
+        "posx": "21.025000",
+        "posy": "50.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "L10": {
+        "posx": "21.025000",
+        "posy": "51.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "tdk-mlg1005s20njtd25"
+    },
+    "Q1": {
+        "posx": "21.050000",
+        "posy": "87.263539",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q2": {
+        "posx": "15.100000",
+        "posy": "87.150000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q3": {
+        "posx": "18.100000",
+        "posy": "87.150000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q9": {
+        "posx": "150.274499",
+        "posy": "56.700000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q10": {
+        "posx": "150.274499",
+        "posy": "62.100000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q11": {
+        "posx": "150.274499",
+        "posy": "59.400000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q12": {
+        "posx": "147.125500",
+        "posy": "76.150000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "vishay-si7613dn-t1-ge3"
+    },
+    "Q13": {
+        "posx": "49.780000",
+        "posy": "11.745000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "vishay-si7613dn-t1-ge3"
+    },
+    "Q14": {
+        "posx": "150.269499",
+        "posy": "70.306000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q15": {
+        "posx": "134.350000",
+        "posy": "36.500000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q16": {
+        "posx": "150.274499",
+        "posy": "67.551000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q17": {
+        "posx": "150.274499",
+        "posy": "64.801000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q20": {
+        "posx": "19.430000",
+        "posy": "63.170000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "nexperia-bss84akw-115"
+    },
+    "Q23": {
+        "posx": "147.255000",
+        "posy": "86.960000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "vishay-si7613dn-t1-ge3"
+    },
+    "Q27": {
+        "posx": "154.977500",
+        "posy": "99.932500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "vishay-si7613dn-t1-ge3"
+    },
+    "Q29": {
+        "posx": "147.125500",
+        "posy": "81.450000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "vishay-si7613dn-t1-ge3"
+    },
+    "R11": {
+        "posx": "21.050000",
+        "posy": "89.763539",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R12": {
+        "posx": "18.098000",
+        "posy": "89.780000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R13": {
+        "posx": "15.098000",
+        "posy": "89.780000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R15": {
+        "posx": "150.950000",
+        "posy": "20.622000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R16": {
+        "posx": "14.098000",
+        "posy": "89.767079",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R19": {
+        "posx": "17.088000",
+        "posy": "89.777079",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R23": {
+        "posx": "18.100000",
+        "posy": "47.050000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R24": {
+        "posx": "19.150000",
+        "posy": "53.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R28": {
+        "posx": "19.150000",
+        "posy": "54.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R29": {
+        "posx": "19.150000",
+        "posy": "52.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R30": {
+        "posx": "19.150000",
+        "posy": "55.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R31": {
+        "posx": "19.150000",
+        "posy": "48.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R32": {
+        "posx": "19.150000",
+        "posy": "49.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R33": {
+        "posx": "19.150000",
+        "posy": "50.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R34": {
+        "posx": "19.150000",
+        "posy": "51.090000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4992glf"
+    },
+    "R38": {
+        "posx": "14.806000",
+        "posy": "29.378000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R43": {
+        "posx": "34.324499",
+        "posy": "36.251000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R44": {
+        "posx": "34.176843",
+        "posy": "40.868672",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1202glf"
+    },
+    "R47": {
+        "posx": "38.724499",
+        "posy": "29.651000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R48": {
+        "posx": "37.624499",
+        "posy": "29.651000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R49": {
+        "posx": "36.547342",
+        "posy": "29.652672",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R50": {
+        "posx": "35.424499",
+        "posy": "29.651000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R51": {
+        "posx": "34.124499",
+        "posy": "32.536000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R52": {
+        "posx": "49.899499",
+        "posy": "39.231000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R53": {
+        "posx": "49.899499",
+        "posy": "38.206000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R54": {
+        "posx": "49.904499",
+        "posy": "42.991000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R55": {
+        "posx": "49.904499",
+        "posy": "41.991000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R61": {
+        "posx": "152.785000",
+        "posy": "56.050000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R62": {
+        "posx": "152.785000",
+        "posy": "60.300000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R63": {
+        "posx": "152.785000",
+        "posy": "59.250000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R64": {
+        "posx": "35.824499",
+        "posy": "19.436000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R65": {
+        "posx": "37.424499",
+        "posy": "19.436000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R66": {
+        "posx": "39.424499",
+        "posy": "19.421000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R67": {
+        "posx": "41.024499",
+        "posy": "19.436000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R68": {
+        "posx": "8.824499",
+        "posy": "61.051000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-5111glf"
+    },
+    "R69": {
+        "posx": "8.824499",
+        "posy": "56.904000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-5111glf"
+    },
+    "R70": {
+        "posx": "61.810000",
+        "posy": "45.500001",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R72": {
+        "posx": "16.256000",
+        "posy": "26.333000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R73": {
+        "posx": "16.256000",
+        "posy": "25.362500",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R74": {
+        "posx": "58.250000",
+        "posy": "36.575001",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R75": {
+        "posx": "144.250000",
+        "posy": "18.301000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-2003glf"
+    },
+    "R76": {
+        "posx": "23.056000",
+        "posy": "27.762500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "stackpole-electronics-rmcf0402ft6k49"
+    },
+    "R77": {
+        "posx": "27.681000",
+        "posy": "34.387500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-6492glf"
+    },
+    "R78": {
+        "posx": "157.790000",
+        "posy": "59.515000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R79": {
+        "posx": "40.824499",
+        "posy": "24.251000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R80": {
+        "posx": "21.100000",
+        "posy": "40.550000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R84": {
+        "posx": "15.750000",
+        "posy": "49.050000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R88": {
+        "posx": "43.724499",
+        "posy": "32.801000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R89": {
+        "posx": "12.037258",
+        "posy": "31.166500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R90": {
+        "posx": "8.324499",
+        "posy": "54.136000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R92": {
+        "posx": "49.374499",
+        "posy": "29.451000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R93": {
+        "posx": "46.174499",
+        "posy": "29.466000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R94": {
+        "posx": "50.424499",
+        "posy": "29.451000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R95": {
+        "posx": "45.124499",
+        "posy": "29.451000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R100": {
+        "posx": "41.525000",
+        "posy": "60.892149",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1804glf"
+    },
+    "R112": {
+        "posx": "41.525000",
+        "posy": "62.892149",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1212glf"
+    },
+    "R141": {
+        "posx": "146.324499",
+        "posy": "25.151000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R142": {
+        "posx": "146.299499",
+        "posy": "34.752000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-pa0805fre470r002l"
+    },
+    "R144": {
+        "posx": "157.125000",
+        "posy": "37.079000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-pa0805fre470r002l"
+    },
+    "R145": {
+        "posx": "146.299499",
+        "posy": "42.551000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R146": {
+        "posx": "146.279999",
+        "posy": "52.250000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R147": {
+        "posx": "156.676000",
+        "posy": "54.552000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R148": {
+        "posx": "157.124499",
+        "posy": "40.276000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R151": {
+        "posx": "156.600000",
+        "posy": "22.925000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "yageo-rl1206fr-7w0r01l"
+    },
+    "R152": {
+        "posx": "154.020000",
+        "posy": "25.090500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R154": {
+        "posx": "153.420000",
+        "posy": "34.840500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R155": {
+        "posx": "154.105500",
+        "posy": "42.529000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R157": {
+        "posx": "153.505500",
+        "posy": "52.329000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R161": {
+        "posx": "148.169499",
+        "posy": "70.351000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R163": {
+        "posx": "160.550000",
+        "posy": "33.305500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R165": {
+        "posx": "160.520000",
+        "posy": "26.590500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R166": {
+        "posx": "160.505500",
+        "posy": "50.779000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R168": {
+        "posx": "160.505500",
+        "posy": "44.029000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R170": {
+        "posx": "130.200000",
+        "posy": "43.310000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R171": {
+        "posx": "148.169499",
+        "posy": "67.506000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R183": {
+        "posx": "17.520000",
+        "posy": "63.617000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R196": {
+        "posx": "115.179999",
+        "posy": "22.035000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-10r0glf"
+    },
+    "R198": {
+        "posx": "125.881000",
+        "posy": "22.050000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-10r0glf"
+    },
+    "R204": {
+        "posx": "118.180000",
+        "posy": "34.745000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "rohm-semiconductor-pmr03ezpj000"
+    },
+    "R205": {
+        "posx": "119.780000",
+        "posy": "34.745000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "rohm-semiconductor-pmr03ezpj000"
+    },
+    "R211": {
+        "posx": "130.450000",
+        "posy": "34.750000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "rohm-semiconductor-pmr03ezpj000"
+    },
+    "R216": {
+        "posx": "128.875000",
+        "posy": "34.750000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "rohm-semiconductor-pmr03ezpj000"
+    },
+    "R218": {
+        "posx": "24.681000",
+        "posy": "34.387500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-6492glf"
+    },
+    "R219": {
+        "posx": "21.681000",
+        "posy": "34.387500",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-6492glf"
+    },
+    "R222": {
+        "posx": "152.400000",
+        "posy": "19.151000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R242": {
+        "posx": "143.051000",
+        "posy": "85.200000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R248": {
+        "posx": "20.975000",
+        "posy": "31.925000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "SW1": {
+        "posx": "49.300000",
+        "posy": "20.950000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nidec-components-cvs-03b"
+    },
+    "SW2": {
+        "posx": "160.573000",
+        "posy": "65.225000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "c-k-kmr211nglfs"
+    },
+    "SW3": {
+        "posx": "160.574499",
+        "posy": "58.451000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "c-k-kmr211nglfs"
+    },
+    "SW4": {
+        "posx": "143.953000",
+        "posy": "61.099000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nidec-components-cvs-08tb"
+    },
+    "SW5": {
+        "posx": "160.573000",
+        "posy": "72.148501",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "c-k-kmr211nglfs"
+    },
+    "U1": {
+        "posx": "67.100000",
+        "posy": "50.200000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "issi-is66wvh16m8dall-166b1li"
+    },
+    "U2": {
+        "posx": "120.857000",
+        "posy": "54.602000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U3": {
+        "posx": "139.274499",
+        "posy": "26.950000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "microchip-technology-pac1720-1-aia-tr"
+    },
+    "U4": {
+        "posx": "119.250001",
+        "posy": "20.454999",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "monolithic-power-systems-mp8796bgvt-0000-z"
+    },
+    "U5": {
+        "posx": "12.124499",
+        "posy": "63.151000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "on-semiconductor-ncp718bsn330t1g"
+    },
+    "U6": {
+        "posx": "41.684000",
+        "posy": "39.865000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "ftdi-chip-ft4232h-56q-reel"
+    },
+    "U7": {
+        "posx": "37.024499",
+        "posy": "32.551000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "texas-instruments-txu0304bqar"
+    },
+    "U8": {
+        "posx": "8.824499",
+        "posy": "58.951000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U9": {
+        "posx": "38.423499",
+        "posy": "22.401000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-sn74hc595brwnr"
+    },
+    "U10": {
+        "posx": "13.530499",
+        "posy": "20.147500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U11": {
+        "posx": "13.530499",
+        "posy": "23.147500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U13": {
+        "posx": "47.775499",
+        "posy": "32.566000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "texas-instruments-txu0304bqar"
+    },
+    "U15": {
+        "posx": "34.675000",
+        "posy": "59.465000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "microchip-technology-ksz9031rnxca"
+    },
+    "U16": {
+        "posx": "47.934499",
+        "posy": "38.716000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-txs0102dqer"
+    },
+    "U17": {
+        "posx": "142.447000",
+        "posy": "76.043900",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "analog-devices-ltc4412is6-trmpbf"
+    },
+    "U18": {
+        "posx": "53.210000",
+        "posy": "11.515000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "analog-devices-ltc4412is6-trmpbf"
+    },
+    "U19": {
+        "posx": "155.645000",
+        "posy": "29.940500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "monolithic-power-systems-mpm54304gmn-0000"
+    },
+    "U20": {
+        "posx": "155.618000",
+        "posy": "47.391500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "monolithic-power-systems-mpm54304gmn-0000"
+    },
+    "U21": {
+        "posx": "154.287998",
+        "posy": "73.761000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "on-semiconductor-ncp718bsn330t1g"
+    },
+    "U22": {
+        "posx": "154.224499",
+        "posy": "69.986000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "maxim-integrated-products-max16150aut-t"
+    },
+    "U23": {
+        "posx": "139.274499",
+        "posy": "16.201000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-ts5a3359dcur"
+    },
+    "U24": {
+        "posx": "139.274499",
+        "posy": "19.951000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-ts5a3359dcur"
+    },
+    "U25": {
+        "posx": "139.274499",
+        "posy": "32.500000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "microchip-technology-pac1720-1-aia-tr"
+    },
+    "U26": {
+        "posx": "154.173999",
+        "posy": "66.437500",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "maxim-integrated-products-max812reus-t"
+    },
+    "U27": {
+        "posx": "113.899500",
+        "posy": "50.200500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "winbond-w25q128jweiq-tr"
+    },
+    "U28": {
+        "posx": "139.274499",
+        "posy": "47.391500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "microchip-technology-pac1944t-e-4mx"
+    },
+    "U29": {
+        "posx": "139.274499",
+        "posy": "38.300000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "atmel-at24cs01-st"
+    },
+    "U30": {
+        "posx": "107.290000",
+        "posy": "51.700000",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "texas-instruments-ref3012aidbzt"
+    },
+    "U31": {
+        "posx": "154.139499",
+        "posy": "62.400000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "texas-instruments-lm3880mfx-1aa-nopb"
+    },
+    "U32": {
+        "posx": "47.934499",
+        "posy": "42.416000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-txs0102dqer"
+    },
+    "U33": {
+        "posx": "152.200000",
+        "posy": "17.001000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U34": {
+        "posx": "88.500000",
+        "posy": "50.200000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "amd-xilinx-xcau25p-2ffvb676i"
+    },
+    "U35": {
+        "posx": "107.290000",
+        "posy": "48.510000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tmp451aidqfr"
+    },
+    "U36": {
+        "posx": "129.945001",
+        "posy": "20.459999",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "monolithic-power-systems-mp8796bgvt-0000-z"
+    },
+    "U38": {
+        "posx": "24.326000",
+        "posy": "21.397000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-sn65dp159rgzr"
+    },
+    "U39": {
+        "posx": "59.810000",
+        "posy": "40.900001",
+        "rot": "-90.000000",
+        "side": "top",
+        "ahid": "skyworks-solutions-si5319c-c-gm-nd"
+    },
+    "U40": {
+        "posx": "19.823000",
+        "posy": "43.302000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "nxp-nvt4858hkz"
+    },
+    "U42": {
+        "posx": "30.758000",
+        "posy": "30.337000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "stmicroelectronics-m24c64-fmc6tg"
+    },
+    "U43": {
+        "posx": "23.450000",
+        "posy": "39.450000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tps2116drlr"
+    },
+    "U45": {
+        "posx": "139.274499",
+        "posy": "68.930000",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "nxp-pca9517adp-118"
+    },
+    "U48": {
+        "posx": "13.530499",
+        "posy": "26.931500",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U49": {
+        "posx": "147.257000",
+        "posy": "17.193000",
+        "rot": "180.000000",
+        "side": "top",
+        "ahid": "texas-instruments-tca39306dcur"
+    },
+    "Y1": {
+        "posx": "35.023000",
+        "posy": "47.326000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "abracon-abm8g-12-000mhz-18-d2y-t"
+    },
+    "Y2": {
+        "posx": "44.425000",
+        "posy": "61.692149",
+        "rot": "0.000000",
+        "side": "top",
+        "ahid": "abracon-abm8g-25-000mhz-18-d2y-t3"
+    },
+    "Y3": {
+        "posx": "69.385000",
+        "posy": "44.250000",
+        "rot": "90.000000",
+        "side": "top",
+        "ahid": "epson-sg3225van-100-000000m-kega3"
+    },
+    "Y4": {
+        "posx": "58.030003",
+        "posy": "47.090001",
+        "rot": "-135.000000",
+        "side": "top",
+        "ahid": "abracon-abm8-166-114-285mhz-t2"
+    },
+    "C1": {
+        "posx": "-62.725000",
+        "posy": "48.400000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C2": {
+        "posx": "-64.030000",
+        "posy": "48.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C3": {
+        "posx": "-66.100000",
+        "posy": "52.260000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C4": {
+        "posx": "-67.600000",
+        "posy": "49.700000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C5": {
+        "posx": "-111.910000",
+        "posy": "48.275000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C8": {
+        "posx": "-104.020000",
+        "posy": "94.400000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C9": {
+        "posx": "-88.400000",
+        "posy": "94.400000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C10": {
+        "posx": "-74.320000",
+        "posy": "94.400000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C11": {
+        "posx": "-88.500000",
+        "posy": "54.400000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C13": {
+        "posx": "-84.000000",
+        "posy": "52.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C14": {
+        "posx": "-74.600000",
+        "posy": "43.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C15": {
+        "posx": "-100.498000",
+        "posy": "47.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C16": {
+        "posx": "-81.500000",
+        "posy": "46.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C17": {
+        "posx": "-78.499999",
+        "posy": "45.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C18": {
+        "posx": "-94.500000",
+        "posy": "44.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C19": {
+        "posx": "-86.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C20": {
+        "posx": "-97.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C22": {
+        "posx": "-80.100000",
+        "posy": "50.175000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C23": {
+        "posx": "-81.500000",
+        "posy": "52.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C24": {
+        "posx": "-82.000000",
+        "posy": "61.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C26": {
+        "posx": "-84.000000",
+        "posy": "48.199999",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C27": {
+        "posx": "-85.500000",
+        "posy": "55.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C30": {
+        "posx": "-91.500000",
+        "posy": "55.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C31": {
+        "posx": "-88.500000",
+        "posy": "46.450000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C33": {
+        "posx": "-87.000000",
+        "posy": "46.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C34": {
+        "posx": "-84.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C35": {
+        "posx": "-85.000000",
+        "posy": "54.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C36": {
+        "posx": "-85.000000",
+        "posy": "52.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C37": {
+        "posx": "-100.500000",
+        "posy": "58.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C38": {
+        "posx": "-83.350000",
+        "posy": "50.175000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm21br60j107me15l"
+    },
+    "C39": {
+        "posx": "-86.002000",
+        "posy": "52.198001",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C40": {
+        "posx": "-87.000000",
+        "posy": "54.200001",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C41": {
+        "posx": "-85.000000",
+        "posy": "48.200001",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C42": {
+        "posx": "-94.000000",
+        "posy": "48.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C43": {
+        "posx": "-86.000000",
+        "posy": "48.199999",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C44": {
+        "posx": "-88.500000",
+        "posy": "56.950000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C45": {
+        "posx": "-87.000000",
+        "posy": "48.200001",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C46": {
+        "posx": "-84.500001",
+        "posy": "46.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C47": {
+        "posx": "-86.000000",
+        "posy": "46.202000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C48": {
+        "posx": "-92.000000",
+        "posy": "46.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C49": {
+        "posx": "-92.000000",
+        "posy": "59.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C50": {
+        "posx": "-87.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C51": {
+        "posx": "-86.000000",
+        "posy": "44.200001",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C52": {
+        "posx": "-85.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C53": {
+        "posx": "-84.498000",
+        "posy": "45.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C54": {
+        "posx": "-78.000001",
+        "posy": "35.200000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm21br60j107me15l"
+    },
+    "C55": {
+        "posx": "-93.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C56": {
+        "posx": "-90.000000",
+        "posy": "54.202000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C57": {
+        "posx": "-92.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C58": {
+        "posx": "-94.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C59": {
+        "posx": "-93.000000",
+        "posy": "52.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C60": {
+        "posx": "-97.500000",
+        "posy": "57.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C61": {
+        "posx": "-90.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C62": {
+        "posx": "-88.500000",
+        "posy": "48.950000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C63": {
+        "posx": "-88.500000",
+        "posy": "43.500000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C64": {
+        "posx": "-91.000000",
+        "posy": "52.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C65": {
+        "posx": "-91.000000",
+        "posy": "54.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C67": {
+        "posx": "-91.000000",
+        "posy": "46.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C68": {
+        "posx": "-90.000000",
+        "posy": "56.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C69": {
+        "posx": "-90.000000",
+        "posy": "50.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C70": {
+        "posx": "-82.000000",
+        "posy": "43.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C71": {
+        "posx": "-79.000000",
+        "posy": "60.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C72": {
+        "posx": "-84.000000",
+        "posy": "40.198000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C73": {
+        "posx": "-77.200000",
+        "posy": "50.200000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C74": {
+        "posx": "-96.000000",
+        "posy": "62.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C75": {
+        "posx": "-92.000000",
+        "posy": "48.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C76": {
+        "posx": "-95.500000",
+        "posy": "46.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C77": {
+        "posx": "-87.000000",
+        "posy": "56.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C78": {
+        "posx": "-83.000000",
+        "posy": "58.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C79": {
+        "posx": "-92.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C80": {
+        "posx": "-82.000000",
+        "posy": "40.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C81": {
+        "posx": "-87.000000",
+        "posy": "52.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C82": {
+        "posx": "-20.411000",
+        "posy": "35.350000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C83": {
+        "posx": "-80.000000",
+        "posy": "40.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C84": {
+        "posx": "-93.000000",
+        "posy": "54.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C85": {
+        "posx": "-86.575000",
+        "posy": "50.175000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C86": {
+        "posx": "-90.000000",
+        "posy": "52.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C87": {
+        "posx": "-76.500000",
+        "posy": "57.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C88": {
+        "posx": "-90.000000",
+        "posy": "48.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C89": {
+        "posx": "-80.500000",
+        "posy": "55.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C90": {
+        "posx": "-90.000000",
+        "posy": "46.199999",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C91": {
+        "posx": "-78.000000",
+        "posy": "53.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C92": {
+        "posx": "-93.000000",
+        "posy": "46.200001",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C93": {
+        "posx": "-20.411000",
+        "posy": "36.340000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C94": {
+        "posx": "-102.400000",
+        "posy": "53.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C95": {
+        "posx": "-99.000000",
+        "posy": "53.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C96": {
+        "posx": "-90.500000",
+        "posy": "42.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C97": {
+        "posx": "-92.500000",
+        "posy": "42.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C98": {
+        "posx": "-96.502000",
+        "posy": "43.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C99": {
+        "posx": "-94.499999",
+        "posy": "43.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C100": {
+        "posx": "-87.000000",
+        "posy": "42.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C101": {
+        "posx": "-86.000000",
+        "posy": "42.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C102": {
+        "posx": "-84.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C103": {
+        "posx": "-91.000000",
+        "posy": "40.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C104": {
+        "posx": "-93.000000",
+        "posy": "40.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C105": {
+        "posx": "-95.000000",
+        "posy": "40.199999",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C106": {
+        "posx": "-97.000000",
+        "posy": "40.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C107": {
+        "posx": "-86.000000",
+        "posy": "40.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C108": {
+        "posx": "-101.000000",
+        "posy": "44.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C129": {
+        "posx": "-15.550000",
+        "posy": "42.950000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C134": {
+        "posx": "-36.433171",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C135": {
+        "posx": "-13.981396",
+        "posy": "79.137513",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C136": {
+        "posx": "-32.624499",
+        "posy": "63.967843",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C137": {
+        "posx": "-19.931396",
+        "posy": "76.837513",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C139": {
+        "posx": "-39.224499",
+        "posy": "57.100000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C140": {
+        "posx": "-35.186328",
+        "posy": "63.967843",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C141": {
+        "posx": "-35.433171",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C142": {
+        "posx": "-39.224499",
+        "posy": "56.100000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C143": {
+        "posx": "-34.161328",
+        "posy": "63.967843",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C144": {
+        "posx": "-39.224499",
+        "posy": "59.051000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C145": {
+        "posx": "-34.433171",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C146": {
+        "posx": "-36.724499",
+        "posy": "63.951000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C148": {
+        "posx": "-32.274499",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x5r1e474m050bb"
+    },
+    "C151": {
+        "posx": "-33.433171",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C152": {
+        "posx": "-39.011328",
+        "posy": "63.442843",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C153": {
+        "posx": "-31.233171",
+        "posy": "56.246008",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C155": {
+        "posx": "-31.211328",
+        "posy": "64.617843",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C156": {
+        "posx": "-31.360000",
+        "posy": "60.750000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C158": {
+        "posx": "-30.211328",
+        "posy": "64.617843",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a475meaad"
+    },
+    "C160": {
+        "posx": "-43.570000",
+        "posy": "54.530000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C161": {
+        "posx": "-34.924499",
+        "posy": "49.799500",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C164": {
+        "posx": "-69.385000",
+        "posy": "44.250000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C167": {
+        "posx": "-89.000000",
+        "posy": "40.202000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C168": {
+        "posx": "-98.500000",
+        "posy": "43.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C170": {
+        "posx": "-48.275000",
+        "posy": "8.825000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C172": {
+        "posx": "-160.574499",
+        "posy": "28.901000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C174": {
+        "posx": "-160.524499",
+        "posy": "46.351000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C177": {
+        "posx": "-119.315001",
+        "posy": "15.020001",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C195": {
+        "posx": "-155.724499",
+        "posy": "70.486000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C200": {
+        "posx": "-130.005000",
+        "posy": "16.899999",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C201": {
+        "posx": "-119.334999",
+        "posy": "16.900001",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C202": {
+        "posx": "-130.005000",
+        "posy": "15.030000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "samsung-electro-mechanics-cl21a226maynnne"
+    },
+    "C203": {
+        "posx": "-154.174499",
+        "posy": "68.001000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C204": {
+        "posx": "-107.940000",
+        "posy": "51.730000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1005x6s1a105k050bc"
+    },
+    "C205": {
+        "posx": "-106.640000",
+        "posy": "51.730000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C209": {
+        "posx": "-155.289499",
+        "posy": "63.450000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C212": {
+        "posx": "-155.689499",
+        "posy": "61.950000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C222": {
+        "posx": "-60.674499",
+        "posy": "9.476000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C223": {
+        "posx": "-107.290000",
+        "posy": "48.510000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C224": {
+        "posx": "-48.275000",
+        "posy": "10.075000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C226": {
+        "posx": "-75.650000",
+        "posy": "9.450499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C227": {
+        "posx": "-71.650000",
+        "posy": "9.400499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C228": {
+        "posx": "-67.650000",
+        "posy": "9.400499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C229": {
+        "posx": "-62.650000",
+        "posy": "9.400499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C230": {
+        "posx": "-76.650000",
+        "posy": "9.450499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C231": {
+        "posx": "-72.650000",
+        "posy": "9.400499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C232": {
+        "posx": "-63.650000",
+        "posy": "9.400499",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C233": {
+        "posx": "-68.650000",
+        "posy": "9.400499",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C234": {
+        "posx": "-15.413499",
+        "posy": "84.551000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C235": {
+        "posx": "-46.464499",
+        "posy": "38.047000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C236": {
+        "posx": "-49.084499",
+        "posy": "42.271000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C237": {
+        "posx": "-48.074499",
+        "posy": "42.263000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C238": {
+        "posx": "-49.084499",
+        "posy": "38.047000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C239": {
+        "posx": "-88.500000",
+        "posy": "51.850000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j476me15d"
+    },
+    "C240": {
+        "posx": "-103.500000",
+        "posy": "40.300000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm21br60j107me15l"
+    },
+    "C241": {
+        "posx": "-103.500000",
+        "posy": "44.300000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm21br60j107me15l"
+    },
+    "C242": {
+        "posx": "-103.500000",
+        "posy": "48.300000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm21br60j107me15l"
+    },
+    "C243": {
+        "posx": "-92.000000",
+        "posy": "52.198000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61a106me11d"
+    },
+    "C244": {
+        "posx": "-80.510001",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C245": {
+        "posx": "-81.490000",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C246": {
+        "posx": "-91.000000",
+        "posy": "48.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C247": {
+        "posx": "-93.000000",
+        "posy": "48.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C248": {
+        "posx": "-91.000000",
+        "posy": "44.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61e105ke11j"
+    },
+    "C249": {
+        "posx": "-127.435000",
+        "posy": "30.640000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C250": {
+        "posx": "-86.672499",
+        "posy": "9.471500",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C251": {
+        "posx": "-93.622499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C252": {
+        "posx": "-94.672499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C253": {
+        "posx": "-89.622499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C254": {
+        "posx": "-90.672499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C255": {
+        "posx": "-85.622499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C256": {
+        "posx": "-81.622499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C257": {
+        "posx": "-82.672499",
+        "posy": "9.471500",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C258": {
+        "posx": "-59.624499",
+        "posy": "9.472000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r71h103ka88d"
+    },
+    "C259": {
+        "posx": "-121.020000",
+        "posy": "30.640000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C261": {
+        "posx": "-119.620000",
+        "posy": "30.640000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C263": {
+        "posx": "-128.784999",
+        "posy": "30.619998",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C264": {
+        "posx": "-121.900000",
+        "posy": "22.925000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "yageo-cc0402jrnpo9bn220"
+    },
+    "C268": {
+        "posx": "-131.534998",
+        "posy": "30.619998",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C269": {
+        "posx": "-116.910000",
+        "posy": "30.640000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C270": {
+        "posx": "-118.260000",
+        "posy": "30.640000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C272": {
+        "posx": "-130.154999",
+        "posy": "30.619998",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm188r60j226mea0d"
+    },
+    "C275": {
+        "posx": "-86.510001",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C276": {
+        "posx": "-87.490000",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C279": {
+        "posx": "-84.510001",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C289": {
+        "posx": "-22.950000",
+        "posy": "49.090000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C290": {
+        "posx": "-85.490000",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C291": {
+        "posx": "-22.950000",
+        "posy": "48.090000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C292": {
+        "posx": "-82.510001",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C293": {
+        "posx": "-83.490000",
+        "posy": "35.250000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C296": {
+        "posx": "-24.200000",
+        "posy": "38.650000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C297": {
+        "posx": "-24.200000",
+        "posy": "40.200000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C298": {
+        "posx": "-20.125000",
+        "posy": "43.250000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C299": {
+        "posx": "-19.075000",
+        "posy": "43.250000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C302": {
+        "posx": "-22.950000",
+        "posy": "54.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C303": {
+        "posx": "-22.950000",
+        "posy": "55.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C304": {
+        "posx": "-22.950000",
+        "posy": "52.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C305": {
+        "posx": "-22.950000",
+        "posy": "53.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C306": {
+        "posx": "-22.950000",
+        "posy": "50.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C307": {
+        "posx": "-22.950000",
+        "posy": "51.090000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C310": {
+        "posx": "-80.000000",
+        "posy": "43.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C311": {
+        "posx": "-78.000000",
+        "posy": "43.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C312": {
+        "posx": "-76.000000",
+        "posy": "43.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C315": {
+        "posx": "-74.480000",
+        "posy": "52.010001",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C316": {
+        "posx": "-73.530000",
+        "posy": "52.010001",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C317": {
+        "posx": "-152.500000",
+        "posy": "98.375000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C318": {
+        "posx": "-147.475000",
+        "posy": "15.362000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C319": {
+        "posx": "-153.700000",
+        "posy": "98.375000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C321": {
+        "posx": "-140.550000",
+        "posy": "80.480000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C323": {
+        "posx": "-140.550000",
+        "posy": "81.935000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C324": {
+        "posx": "-152.200000",
+        "posy": "15.362000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-grm155r61h104ke14d"
+    },
+    "C326": {
+        "posx": "-148.320000",
+        "posy": "81.230000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "C327": {
+        "posx": "-146.940000",
+        "posy": "81.230000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "tdk-c1608x5r1e106m080ac"
+    },
+    "FB4": {
+        "posx": "-34.211328",
+        "posy": "61.692843",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "murata-blm18pg121sn1d"
+    },
+    "FB5": {
+        "posx": "-39.325000",
+        "posy": "64.692149",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "murata-blm18pg121sn1d"
+    },
+    "J9": {
+        "posx": "-23.900000",
+        "posy": "82.036000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "hirose-electric-u-fl-r-smt-1-10"
+    },
+    "J11": {
+        "posx": "-3.367000",
+        "posy": "42.081000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "i-pex-20455-a20e-76"
+    },
+    "J13": {
+        "posx": "-23.890000",
+        "posy": "74.710000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "hirose-electric-u-fl-r-smt-1-10"
+    },
+    "J14": {
+        "posx": "-23.900000",
+        "posy": "100.050000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "hirose-electric-u-fl-r-smt-1-10"
+    },
+    "J15": {
+        "posx": "-69.898000",
+        "posy": "100.054000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "hirose-electric-u-fl-r-smt-1-10"
+    },
+    "J16": {
+        "posx": "-36.900000",
+        "posy": "100.030000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "hirose-electric-u-fl-r-smt-1-10"
+    },
+    "Q4": {
+        "posx": "-14.755000",
+        "posy": "97.850000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q5": {
+        "posx": "-14.755000",
+        "posy": "95.150000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q6": {
+        "posx": "-14.755000",
+        "posy": "92.450000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q7": {
+        "posx": "-14.755000",
+        "posy": "89.750000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q8": {
+        "posx": "-14.755000",
+        "posy": "87.050000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q18": {
+        "posx": "-12.380000",
+        "posy": "36.230000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q19": {
+        "posx": "-15.170000",
+        "posy": "35.840000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q21": {
+        "posx": "-14.270000",
+        "posy": "38.730000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q22": {
+        "posx": "-147.050000",
+        "posy": "19.301000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss84akw-115"
+    },
+    "Q24": {
+        "posx": "-152.150000",
+        "posy": "19.201000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss84akw-115"
+    },
+    "Q25": {
+        "posx": "-150.375000",
+        "posy": "82.425000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q26": {
+        "posx": "-154.050000",
+        "posy": "82.425000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "Q28": {
+        "posx": "-144.860000",
+        "posy": "82.425000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "nexperia-bss138pw"
+    },
+    "R1": {
+        "posx": "-68.100000",
+        "posy": "48.200000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R2": {
+        "posx": "-68.100000",
+        "posy": "47.150000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R3": {
+        "posx": "-119.910000",
+        "posy": "48.311000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R4": {
+        "posx": "-111.910000",
+        "posy": "49.550000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R5": {
+        "posx": "-119.910000",
+        "posy": "50.850000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R6": {
+        "posx": "-109.890000",
+        "posy": "52.090500",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R7": {
+        "posx": "-117.890000",
+        "posy": "49.579500",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R8": {
+        "posx": "-117.890000",
+        "posy": "50.850000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R9": {
+        "posx": "-109.890000",
+        "posy": "49.549500",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-22r0glf"
+    },
+    "R14": {
+        "posx": "-100.500000",
+        "posy": "48.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R17": {
+        "posx": "-97.000000",
+        "posy": "46.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R18": {
+        "posx": "-96.510000",
+        "posy": "44.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R20": {
+        "posx": "-108.275000",
+        "posy": "48.510000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R21": {
+        "posx": "-95.500000",
+        "posy": "45.700000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1000glf"
+    },
+    "R25": {
+        "posx": "-88.400000",
+        "posy": "99.500000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R27": {
+        "posx": "-88.400000",
+        "posy": "97.200000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R35": {
+        "posx": "-79.000000",
+        "posy": "57.195000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1000glf"
+    },
+    "R36": {
+        "posx": "-99.000000",
+        "posy": "45.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1000glf"
+    },
+    "R39": {
+        "posx": "-106.325000",
+        "posy": "48.510000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R40": {
+        "posx": "-13.400000",
+        "posy": "100.600000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R41": {
+        "posx": "-10.700000",
+        "posy": "100.600000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R42": {
+        "posx": "-8.000000",
+        "posy": "100.600000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R45": {
+        "posx": "-5.300000",
+        "posy": "100.600000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R46": {
+        "posx": "-2.600000",
+        "posy": "100.600000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R81": {
+        "posx": "-10.380000",
+        "posy": "35.750000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R82": {
+        "posx": "-11.980000",
+        "posy": "34.330000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R83": {
+        "posx": "-15.340000",
+        "posy": "33.880000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1003glf"
+    },
+    "R85": {
+        "posx": "-12.330000",
+        "posy": "38.560000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R86": {
+        "posx": "-16.260000",
+        "posy": "38.250000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R87": {
+        "posx": "-153.039499",
+        "posy": "58.900000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R97": {
+        "posx": "-147.475000",
+        "posy": "16.401000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R98": {
+        "posx": "-6.874499",
+        "posy": "73.951000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2200glf"
+    },
+    "R99": {
+        "posx": "-6.895000",
+        "posy": "80.365000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2200glf"
+    },
+    "R103": {
+        "posx": "-38.550000",
+        "posy": "52.675000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R104": {
+        "posx": "-37.500000",
+        "posy": "52.675000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R107": {
+        "posx": "-36.433171",
+        "posy": "59.301000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R108": {
+        "posx": "-26.325000",
+        "posy": "61.437851",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R109": {
+        "posx": "-26.325000",
+        "posy": "59.937851",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R110": {
+        "posx": "-39.220000",
+        "posy": "54.530000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R111": {
+        "posx": "-39.224499",
+        "posy": "60.451000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R113": {
+        "posx": "-40.650000",
+        "posy": "50.300000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R114": {
+        "posx": "-39.600000",
+        "posy": "50.300000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R117": {
+        "posx": "-42.750000",
+        "posy": "50.300000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R118": {
+        "posx": "-41.675000",
+        "posy": "50.300000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R122": {
+        "posx": "-142.970000",
+        "posy": "69.845000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R123": {
+        "posx": "-142.970000",
+        "posy": "67.945000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R124": {
+        "posx": "-135.590000",
+        "posy": "67.945000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R125": {
+        "posx": "-135.579999",
+        "posy": "69.894999",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R127": {
+        "posx": "-134.060000",
+        "posy": "67.940000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R128": {
+        "posx": "-147.845000",
+        "posy": "92.075000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1002glf"
+    },
+    "R129": {
+        "posx": "-95.000000",
+        "posy": "54.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R130": {
+        "posx": "-94.000000",
+        "posy": "56.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R131": {
+        "posx": "-83.000000",
+        "posy": "55.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R132": {
+        "posx": "-83.000000",
+        "posy": "53.180000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1001glf"
+    },
+    "R133": {
+        "posx": "-101.000000",
+        "posy": "61.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2400glf"
+    },
+    "R134": {
+        "posx": "-94.000000",
+        "posy": "59.200000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2400glf"
+    },
+    "R135": {
+        "posx": "-138.439499",
+        "posy": "36.465000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R136": {
+        "posx": "-138.451999",
+        "posy": "37.475000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R137": {
+        "posx": "-138.451999",
+        "posy": "38.500000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R138": {
+        "posx": "-138.451999",
+        "posy": "39.525000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R139": {
+        "posx": "-138.774501",
+        "posy": "62.602500",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R140": {
+        "posx": "-138.777999",
+        "posy": "61.549000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R143": {
+        "posx": "-140.120000",
+        "posy": "26.725000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R149": {
+        "posx": "-154.274499",
+        "posy": "70.501000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R150": {
+        "posx": "-138.424499",
+        "posy": "16.851000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R159": {
+        "posx": "-138.424499",
+        "posy": "20.201000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R160": {
+        "posx": "-152.924499",
+        "posy": "70.501000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R172": {
+        "posx": "-154.199499",
+        "posy": "66.951000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R173": {
+        "posx": "-140.675000",
+        "posy": "45.095000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R180": {
+        "posx": "-86.000000",
+        "posy": "58.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2400glf"
+    },
+    "R181": {
+        "posx": "-125.320000",
+        "posy": "18.945000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R182": {
+        "posx": "-80.000000",
+        "posy": "53.200000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2400glf"
+    },
+    "R184": {
+        "posx": "-153.039499",
+        "posy": "61.400000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R185": {
+        "posx": "-125.320000",
+        "posy": "19.935000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R187": {
+        "posx": "-153.039499",
+        "posy": "62.400000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R188": {
+        "posx": "-115.100000",
+        "posy": "17.465000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R189": {
+        "posx": "-121.030000",
+        "posy": "19.705000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-6042glf"
+    },
+    "R190": {
+        "posx": "-153.039499",
+        "posy": "63.400000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R193": {
+        "posx": "-15.397499",
+        "posy": "83.551000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R194": {
+        "posx": "-97.500000",
+        "posy": "48.700000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1000glf"
+    },
+    "R195": {
+        "posx": "-131.685000",
+        "posy": "19.705000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-6042glf"
+    },
+    "R197": {
+        "posx": "-121.030000",
+        "posy": "18.730000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4991glf"
+    },
+    "R199": {
+        "posx": "-131.685000",
+        "posy": "18.730000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1502glf"
+    },
+    "R200": {
+        "posx": "-121.900000",
+        "posy": "24.785000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R201": {
+        "posx": "-122.875000",
+        "posy": "22.915000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "yageo-rt0402brd073k4l"
+    },
+    "R202": {
+        "posx": "-122.385000",
+        "posy": "21.490000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "yageo-rt0402bre078k16l"
+    },
+    "R206": {
+        "posx": "-155.289499",
+        "posy": "64.450000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R209": {
+        "posx": "-136.220000",
+        "posy": "46.518000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R210": {
+        "posx": "-140.120000",
+        "posy": "32.275000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R212": {
+        "posx": "-137.925000",
+        "posy": "45.095000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R213": {
+        "posx": "-137.925000",
+        "posy": "49.430000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R214": {
+        "posx": "-136.220000",
+        "posy": "48.438000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "panasonic-erj2ge0r00x"
+    },
+    "R215": {
+        "posx": "-140.120000",
+        "posy": "31.275000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-1000glf"
+    },
+    "R223": {
+        "posx": "-145.100000",
+        "posy": "19.551000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R231": {
+        "posx": "-147.475000",
+        "posy": "17.401000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R232": {
+        "posx": "-150.050000",
+        "posy": "19.051000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R233": {
+        "posx": "-28.879000",
+        "posy": "100.062000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-49r9glf"
+    },
+    "R234": {
+        "posx": "-32.630000",
+        "posy": "28.350000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R235": {
+        "posx": "-138.777999",
+        "posy": "59.610000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R236": {
+        "posx": "-25.920000",
+        "posy": "14.760000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R237": {
+        "posx": "-25.920000",
+        "posy": "15.760000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R238": {
+        "posx": "-150.030000",
+        "posy": "85.590000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R239": {
+        "posx": "-33.640000",
+        "posy": "28.350000",
+        "rot": "-90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-2201glf"
+    },
+    "R240": {
+        "posx": "-150.375000",
+        "posy": "80.475000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R241": {
+        "posx": "-152.200000",
+        "posy": "16.351000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R243": {
+        "posx": "-152.200000",
+        "posy": "17.351000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4701glf"
+    },
+    "R244": {
+        "posx": "-153.750000",
+        "posy": "85.590000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R245": {
+        "posx": "-154.050000",
+        "posy": "80.475000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R246": {
+        "posx": "-143.050000",
+        "posy": "101.100000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-3300glf"
+    },
+    "R249": {
+        "posx": "-144.860000",
+        "posy": "85.590000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R250": {
+        "posx": "-144.860000",
+        "posy": "80.475000",
+        "rot": "0.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "R252": {
+        "posx": "-134.250000",
+        "posy": "20.195000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "bourns-cr0402-fx-4702glf"
+    },
+    "U37": {
+        "posx": "-7.804000",
+        "posy": "45.581000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U41": {
+        "posx": "-7.804000",
+        "posy": "42.581000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    },
+    "U44": {
+        "posx": "-18.525000",
+        "posy": "35.910000",
+        "rot": "90.000000",
+        "side": "bottom",
+        "ahid": "texas-instruments-txs0102dqer"
+    },
+    "U47": {
+        "posx": "-7.804000",
+        "posy": "38.832000",
+        "rot": "180.000000",
+        "side": "bottom",
+        "ahid": "texas-instruments-tpd4e05u06qdqarq1"
+    }
+}
