@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "83c3b3ef-7ad1-4f47-8590-6dd7be28fd08")
 	(paper "A3")
 	(title_block
@@ -121,6 +121,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:oshw_logo"
 			(exclude_from_sim no)
@@ -231,7 +232,21 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Data Center RDIMM DDR5 Tester"
+		(exclude_from_sim no)
+		(at 164.465 36.195 0)
+		(effects
+			(font
+				(size 3.9878 3.9878)
+				(thickness 0.7976)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6dde140-e4a2-4523-bd56-1e2716cf7efd")
 	)
 	(image
 		(at 38.1 271.6022)
@@ -2414,19 +2429,6 @@
 			"bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII="
 		)
 	)
-	(text "Data Center RDIMM DDR5 Tester"
-		(exclude_from_sim no)
-		(at 164.465 36.195 0)
-		(effects
-			(font
-				(size 3.9878 3.9878)
-				(thickness 0.7976)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6dde140-e4a2-4523-bd56-1e2716cf7efd")
-	)
 	(symbol
 		(lib_id "data-center-rdimm-ddr5-tester:antmicro_logo")
 		(at 384.81 247.65 0)
@@ -2652,6 +2654,10 @@
 	(sheet
 		(at 239.395 173.99)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2690,6 +2696,10 @@
 	(sheet
 		(at 114.935 211.455)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2728,6 +2738,10 @@
 	(sheet
 		(at 97.155 173.99)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2766,6 +2780,10 @@
 	(sheet
 		(at 164.465 211.455)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2804,6 +2822,10 @@
 	(sheet
 		(at 191.77 173.99)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2842,6 +2864,10 @@
 	(sheet
 		(at 287.02 173.99)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2880,6 +2906,10 @@
 	(sheet
 		(at 144.78 173.99)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2918,6 +2948,10 @@
 	(sheet
 		(at 213.36 211.455)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2956,6 +2990,10 @@
 	(sheet
 		(at 263.525 211.455)
 		(size 40.005 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -2996,4 +3034,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

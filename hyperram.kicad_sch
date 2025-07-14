@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "2385ab17-0bbb-4183-8c6e-66320f611236")
 	(paper "A3")
 	(title_block
@@ -14,8 +14,12 @@
 	)
 	(lib_symbols
 		(symbol "data-center-rdimm-ddr5-tester:C_100n_6V3_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -51,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -62,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -209,10 +213,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_47u_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -248,7 +257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -259,7 +268,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -406,11 +415,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -520,10 +534,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_10k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -694,6 +713,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:S27KL0641DABHI023"
 			(exclude_from_sim no)
@@ -828,17 +848,17 @@
 						(type background)
 					)
 				)
-				(pin no_connect line
-					(at 27.94 -30.48 180)
-					(length 2.54) hide
-					(name "NC"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -865,34 +885,16 @@
 					)
 				)
 				(pin input line
-					(at 0 0 0)
+					(at 0 -7.62 0)
 					(length 2.54)
-					(name "~{RESET}"
+					(name "CK+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 -30.48 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
+					(number "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -918,179 +920,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "CK+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -38.1 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 0 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 -30.48 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -35.56 180)
-					(length 2.54)
-					(name "VSSQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 -30.48 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 0 -38.1 0)
+					(at 0 -15.24 0)
 					(length 2.54)
-					(name "RWDS"
+					(name "DQ0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -20.32 0)
-					(length 2.54)
-					(name "DQ2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 -30.48 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 30.48 -2.54 180)
-					(length 2.54)
-					(name "VCCQ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
+					(number "D3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1117,16 +957,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -15.24 0)
+					(at 0 -20.32 0)
 					(length 2.54)
-					(name "DQ0"
+					(name "DQ2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D3"
+					(number "C4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1171,16 +1011,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -33.02 0)
+					(at 0 -27.94 0)
 					(length 2.54)
-					(name "DQ7"
+					(name "DQ5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E1"
+					(number "E3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,16 +1047,165 @@
 					)
 				)
 				(pin bidirectional line
-					(at 0 -27.94 0)
+					(at 0 -33.02 0)
 					(length 2.54)
-					(name "DQ5"
+					(name "DQ7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "E3"
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 2.54)
+					(name "RWDS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -30.48 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -30.48 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -30.48 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -30.48 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 27.94 -30.48 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 0 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -2.54 180)
+					(length 2.54)
+					(name "VCCQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1226,7 +1215,8 @@
 				)
 				(pin passive line
 					(at 30.48 -2.54 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "VCCQ"
 						(effects
 							(font
@@ -1242,9 +1232,28 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 30.48 -35.56 180)
+					(length 2.54)
+					(name "VSSQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 30.48 -35.56 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "VSSQ"
 						(effects
 							(font
@@ -1260,8 +1269,40 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 30.48 -38.1 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "HyperRAM"
+		(exclude_from_sim no)
+		(at 186.055 104.775 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a29dbd9-eb74-474d-bae0-ee1482464686")
 	)
 	(junction
 		(at 220.345 127)
@@ -3877,19 +3918,6 @@
 			"z1f0kcu0NwNnjuACAAAA+0K5x1YbSr7D3P1Nvsu0Uu9EqQcAAADsG+UeO6GUMklyMPxM8v6y71WS"
 			"RZJ5krlNPQAAAGCf/R9EybKFluyqbAAAAABJRU5ErkJggg=="
 		)
-	)
-	(text "HyperRAM"
-		(exclude_from_sim no)
-		(at 186.055 104.775 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-				(thickness 0.5994)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a29dbd9-eb74-474d-bae0-ee1482464686")
 	)
 	(global_label "HR_RW"
 		(shape input)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4a953c10-f9f4-469a-bd58-347eea6c519a")
 	(paper "A3")
 	(title_block
@@ -125,6 +125,42 @@
 					)
 				)
 				(pin power_in line
+					(at 0 10.16 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name "GND"
@@ -160,17 +196,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 0)
+				(pin output line
+					(at 20.32 5.08 180)
 					(length 2.54)
-					(name "VIN"
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -196,46 +232,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 5.08 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 5.08 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:BarrelJack_3167288"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -351,7 +354,7 @@
 			(symbol "BarrelJack_3167288_1_1"
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 6.985 -5.08)
+						(xy 2.54 0) (xy 6.985 0)
 					)
 					(stroke
 						(width 0.254)
@@ -375,8 +378,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 6.985 0)
+						(xy 2.54 -5.08) (xy 6.985 -5.08)
 					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -6.35)
+					(end 12.7 1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -398,17 +412,6 @@
 					)
 				)
 				(rectangle
-					(start 2.54 -6.35)
-					(end 12.7 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
 					(start 6.985 0.635)
 					(end 10.16 -0.635)
 					(stroke
@@ -420,32 +423,8 @@
 					)
 				)
 				(arc
-					(start 8.89 -3.175)
+					(start 6.985 -5.08)
 					(mid 7.543 -3.733)
-					(end 6.985 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 -0.635)
-					(mid 10.609 -0.449)
-					(end 10.795 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 10.795 -5.08)
-					(mid 10.237 -3.733)
 					(end 8.89 -3.175)
 					(stroke
 						(width 0.254)
@@ -456,9 +435,33 @@
 					)
 				)
 				(arc
-					(start 10.795 0)
+					(start 8.89 -3.175)
+					(mid 10.237 -3.733)
+					(end 10.795 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0.635)
 					(mid 10.609 0.449)
-					(end 10.16 0.635)
+					(end 10.795 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 10.795 0)
+					(mid 10.609 -0.449)
+					(end 10.16 -0.635)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -522,10 +525,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_100n_6V3_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -561,7 +569,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -572,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -719,10 +727,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_10n_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -769,7 +782,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -916,10 +929,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_10n_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -955,7 +973,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -966,7 +984,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1113,10 +1131,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_10u_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1152,7 +1175,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1163,7 +1186,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1310,10 +1333,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_1u_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1349,7 +1377,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1360,7 +1388,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1507,10 +1535,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_22u_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1546,7 +1579,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1557,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1704,10 +1737,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_47p_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1743,7 +1781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1754,7 +1792,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1901,10 +1939,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_47u_0603"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1940,7 +1983,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -1951,7 +1994,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2098,10 +2141,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_47u_16V_1206"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2137,7 +2185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2148,7 +2196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2295,10 +2343,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:C_4n7_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2334,7 +2387,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " "
+			(property "Datasheet" ""
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -2345,7 +2398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " "
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2492,11 +2545,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2606,9 +2664,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:LED_G_0603_KP-1608CGCK"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2710,18 +2771,6 @@
 			(symbol "LED_G_0603_KP-1608CGCK_1_1"
 				(polyline
 					(pts
-						(xy 5.08 1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 5.08 0) (xy 2.54 1.27)
 					)
 					(stroke
@@ -2747,6 +2796,18 @@
 				(polyline
 					(pts
 						(xy 4.699 2.032) (xy 4.699 1.524) (xy 4.699 2.032) (xy 4.191 2.032) (xy 4.699 2.032) (xy 3.683 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2793,6 +2854,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:LM3881MME_NOPB"
 			(exclude_from_sim no)
@@ -2941,24 +3003,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -12.7 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -5.08 0)
 					(length 2.54)
@@ -2995,17 +3039,35 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 17.78 -10.16 180)
+				(pin power_in line
+					(at 0 -12.7 0)
 					(length 2.54)
-					(name "FLAG3"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "FLAG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3032,16 +3094,16 @@
 					)
 				)
 				(pin open_collector line
-					(at 17.78 0 180)
+					(at 17.78 -10.16 180)
 					(length 2.54)
-					(name "FLAG1"
+					(name "FLAG3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3050,10 +3112,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:L_1u5_6A_1716"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3208,20 +3275,8 @@
 			)
 			(symbol "L_1u5_6A_1716_0_1"
 				(arc
-					(start 1.524 0)
+					(start 0.508 0)
 					(mid 1.016 0.5058)
-					(end 0.508 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 2.032 0.5058)
 					(end 1.524 0)
 					(stroke
 						(width 0)
@@ -3232,8 +3287,8 @@
 					)
 				)
 				(arc
-					(start 3.556 0)
-					(mid 3.048 0.5058)
+					(start 1.524 0)
+					(mid 2.032 0.5058)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -3244,9 +3299,21 @@
 					)
 				)
 				(arc
-					(start 4.572 0)
-					(mid 4.064 0.5058)
+					(start 2.54 0)
+					(mid 3.048 0.5058)
 					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 4.064 0.5058)
+					(end 4.572 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -3294,10 +3361,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:L_7u2_7.9A_WE-PDF"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3441,20 +3513,8 @@
 			)
 			(symbol "L_7u2_7.9A_WE-PDF_0_1"
 				(arc
-					(start 1.524 0)
+					(start 0.508 0)
 					(mid 1.016 0.5058)
-					(end 0.508 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 2.032 0.5058)
 					(end 1.524 0)
 					(stroke
 						(width 0)
@@ -3465,8 +3525,8 @@
 					)
 				)
 				(arc
-					(start 3.556 0)
-					(mid 3.048 0.5058)
+					(start 1.524 0)
+					(mid 2.032 0.5058)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -3477,9 +3537,21 @@
 					)
 				)
 				(arc
-					(start 4.572 0)
-					(mid 4.064 0.5058)
+					(start 2.54 0)
+					(mid 3.048 0.5058)
 					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 4.064 0.5058)
+					(end 4.572 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -3527,10 +3599,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:PDS760"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3641,6 +3718,18 @@
 			(symbol "PDS760_1_1"
 				(polyline
 					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 5.08 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 4.572 -1.016) (xy 4.572 -1.3462)
 					)
 					(stroke
@@ -3661,18 +3750,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 5.08 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -3724,10 +3801,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:PTC_4.5A_1206"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3836,10 +3918,9 @@
 				)
 			)
 			(symbol "PTC_4.5A_1206_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.81 0)
-					)
+				(rectangle
+					(start 1.27 0.508)
+					(end 3.81 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -3848,9 +3929,10 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.27 0.508)
-					(end 3.81 -0.508)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3898,6 +3980,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:PinHeader_1x3_P2.54mm_Drill1.1mm"
 			(exclude_from_sim no)
@@ -4009,8 +4092,8 @@
 			)
 			(symbol "PinHeader_1x3_P2.54mm_Drill1.1mm_1_1"
 				(rectangle
-					(start 4.191 -5.334)
-					(end 3.683 -4.826)
+					(start 4.191 -0.254)
+					(end 3.683 0.254)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4031,8 +4114,8 @@
 					)
 				)
 				(rectangle
-					(start 4.191 -0.254)
-					(end 3.683 0.254)
+					(start 4.191 -5.334)
+					(end 3.683 -4.826)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4107,10 +4190,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_0R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4292,10 +4380,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_0R_2010"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4465,10 +4558,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_100k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4639,10 +4737,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_10k2_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4813,10 +4916,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_10k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4987,10 +5095,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_12k4_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5161,10 +5274,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_16k9_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5335,10 +5453,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_1k5_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5509,10 +5632,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_1k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5683,10 +5811,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_20k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5857,10 +5990,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_243k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6031,10 +6169,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_31k6_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6205,10 +6348,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_330R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6379,10 +6527,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_43k_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6553,10 +6706,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_49R9_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6727,10 +6885,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_4k99_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6901,10 +7064,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_53k6_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7075,10 +7243,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:R_7k5_0402"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7249,6 +7422,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:SW_EG1218"
 			(exclude_from_sim no)
@@ -7359,6 +7533,17 @@
 				)
 			)
 			(symbol "SW_EG1218_1_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 10.16 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.81 0) (xy 2.54 0)
@@ -7371,6 +7556,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 4.064 0)
+					(radius 0.3556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 4.318 0) (xy 9.398 2.286)
@@ -7381,52 +7577,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 2.54) (xy 8.89 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end 10.16 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 4.064 0)
-					(radius 0.3556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(circle
@@ -7451,22 +7601,28 @@
 						(type outline)
 					)
 				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 10.16 2.54) (xy 8.89 2.54)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -7480,6 +7636,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7506,9 +7680,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:TC33X-2-203E"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7608,6 +7785,17 @@
 				)
 			)
 			(symbol "TC33X-2-203E_0_1"
+				(rectangle
+					(start 1.27 1.016)
+					(end 6.35 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 1.524) (xy 4.572 1.524)
@@ -7626,17 +7814,6 @@
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.016)
-					(end 6.35 -1.016)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -7700,6 +7877,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:TPS54561QDPRRQ1"
 			(exclude_from_sim no)
@@ -7747,7 +7925,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" " 4.5-V to 60-V Input, 5-A, Step-Down DC-DC Converter"
+			(property "Description" "4.5-V to 60-V Input, 5-A, Step-Down DC-DC Converter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7813,60 +7991,6 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 2.54)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 2.54)
-					(name "PWRGD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -19.05 0)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "VDD"
@@ -7903,6 +8027,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "RT/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 2.54)
 					(name "SS/TR"
@@ -7921,16 +8063,89 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 0 -19.05 0)
 					(length 2.54)
-					(name "RT/CLK"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "PWRGD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7974,47 +8189,16 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -19.05 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "data-center-rdimm-ddr5-tester:TP_1mm_SMD"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8141,7 +8325,254 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "12V DCDC BYPASS"
+		(exclude_from_sim no)
+		(at 80.645 79.375 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "095c12f9-6e27-4380-8a60-3c9ec3eef891")
+	)
+	(text "1V2 supply"
+		(exclude_from_sim no)
+		(at 183.515 123.19 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "22076f50-069f-4170-a76f-6bca1c49f89c")
+	)
+	(text "Power switch"
+		(exclude_from_sim no)
+		(at 304.165 218.44 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "228ab8f4-e9fd-4aaf-b13c-a55ae2fc8dfe")
+	)
+	(text "VCCINT (1.0V 3A)"
+		(exclude_from_sim no)
+		(at 183.515 237.49 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "447fdecd-01c1-4833-911b-3c6657adf479")
+	)
+	(text "POT1 fine tuning:\n1V1 - 0 R\n1V2 - 2k5 R"
+		(exclude_from_sim no)
+		(at 248.285 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44878871-3395-491b-a1bd-142b1cded6ac")
+	)
+	(text "1.1V/3A"
+		(exclude_from_sim no)
+		(at 286.385 192.405 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c44c2bd-f861-4848-a9cf-4934eccead3d")
+	)
+	(text "3V3 supply (3A)"
+		(exclude_from_sim no)
+		(at 183.515 21.59 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5473c4cb-b2c6-46e4-b2e6-87c9c45b8721")
+	)
+	(text "Fuses"
+		(exclude_from_sim no)
+		(at 367.665 135.89 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fd0fd2f-e2b8-4713-97cc-c92337da7299")
+	)
+	(text "Probes"
+		(exclude_from_sim no)
+		(at 304.165 135.89 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "629b16e3-8cb2-41d6-b134-69964beae20d")
+	)
+	(text "1V1 supply"
+		(exclude_from_sim no)
+		(at 183.515 181.61 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a71b48d-3662-4d7f-9728-e97ce809b7d5")
+	)
+	(text "STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 2.5V, 1.2V) for FPGA and DDR\nSTEP3 - VCCIO  (3.3V, 1.2V,  0.6V) for FPGA, PHY and DDR"
+		(exclude_from_sim no)
+		(at 349.25 120.65 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left bottom)
+		)
+		(uuid "82ed2aa2-ce7b-4f89-9469-a21923b9d902")
+	)
+	(text "5V0 supply"
+		(exclude_from_sim no)
+		(at 18.415 180.34 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ec76ea2-f3c0-436e-a8bd-85acada6e1f6")
+	)
+	(text "1.2V/3A"
+		(exclude_from_sim no)
+		(at 279.4 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2b76e55-3b70-4164-ad33-bd5f92447912")
+	)
+	(text "Power sequencer"
+		(exclude_from_sim no)
+		(at 304.165 21.59 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4957c09-3c12-4fd2-ba0b-25c81b22fe9c")
+	)
+	(text "1V8 supply"
+		(exclude_from_sim no)
+		(at 183.515 66.04 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "aac24cba-7261-47d8-8c7e-4bf7e20960f8")
+	)
+	(text "Optional FAN connector"
+		(exclude_from_sim no)
+		(at 367.665 218.44 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c866854d-ed7c-42f2-9f92-92180b6a7807")
+	)
+	(text "1.8V/3A"
+		(exclude_from_sim no)
+		(at 283.845 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfb09922-36ab-467e-84ce-aacb6e27ad01")
+	)
+	(text "Main supply (12V 5A)"
+		(exclude_from_sim no)
+		(at 19.05 66.675 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d57a9762-3eed-4099-ab83-2fc18eb0e3ab")
+	)
+	(text "1.0V/3A"
+		(exclude_from_sim no)
+		(at 281.94 250.825 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7694b9c-6fde-4847-b8d2-2508ca2cf1a2")
+	)
+	(text "Input power connector"
+		(exclude_from_sim no)
+		(at 18.415 22.225 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbea5890-7908-4cd0-8c47-4f3fdcd19336")
 	)
 	(junction
 		(at 274.955 80.01)
@@ -13733,252 +14164,6 @@
 			"3NTU1MTEpE+fPsbGxlwuV0Un1iKWa2pqkt2H1NTU1NbWVldXl5aW8vn8iooK2b2K7PFx//79e/fu"
 			"bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII="
 		)
-	)
-	(text "12V DCDC BYPASS"
-		(exclude_from_sim no)
-		(at 80.645 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "095c12f9-6e27-4380-8a60-3c9ec3eef891")
-	)
-	(text "1V2 supply"
-		(exclude_from_sim no)
-		(at 183.515 123.19 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "22076f50-069f-4170-a76f-6bca1c49f89c")
-	)
-	(text "Power switch"
-		(exclude_from_sim no)
-		(at 304.165 218.44 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "228ab8f4-e9fd-4aaf-b13c-a55ae2fc8dfe")
-	)
-	(text "VCCINT (1.0V 3A)"
-		(exclude_from_sim no)
-		(at 183.515 237.49 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "447fdecd-01c1-4833-911b-3c6657adf479")
-	)
-	(text "POT1 fine tuning:\n1V1 - 0 R\n1V2 - 2k5 R"
-		(exclude_from_sim no)
-		(at 248.285 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44878871-3395-491b-a1bd-142b1cded6ac")
-	)
-	(text "1.1V/3A"
-		(exclude_from_sim no)
-		(at 286.385 192.405 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c44c2bd-f861-4848-a9cf-4934eccead3d")
-	)
-	(text "3V3 supply (3A)"
-		(exclude_from_sim no)
-		(at 183.515 21.59 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5473c4cb-b2c6-46e4-b2e6-87c9c45b8721")
-	)
-	(text "Fuses"
-		(exclude_from_sim no)
-		(at 367.665 135.89 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fd0fd2f-e2b8-4713-97cc-c92337da7299")
-	)
-	(text "Probes"
-		(exclude_from_sim no)
-		(at 304.165 135.89 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "629b16e3-8cb2-41d6-b134-69964beae20d")
-	)
-	(text "1V1 supply"
-		(exclude_from_sim no)
-		(at 183.515 181.61 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a71b48d-3662-4d7f-9728-e97ce809b7d5")
-	)
-	(text "STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 2.5V, 1.2V) for FPGA and DDR\nSTEP3 - VCCIO  (3.3V, 1.2V,  0.6V) for FPGA, PHY and DDR"
-		(exclude_from_sim no)
-		(at 349.25 120.65 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left bottom)
-		)
-		(uuid "82ed2aa2-ce7b-4f89-9469-a21923b9d902")
-	)
-	(text "5V0 supply"
-		(exclude_from_sim no)
-		(at 18.415 180.34 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ec76ea2-f3c0-436e-a8bd-85acada6e1f6")
-	)
-	(text "1.2V/3A"
-		(exclude_from_sim no)
-		(at 279.4 140.335 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2b76e55-3b70-4164-ad33-bd5f92447912")
-	)
-	(text "Power sequencer"
-		(exclude_from_sim no)
-		(at 304.165 21.59 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4957c09-3c12-4fd2-ba0b-25c81b22fe9c")
-	)
-	(text "1V8 supply"
-		(exclude_from_sim no)
-		(at 183.515 66.04 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "aac24cba-7261-47d8-8c7e-4bf7e20960f8")
-	)
-	(text "Optional FAN connector"
-		(exclude_from_sim no)
-		(at 367.665 218.44 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c866854d-ed7c-42f2-9f92-92180b6a7807")
-	)
-	(text "1.8V/3A"
-		(exclude_from_sim no)
-		(at 283.845 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfb09922-36ab-467e-84ce-aacb6e27ad01")
-	)
-	(text "Main supply (12V 5A)"
-		(exclude_from_sim no)
-		(at 19.05 66.675 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d57a9762-3eed-4099-ab83-2fc18eb0e3ab")
-	)
-	(text "1.0V/3A"
-		(exclude_from_sim no)
-		(at 281.94 250.825 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7694b9c-6fde-4847-b8d2-2508ca2cf1a2")
-	)
-	(text "Input power connector"
-		(exclude_from_sim no)
-		(at 18.415 22.225 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbea5890-7908-4cd0-8c47-4f3fdcd19336")
 	)
 	(label "SYS_EN"
 		(at 312.42 234.95 0)
