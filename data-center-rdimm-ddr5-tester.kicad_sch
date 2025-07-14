@@ -8,8 +8,8 @@
 		(title "RDIMM DDR5 Tester")
 		(date "2024-12-20")
 		(rev "2.1.0")
+		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
-		(comment 2 "Antmicro")
 	)
 	(lib_symbols
 		(symbol "antmicroMechanicalParts:Heatsink_ATS-61500R-C2-R0"
