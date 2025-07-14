@@ -8,9 +8,8 @@
 		(title "Data Center RDIMM DDR5 Tester")
 		(date "2023-07-27")
 		(rev "1.0.1")
-		(company "Antmicro Ltd.")
+		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
-		(comment 2 "Antmicro Ltd")
 	)
 	(lib_symbols
 		(symbol "Bus_DDR5_DDR504111002KQ_1"
