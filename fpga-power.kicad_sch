@@ -10160,7 +10160,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Xilinx"
+			(property "Manufacturer" "AMD-Xilinx"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43320,7 +43320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FPGA Kintex-7 Family 162240 Cells 28nm Technology"
 			(at 327.66 186.055 0)
 			(effects
 				(font
@@ -43360,7 +43360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Xilinx"
+		(property "Manufacturer" "AMD-Xilinx"
 			(at 327.66 186.055 0)
 			(effects
 				(font
@@ -45455,7 +45455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FPGA Kintex-7 Family 162240 Cells 28nm Technology"
 			(at 254.635 60.325 0)
 			(effects
 				(font
@@ -45495,7 +45495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Xilinx"
+		(property "Manufacturer" "AMD-Xilinx"
 			(at 254.635 60.325 0)
 			(effects
 				(font
