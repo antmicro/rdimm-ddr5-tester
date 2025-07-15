@@ -63,8 +63,8 @@
         "bourns-cr0402-fx-3162glf",
         "bourns-cr0402-fx-4991glf",
         "bourns-cr0402-fx-2201glf",
-        "bourns-cr0402-fx-4701glf",
         "bourns-cr0402-fx-1000glf",
+        "bourns-cr0402-fx-4701glf",
         "bourns-cr0402-fx-2200glf",
         "bourns-cr0402-fx-1212glf",
         "bourns-cr0402-fx-1804glf",
@@ -77,7 +77,7 @@
         "diodes-incorporated-ap62301wu-7",
         "texas-instruments-lm3881mme-nopb",
         "cypress-semiconductor-s25fl128sagnfi000",
-        "xilinx-xc7k160t-ffg676",
+        "amd-xilinx-xc7k160t-ffg676",
         "microchip-ksz9031rnxca",
         "ftdi-ft4232hq-tray",
         "cypress-semiconductor-s27kl0641dabhi023",
@@ -88,47 +88,7 @@
         "abracon-abm8g-12-000mhz-18-d2y-t"
     ],
     "stackup": {
-        "layers": [
-            {
-                "fileName": "layer0.webp"
-            },
-            {
-                "fileName": "layer1.webp"
-            },
-            {
-                "fileName": "layer2.webp"
-            },
-            {
-                "fileName": "layer3.webp"
-            },
-            {
-                "fileName": "layer4.webp"
-            },
-            {
-                "fileName": "layer5.webp"
-            },
-            {
-                "fileName": "layer6.webp"
-            },
-            {
-                "fileName": "layer7.webp"
-            },
-            {
-                "fileName": "layer8.webp"
-            },
-            {
-                "fileName": "layer9.webp"
-            },
-            {
-                "fileName": "layer10.webp"
-            },
-            {
-                "fileName": "layer11.webp"
-            },
-            {
-                "fileName": "layer12.webp"
-            }
-        ]
+        "layers": null
     },
     "previews": [
         {
