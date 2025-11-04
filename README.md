@@ -19,8 +19,7 @@ This hardware DDR5 testing platform integrates with the open source [Rowhammer T
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `doc` - contains PDF schematics
-* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?view=top-ortho&tab=features).
+* `img` - contains graphics for this README
 
 ## Key features
 
