@@ -20,6 +20,7 @@ The main repository directory contains KiCad PCB project files, a LICENSE and RE
 The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/data-center-rdimm-ddr5-tester/?view=top-ortho&tab=features).
 
 ## Key features
 
