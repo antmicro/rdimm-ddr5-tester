@@ -1,1 +1,4 @@
 include: antmicro-pcb-release-ci-template@main:.pcb-repo-ci.yml
+build-production-files manual:
+  image: $CI_REGISTRY/repositories/antmicro-kmake-script/kmake-kicad9:86300-kicad906-testing
+ 
