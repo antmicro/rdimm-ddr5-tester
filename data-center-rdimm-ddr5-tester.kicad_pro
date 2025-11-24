@@ -59,16 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|113580000|136000000|00000000-0000-0000-0000-00005fc73ee0|df833dc4-8d14-4716-b9c6-b3125c919139",
-          ""
-        ],
-        [
-          "silk_over_copper|123180000|136000000|00000000-0000-0000-0000-00005fc73ee0|e63f9eb5-d92c-44c7-8c80-28ae6f0c2d02",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -565,6 +556,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
