@@ -11,233 +11,10 @@
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
-	(lib_symbols
-		(symbol "data-center-rdimm-ddr5-tester:antmicro_logo"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "N"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "antmicro_logo"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "data-center-rdimm-ddr5-tester-footprints:antmicro-logo"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "antmicro_logo_1_1"
-				(text "Logo"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(thickness 0.15)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "data-center-rdimm-ddr5-tester:oshw_logo"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "N"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "oshw_logo"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "data-center-rdimm-ddr5-tester-footprints:oshw-logo"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "oshw_logo_1_1"
-				(text "Logo"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-							(thickness 0.15)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
+	(lib_symbols)
 	(text "Data Center RDIMM DDR5 Tester"
 		(exclude_from_sim no)
-		(at 164.465 36.195 0)
+		(at 165.1 36.83 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -2429,231 +2206,9 @@
 			"bWxs3Lt37169epmamvbv379fv359+/Y1MTHp3bs3VoCa7P8B26Bhky0h/QEAAAAASUVORK5CYII="
 		)
 	)
-	(symbol
-		(lib_id "data-center-rdimm-ddr5-tester:antmicro_logo")
-		(at 384.81 247.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00006003c9b5")
-		(property "Reference" "N1"
-			(at 391.16 245.3575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "antmicro_logo"
-			(at 391.16 247.8975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "data-center-rdimm-ddr5-tester-footprints:antmicro-logo_scaled_20mm"
-			(at 400.05 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 384.81 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 400.05 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 400.05 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 400.05 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08"
-					(reference "N1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "data-center-rdimm-ddr5-tester:oshw_logo")
-		(at 384.81 240.665 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000603b54ea")
-		(property "Reference" "N2"
-			(at 391.16 238.3725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "oshw_logo"
-			(at 391.16 240.9125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "data-center-rdimm-ddr5-tester-footprints:oshw-logo"
-			(at 400.05 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 400.05 253.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 400.05 255.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 400.05 258.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 384.81 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 400.05 260.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08"
-					(reference "N2")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 239.395 173.99)
-		(size 40.005 20.32)
+		(at 240.03 173.99)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2668,7 +2223,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005f982999")
 		(property "Sheetname" "Ethernet"
-			(at 239.395 172.9101 0)
+			(at 240.03 172.9101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2677,7 +2232,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 239.395 195.1892 0)
+			(at 240.03 195.1892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2694,8 +2249,8 @@
 		)
 	)
 	(sheet
-		(at 114.935 211.455)
-		(size 40.005 20.32)
+		(at 115.57 212.09)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2710,7 +2265,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005fd53c7d")
 		(property "Sheetname" "Config SPI flash"
-			(at 114.935 210.3751 0)
+			(at 115.57 211.0101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2719,7 +2274,7 @@
 			)
 		)
 		(property "Sheetfile" "config-spi.kicad_sch"
-			(at 114.935 232.6542 0)
+			(at 115.57 233.2892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2736,8 +2291,8 @@
 		)
 	)
 	(sheet
-		(at 97.155 173.99)
-		(size 40.005 20.32)
+		(at 97.79 173.99)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2752,7 +2307,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005fea2994")
 		(property "Sheetname" "HyperRAM"
-			(at 97.155 172.9101 0)
+			(at 97.79 172.9101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2761,7 +2316,7 @@
 			)
 		)
 		(property "Sheetfile" "hyperram.kicad_sch"
-			(at 97.155 195.1892 0)
+			(at 97.79 195.1892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2778,8 +2333,8 @@
 		)
 	)
 	(sheet
-		(at 164.465 211.455)
-		(size 40.005 20.32)
+		(at 165.1 212.09)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2794,7 +2349,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000600295c1")
 		(property "Sheetname" "FPGA power"
-			(at 164.465 210.3751 0)
+			(at 165.1 211.0101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2803,7 +2358,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-power.kicad_sch"
-			(at 164.465 232.6542 0)
+			(at 165.1 233.2892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2821,7 +2376,7 @@
 	)
 	(sheet
 		(at 191.77 173.99)
-		(size 40.005 20.32)
+		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2863,7 +2418,7 @@
 	)
 	(sheet
 		(at 287.02 173.99)
-		(size 40.005 20.32)
+		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2905,7 +2460,7 @@
 	)
 	(sheet
 		(at 144.78 173.99)
-		(size 40.005 20.32)
+		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2946,8 +2501,8 @@
 		)
 	)
 	(sheet
-		(at 213.36 211.455)
-		(size 40.005 20.32)
+		(at 213.36 212.09)
+		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2962,7 +2517,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000061af7ff2")
 		(property "Sheetname" "FPGA banks 12-15"
-			(at 213.36 210.3751 0)
+			(at 213.36 211.0101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2971,7 +2526,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-banks-12-15.kicad_sch"
-			(at 213.36 232.6542 0)
+			(at 213.36 233.2892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2988,8 +2543,8 @@
 		)
 	)
 	(sheet
-		(at 263.525 211.455)
-		(size 40.005 20.32)
+		(at 264.16 212.09)
+		(size 39.37 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3004,7 +2559,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000061b4860c")
 		(property "Sheetname" "FPGA banks 16-34"
-			(at 263.525 210.3751 0)
+			(at 264.16 211.0101 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3013,7 +2568,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-banks-16-34.kicad_sch"
-			(at 263.525 232.6542 0)
+			(at 264.16 233.2892 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
