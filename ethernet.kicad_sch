@@ -3046,7 +3046,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_1M8_5%_0402"
+		(symbol "antmicroResistors0402:R_1M8_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3066,7 +3066,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_1M8_5%_0402"
+			(property "Value" "R_1M8_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -3088,7 +3088,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
+			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -3099,7 +3099,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, Ceramic, 1.8 Mohm, ± 5%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+			(property "Description" "SMD Chip Resistor"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -3109,7 +3109,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MCMR04X185_JTL"
+			(property "MPN" "RC0402FR-071M8L"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -3120,7 +3120,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Multicomp Pro"
+			(property "Manufacturer" "YAGEO"
 				(at 20.32 -22.86 0)
 				(effects
 					(font
@@ -3163,7 +3163,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Tolerance" "5%"
+			(property "Tolerance" "1%"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -3182,7 +3182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_1M8_5%_0402_0_1"
+			(symbol "R_1M8_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -3195,7 +3195,7 @@
 					)
 				)
 			)
-			(symbol "R_1M8_5%_0402_1_1"
+			(symbol "R_1M8_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -11609,7 +11609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_1M8_5%_0402")
+		(lib_id "antmicroResistors0402:R_1M8_0402")
 		(at 194.31 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -11648,7 +11648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/2860635.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 173.99 134.62 0)
 			(effects
 				(font
@@ -11659,7 +11659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, Ceramic, 1.8 Mohm, ± 5%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+		(property "Description" "SMD Chip Resistor"
 			(at 173.99 147.32 0)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Multicomp Pro"
+		(property "Manufacturer" "YAGEO"
 			(at 173.99 139.7 0)
 			(effects
 				(font
@@ -11680,7 +11680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCMR04X185_JTL"
+		(property "MPN" "RC0402FR-071M8L"
 			(at 173.99 137.16 0)
 			(effects
 				(font
@@ -11692,12 +11692,13 @@
 			)
 		)
 		(property "Val" "1M8"
-			(at 196.342 115.57 0)
+			(at 198.12 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "License" "Apache-2.0"
@@ -11722,7 +11723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "1%"
 			(at 173.99 127 0)
 			(effects
 				(font
