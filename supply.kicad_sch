@@ -334,15 +334,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_MJ-179PH"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_PJ-002AH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 17.78 -5.08 0)
+				(at 15.24 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -351,19 +348,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BarrelJack_Pin2mm_MJ-179PH"
-				(at 17.78 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_MJ-179PH"
-				(at 17.78 -12.7 0)
+			(property "Value" "BarrelJack_Pin2mm_PJ-002AH"
+				(at 15.24 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -373,8 +359,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/3167288.pdf"
-				(at 17.78 -15.24 0)
+			(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_PJ-002AH"
+				(at 15.24 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -384,8 +370,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Power Connector, Jack, 4 A, 1.95 mm, PCB Mount, Through Hole"
-				(at 17.78 -25.4 0)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-002ah.pdf"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Barrel power connector"
+				(at 15.24 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -394,8 +391,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MJ-179PH"
-				(at 17.78 -7.62 0)
+			(property "MPN" "PJ-002AH"
+				(at 15.24 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -404,8 +401,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Multicomp Pro"
-				(at 17.78 -17.78 0)
+			(property "Manufacturer" "CUI Inc"
+				(at 15.24 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,7 +413,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 17.78 -20.32 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -427,7 +424,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 17.78 -22.86 0)
+				(at 15.24 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -437,7 +434,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HORIZONTAL, THT, JACK, CONNECTOR, POWER"
+			(property "ki_keywords" "CONNECTOR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -446,24 +443,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BarrelJack_Pin2mm_MJ-179PH_0_1"
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.334 -4.064) (xy -4.826 -4.064) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "BarrelJack_Pin2mm_MJ-179PH_1_1"
+			(symbol "BarrelJack_Pin2mm_PJ-002AH_1_1"
 				(rectangle
-					(start -12.7 1.27)
-					(end -2.54 -6.35)
+					(start -12.7 1.905)
+					(end -2.54 -6.985)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -472,33 +455,9 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -10.795 0)
-					(mid -10.609 0.449)
-					(end -10.16 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -10.16 -0.635)
-					(mid -10.609 -0.449)
-					(end -10.795 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(rectangle
-					(start -10.16 -0.635)
-					(end -6.985 0.635)
+					(start -8.255 0.635)
+					(end -4.445 -0.635)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -508,9 +467,21 @@
 					)
 				)
 				(arc
-					(start -8.89 -3.175)
-					(mid -7.543 -3.733)
-					(end -6.985 -5.08)
+					(start -8.255 -0.635)
+					(mid -8.8873 0)
+					(end -8.255 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy -6.985 -2.54) (xy -6.35 -3.81) (xy -5.715 -2.54) (xy -6.35 -2.54)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -519,10 +490,9 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -10.795 -5.08)
-					(mid -10.237 -3.733)
-					(end -8.89 -3.175)
+				(rectangle
+					(start -4.445 1.27)
+					(end -3.81 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -533,7 +503,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -5.08 -5.08)
+						(xy -2.54 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0.254)
@@ -545,7 +515,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -6.985 0)
+						(xy -2.54 -2.54) (xy -5.715 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -557,32 +527,20 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -5.08 -2.54)
+						(xy -2.54 -5.08) (xy -7.62 -5.08) (xy -8.89 -3.81) (xy -10.16 -5.08)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -6.985 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
 					(at 0 0 180)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -600,14 +558,14 @@
 				(pin passive line
 					(at 0 -2.54 180)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -618,14 +576,14 @@
 				(pin passive line
 					(at 0 -5.08 180)
 					(length 2.54)
-					(name "3"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -25836,7 +25794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_MJ-179PH")
+		(lib_id "antmicroBarrelPowerConnectors:BarrelJack_Pin2mm_PJ-002AH")
 		(at 33.02 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25863,8 +25821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_MJ-179PH"
-			(at 50.8 50.8 0)
+		(property "Footprint" "antmicro-footprints:BarrelJack_Pin2mm_PJ-002AH"
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25874,8 +25832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3167288.pdf"
-			(at 50.8 53.34 0)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-002ah.pdf"
+			(at 48.26 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25885,8 +25843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Power Connector, Jack, 4 A, 1.95 mm, PCB Mount, Through Hole"
-			(at 50.8 63.5 0)
+		(property "Description" "Barrel power connector"
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,8 +25853,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Multicomp Pro"
-			(at 50.8 55.88 0)
+		(property "Manufacturer" "CUI Inc"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25906,18 +25864,18 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MJ-179PH"
-			(at 30.226 35.052 0)
+		(property "MPN" "PJ-002AH"
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 50.8 58.42 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25928,7 +25886,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 50.8 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
