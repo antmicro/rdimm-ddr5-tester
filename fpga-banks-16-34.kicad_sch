@@ -33626,9 +33626,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062da32a7")
 		(property "Reference" "FB9"
-			(at 119.38 236.22 0)
+			(at 119.3419 236.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -33678,12 +33679,13 @@
 			)
 		)
 		(property "MPN" "BLM15AG601SN1D"
-			(at 119.3419 238.76 0)
+			(at 119.3419 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata"
@@ -33720,12 +33722,11 @@
 			)
 		)
 		(property "Val" "600Z/0.3A"
-			(at 132.08 247.65 0)
+			(at 119.3419 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Current" ""
@@ -33762,9 +33763,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000062e346ca")
 		(property "Reference" "FB10"
-			(at 175.26 236.22 0)
+			(at 175.2219 236.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -33814,12 +33816,13 @@
 			)
 		)
 		(property "MPN" "BLM15AG601SN1D"
-			(at 175.2219 238.76 0)
+			(at 175.2219 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata"
@@ -33856,12 +33859,11 @@
 			)
 		)
 		(property "Val" "600Z/0.3A"
-			(at 187.96 247.65 0)
+			(at 175.2219 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Current" ""
@@ -33900,7 +33902,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062fa8bad")
 		(property "Reference" "FB11"
-			(at 226.06 236.22 0)
+			(at 227.584 233.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -33950,12 +33952,13 @@
 			)
 		)
 		(property "MPN" "BLM15AG601SN1D"
-			(at 226.0219 238.76 0)
+			(at 227.584 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata"
@@ -33992,12 +33995,11 @@
 			)
 		)
 		(property "Val" "600Z/0.3A"
-			(at 238.76 247.65 0)
+			(at 227.584 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
 		(property "Current" ""
