@@ -15946,7 +15946,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115"
 			(pin_names
 				(offset 0)
 			)
@@ -15963,7 +15963,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BSS138PW"
+			(property "Value" "BSS138PW,115"
 				(at 22.86 -8.89 0)
 				(effects
 					(font
@@ -16006,7 +16006,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BSS138PW"
+			(property "MPN" "BSS138PW,115"
 				(at 22.86 -16.51 0)
 				(effects
 					(font
@@ -16058,7 +16058,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138PW_1_1"
+			(symbol "BSS138PW,115_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
@@ -23827,7 +23827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 165.1 234.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23845,7 +23845,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 162.56 222.25 90)
+			(at 162.56 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23876,22 +23876,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 165.1 234.95 0)
+			(at 191.77 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 181.61 212.09 0)
+		(property "MPN" "BSS138PW,115"
+			(at 162.56 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -23947,7 +23947,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 165.1 257.81 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23965,7 +23965,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 162.56 245.11 90)
+			(at 162.56 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23996,22 +23996,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 165.1 257.81 0)
+			(at 191.77 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 181.61 234.95 0)
+		(property "MPN" "BSS138PW,115"
+			(at 162.56 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)

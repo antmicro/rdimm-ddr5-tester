@@ -5788,7 +5788,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW"
+		(symbol "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115"
 			(pin_names
 				(offset 0)
 			)
@@ -5805,7 +5805,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BSS138PW"
+			(property "Value" "BSS138PW,115"
 				(at 22.86 -8.89 0)
 				(effects
 					(font
@@ -5848,7 +5848,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BSS138PW"
+			(property "MPN" "BSS138PW,115"
 				(at 22.86 -16.51 0)
 				(effects
 					(font
@@ -5900,7 +5900,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138PW_1_1"
+			(symbol "BSS138PW,115_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 4.572 0) (xy 4.572 3.937)
@@ -28375,7 +28375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 177.8 229.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28385,7 +28385,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006090fd8d")
 		(property "Reference" "Q3"
-			(at 175.26 213.995 90)
+			(at 175.26 214.63 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -28393,7 +28393,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 175.26 217.805 90)
+			(at 175.26 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28424,22 +28424,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 177.8 229.87 0)
+			(at 204.47 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 194.31 207.01 0)
+		(property "MPN" "BSS138PW,115"
+			(at 175.26 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -28495,7 +28495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 179.07 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28513,7 +28513,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 176.53 236.22 90)
+			(at 176.53 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28544,22 +28544,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 179.07 248.92 0)
+			(at 205.74 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 195.58 226.06 0)
+		(property "MPN" "BSS138PW,115"
+			(at 176.53 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -28615,7 +28615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 243.84 229.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28625,7 +28625,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006092108d")
 		(property "Reference" "Q6"
-			(at 241.3 213.995 90)
+			(at 241.3 214.63 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -28633,7 +28633,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 241.3 217.805 90)
+			(at 241.3 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28664,22 +28664,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 243.84 229.87 0)
+			(at 270.51 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 260.35 207.01 0)
+		(property "MPN" "BSS138PW,115"
+			(at 241.3 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -28735,7 +28735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 243.84 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28753,7 +28753,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 241.3 236.22 90)
+			(at 241.3 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28784,22 +28784,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 243.84 248.92 0)
+			(at 270.51 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 260.35 226.06 0)
+		(property "MPN" "BSS138PW,115"
+			(at 241.3 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -28855,7 +28855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW")
+		(lib_id "antmicroTransistorsFETsMOSFETsSingle:BSS138PW,115")
 		(at 177.8 269.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28865,7 +28865,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000060923b88")
 		(property "Reference" "Q4"
-			(at 175.26 253.365 90)
+			(at 175.26 254 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -28873,7 +28873,7 @@
 			)
 		)
 		(property "Value" "BSS138PW"
-			(at 175.26 257.175 90)
+			(at 175.26 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28904,22 +28904,22 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 320 mA, 0.9 ohm, SOT-323, Surface Mount"
-			(at 177.8 269.24 0)
+			(at 204.47 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MPN" "BSS138PW"
-			(at 194.31 246.38 0)
+		(property "MPN" "BSS138PW,115"
+			(at 175.26 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
