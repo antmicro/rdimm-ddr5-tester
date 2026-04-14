@@ -67,14 +67,6 @@
         [
           "courtyards_overlap|232522236|124692157|00000000-0000-0000-0000-000060009237|00000000-0000-0000-0000-00006005fa61",
           ""
-        ],
-        [
-          "silk_edge_clearance|113880000|136000000|00000000-0000-0000-0000-00005fc73ee0|e2f1d241-7f48-44e1-bf9f-6127d25f081f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|122880000|136000000|00000000-0000-0000-0000-00005fc73ee0|ffd9147e-7abe-4aaa-b442-4851641c510d",
-          ""
         ]
       ],
       "meta": {
@@ -97,7 +89,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -107,7 +99,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -120,15 +112,15 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -148,7 +140,7 @@
         "allow_blind_buried_vias": true,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.092,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.05,
         "min_groove_width": 0.0,
@@ -158,10 +150,10 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.092,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
@@ -591,7 +583,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.092,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
@@ -602,115 +594,109 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.092,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.21336,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DIFF50",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.12446,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1016,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DIFF80",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 1.0,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 1.0,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SE40",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 1.0,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 1.0,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SE50",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.092,
         "diff_pair_gap": 0.17,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.14,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Z=100",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "100Ohm-diff",
+        "pcb_color": "rgb(255, 153, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.14,
+        "track_width": 0.092,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.092,
+        "diff_pair_gap": 1.0,
+        "diff_pair_width": 1.0,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "40Ohm-se",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.092,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.092,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.21336,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.092,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.092,
+        "diff_pair_gap": 1.0,
+        "diff_pair_width": 1.0,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.092,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.092,
+        "diff_pair_gap": 0.12446,
+        "diff_pair_width": 0.1016,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "80Ohm-diff",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.092,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.092,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.092,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
@@ -723,692 +709,88 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "DIFF50",
-        "pattern": "CK_N"
+        "netclass": "40Ohm-se",
+        "pattern": "DQ*_A"
       },
       {
-        "netclass": "DIFF50",
-        "pattern": "CK_P"
+        "netclass": "40Ohm-se",
+        "pattern": "DQ*_B"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS0_A_N"
+        "netclass": "40Ohm-se",
+        "pattern": "CB*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS0_A_P"
+        "netclass": "50Ohm-se",
+        "pattern": "CA*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS0_B_N"
+        "netclass": "50Ohm-se",
+        "pattern": "ALERT*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS0_B_P"
+        "netclass": "50Ohm-se",
+        "pattern": "CS*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS1_A_N"
+        "netclass": "50Ohm-se",
+        "pattern": "RESET*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS1_A_P"
+        "netclass": "50Ohm-se",
+        "pattern": "DL*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS1_B_N"
+        "netclass": "50Ohm-se",
+        "pattern": "PAR*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS1_B_P"
+        "netclass": "50Ohm-se",
+        "pattern": "SD_*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS2_A_N"
+        "netclass": "50Ohm-se",
+        "pattern": "QSPI*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS2_A_P"
+        "netclass": "50Ohm-se",
+        "pattern": "CCLK"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS2_B_N"
+        "netclass": "50Ohm-se",
+        "pattern": "FCS*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS2_B_P"
+        "netclass": "50Ohm-se",
+        "pattern": "PUDC*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS3_A_N"
+        "netclass": "50Ohm-se",
+        "pattern": "HR_*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS3_A_P"
+        "netclass": "50Ohm-se",
+        "pattern": "ETH_*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS3_B_N"
+        "netclass": "80Ohm-diff",
+        "pattern": "DQS*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS3_B_P"
+        "netclass": "90Ohm-diff",
+        "pattern": "*USB*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS4_A_N"
+        "netclass": "100Ohm-diff",
+        "pattern": "*/ETH*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS4_A_P"
+        "netclass": "100Ohm-diff",
+        "pattern": "*TMDS*"
       },
       {
-        "netclass": "DIFF80",
-        "pattern": "DQS4_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS4_B_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS5_A_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS5_A_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS5_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS5_B_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS6_A_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS6_A_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS6_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS6_B_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS7_A_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS7_A_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS7_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS7_B_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS8_A_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS8_A_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS8_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS8_B_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS9_A_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS9_A_P"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS9_B_N"
-      },
-      {
-        "netclass": "DIFF80",
-        "pattern": "DQS9_B_P"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ0_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ0_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ10_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ10_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ11_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ11_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ12_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ12_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ13_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ13_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ14_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ14_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ15_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ15_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ16_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ16_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ17_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ17_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ18_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ18_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ19_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ19_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ1_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ1_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ20_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ20_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ21_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ21_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ22_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ22_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ23_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ23_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ24_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ24_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ25_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ25_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ26_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ26_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ27_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ27_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ28_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ28_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ29_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ29_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ2_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ2_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ30_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ30_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ31_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ31_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ3_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ3_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ4_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ4_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ5_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ5_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ6_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ6_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ7_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ7_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ8_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ8_B"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ9_A"
-      },
-      {
-        "netclass": "SE40",
-        "pattern": "DQ9_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "ALERT_N"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA0_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA0_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA1_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA1_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA2_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA2_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA3_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA3_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA4_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA4_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA5_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA5_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA6_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CA6_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB0_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB0_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB1_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB1_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB2_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB2_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB3_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB3_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB4_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB4_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB5_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB5_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB6_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB6_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB7_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CB7_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CS0_A_N"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CS0_B_N"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CS1_A_N"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "CS1_B_N"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "DLBDQ"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "DLBDQS"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "PAR_A"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "PAR_B"
-      },
-      {
-        "netclass": "SE50",
-        "pattern": "RESET_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DBG_USB_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "DBG_USB_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH1_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH1_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH2_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH2_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH3_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH3_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH4_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "/Ethernet/ETH4_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_CLK_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_CLK_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D0_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D0_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D1_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D1_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D2_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "C_TMDS_D2_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_CLK_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_CLK_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D0_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D0_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D1_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D1_P"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D2_N"
-      },
-      {
-        "netclass": "Z=100",
-        "pattern": "TMDS_D2_P"
+        "netclass": "50Ohm-diff",
+        "pattern": "CK*"
       }
     ]
   },

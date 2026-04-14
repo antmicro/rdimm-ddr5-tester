@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Data Center RDIMM DDR5 Tester")
-		(date "2025-11-24")
-		(rev "1.1.0")
+		(date "2026-04-14")
+		(rev "1.1.1")
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
@@ -23671,7 +23671,7 @@
 			(uuid "458f4055-1444-4a98-8593-c63581d3c8ae")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R173")
 					(unit 1)
@@ -23811,7 +23811,7 @@
 			(uuid "86fd11ac-b66a-4eb6-a286-9c0aa6390ae7")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R174")
 					(unit 1)
@@ -25948,7 +25948,7 @@
 			(uuid "0fd9923e-a599-45a3-a191-ae5f89e339fe")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U8")
 					(unit 5)
@@ -28085,7 +28085,7 @@
 			(uuid "025d54e9-d867-41b2-ae6a-e7fb6201a321")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U8")
 					(unit 7)
@@ -28225,7 +28225,7 @@
 			(uuid "661ddb61-905a-4dfb-add7-5101cd510854")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R171")
 					(unit 1)
@@ -28365,7 +28365,7 @@
 			(uuid "03988adf-535a-4b06-b733-078d51d6c12b")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R172")
 					(unit 1)
@@ -28459,7 +28459,7 @@
 			(uuid "6d9fa2b6-09bb-45c4-85df-9443e9a1d853")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0201")
 					(unit 1)
@@ -28553,7 +28553,7 @@
 			(uuid "b7b0b20b-0ec1-4e5a-9ee4-b88585654e13")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0200")
 					(unit 1)
@@ -28713,7 +28713,7 @@
 			(uuid "0c66aae8-3d92-4e97-8897-26ab4ca938f7")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C170")
 					(unit 1)
@@ -28873,7 +28873,7 @@
 			(uuid "14eccefb-2f1b-4eda-97b4-e1e3e63c52a7")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C169")
 					(unit 1)
@@ -28967,7 +28967,7 @@
 			(uuid "f75762b0-fa6d-4364-9d99-ce5387f0ac32")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0199")
 					(unit 1)
@@ -29107,7 +29107,7 @@
 			(uuid "401ff5c4-6828-4f38-a437-81bba8d1e8d8")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R160")
 					(unit 1)
@@ -29247,7 +29247,7 @@
 			(uuid "a40615bf-e077-42ce-8eaf-f297a99487d3")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R159")
 					(unit 1)
@@ -29339,7 +29339,7 @@
 			(uuid "719c6732-cf57-4993-89fc-c4b2f8ea7458")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0207")
 					(unit 1)
@@ -29477,7 +29477,7 @@
 			(uuid "63964bf5-fb99-4ad0-ae13-52b09b1a3385")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R162")
 					(unit 1)
@@ -29615,7 +29615,7 @@
 			(uuid "69b4123e-b8bc-4b31-8a66-f32fa5b32ce0")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R161")
 					(unit 1)
@@ -29708,7 +29708,7 @@
 			(uuid "60220078-c0e1-4a48-9c0f-76ee40ce972a")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0206")
 					(unit 1)
@@ -29869,7 +29869,7 @@
 			(uuid "65320560-f18c-4682-8db0-3989214d0e0f")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C171")
 					(unit 1)
@@ -29962,7 +29962,7 @@
 			(uuid "54d08602-6ace-471a-9f08-b526b7691006")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0208")
 					(unit 1)
@@ -30123,7 +30123,7 @@
 			(uuid "75a3705e-7285-4e23-a6d9-fb8c785c8e3d")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C172")
 					(unit 1)
@@ -30216,7 +30216,7 @@
 			(uuid "264e4eae-5475-4051-aab9-1b8920565187")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0202")
 					(unit 1)
@@ -30365,7 +30365,7 @@
 			(uuid "f7bbf78d-1dea-422b-aa52-0180758ad206")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R137")
 					(unit 1)
@@ -30514,7 +30514,7 @@
 			(uuid "02a2091e-7c90-4607-8045-45abb4906306")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R138")
 					(unit 1)
@@ -30663,7 +30663,7 @@
 			(uuid "c91708b0-3253-49c4-8e06-32daff14f31e")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R139")
 					(unit 1)
@@ -30812,7 +30812,7 @@
 			(uuid "65357900-c0f6-416b-a04a-ab128476a117")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R140")
 					(unit 1)
@@ -30906,7 +30906,7 @@
 			(uuid "a7a96500-cf01-4e74-a836-331bf9204d5c")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0209")
 					(unit 1)
@@ -31000,7 +31000,7 @@
 			(uuid "ff6ae120-e0fe-40cc-adde-a79b33809766")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0210")
 					(unit 1)
@@ -31160,7 +31160,7 @@
 			(uuid "1b25c1d9-1816-4247-801b-cebb7dc02951")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C176")
 					(unit 1)
@@ -31320,7 +31320,7 @@
 			(uuid "7e49e818-1f89-46ee-aea2-4d786acdd499")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C175")
 					(unit 1)
@@ -31414,7 +31414,7 @@
 			(uuid "95ee06c1-df5c-4e5e-b8e7-beb8ccf67e49")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0211")
 					(unit 1)
@@ -31554,7 +31554,7 @@
 			(uuid "e6183481-666d-4e70-86e4-22a3b383baa4")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R129")
 					(unit 1)
@@ -31694,7 +31694,7 @@
 			(uuid "5b515a8f-acce-44ae-a877-aeabe65e62d1")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R128")
 					(unit 1)
@@ -31832,7 +31832,7 @@
 			(uuid "4661b196-6bdd-45ed-833c-f5d1513e9401")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R130")
 					(unit 1)
@@ -31970,7 +31970,7 @@
 			(uuid "b944f455-981c-425b-9035-5f0ce1af3a62")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R131")
 					(unit 1)
@@ -32063,7 +32063,7 @@
 			(uuid "d813c4af-c6bb-46a5-8c0e-1cbb653b4897")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0212")
 					(unit 1)
@@ -32157,7 +32157,7 @@
 			(uuid "400e4798-de24-41f0-92e9-1ea15eb0aded")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0213")
 					(unit 1)
@@ -32251,7 +32251,7 @@
 			(uuid "34c41fa4-9eb2-46dd-aad3-d3a71ad8326a")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0214")
 					(unit 1)
@@ -32411,7 +32411,7 @@
 			(uuid "fa275269-e2bd-4d84-9e59-b4f4e7495b40")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C174")
 					(unit 1)
@@ -32571,7 +32571,7 @@
 			(uuid "3685f0a6-5a67-4767-a9fc-c1a90de206fa")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C173")
 					(unit 1)
@@ -32665,7 +32665,7 @@
 			(uuid "14a5ae2e-7d63-45a5-a6c9-016e01686d4c")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0215")
 					(unit 1)
@@ -32805,7 +32805,7 @@
 			(uuid "507baeec-e346-4f78-b857-aba87077f893")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R125")
 					(unit 1)
@@ -32945,7 +32945,7 @@
 			(uuid "b4260f56-e774-42ae-b9bf-36bd81b5fd7e")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R124")
 					(unit 1)
@@ -33083,7 +33083,7 @@
 			(uuid "17f24544-01c9-440a-b367-66e37b9aa8f1")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R126")
 					(unit 1)
@@ -33221,7 +33221,7 @@
 			(uuid "88d4f637-1b74-4e68-a770-5fad8bdbb40f")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R127")
 					(unit 1)
@@ -33314,7 +33314,7 @@
 			(uuid "dac6c56b-dfe0-444f-b8e3-bc050d8cec96")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0216")
 					(unit 1)
@@ -33462,7 +33462,7 @@
 			(uuid "94d2a1cc-2c50-4b02-8bbb-7f83b3ac1505")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R135")
 					(unit 1)
@@ -33610,7 +33610,7 @@
 			(uuid "79c31e44-9628-4cb2-9ba4-74bac4c6dcd7")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R136")
 					(unit 1)
@@ -33747,7 +33747,7 @@
 			(uuid "270df2d3-1f64-43ab-a755-cda60084e57e")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "FB9")
 					(unit 1)
@@ -33884,7 +33884,7 @@
 			(uuid "90e7c0e9-8ed8-4cdb-b27e-3078c27e6577")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "FB10")
 					(unit 1)
@@ -34020,7 +34020,7 @@
 			(uuid "9ac05236-5e81-4421-a95c-51dc4ec4157e")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "FB11")
 					(unit 1)
@@ -34154,7 +34154,7 @@
 			(uuid "6000c015-099e-4cae-a723-e758e61909d5")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "J8")
 					(unit 1)
@@ -34290,7 +34290,7 @@
 			(uuid "f35f6084-27af-4886-bd3b-1fa9a8733fd4")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U14")
 					(unit 1)
@@ -34383,7 +34383,7 @@
 			(uuid "5a853518-f4be-41f4-9146-62d3d76f0901")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0197")
 					(unit 1)
@@ -34544,7 +34544,7 @@
 			(uuid "91db126f-56ed-40d7-9cd8-6b24741b27c7")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "C168")
 					(unit 1)
@@ -34675,7 +34675,7 @@
 			(uuid "acb69c8e-6a23-4120-a7e4-2ed286b8c618")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U13")
 					(unit 1)
@@ -34812,7 +34812,7 @@
 			(uuid "9b93f734-8d0d-4956-8276-00da2e5b0322")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R132")
 					(unit 1)
@@ -34961,7 +34961,7 @@
 			(uuid "cf6a91fa-f9ad-44f9-b7b7-75a554d6ea82")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "R133")
 					(unit 1)
@@ -35187,7 +35187,7 @@
 			(uuid "4902d5f6-e20a-44e7-a7ca-df29c2351625")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0180")
 					(unit 1)
@@ -37554,7 +37554,7 @@
 			(uuid "0fd9923e-a599-45a3-a191-ae5f89e339ff")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U8")
 					(unit 6)
@@ -37621,7 +37621,7 @@
 			(uuid "c2a6de9f-9bb9-4f40-97b7-e5e2d4c002c5")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#FLG018")
 					(unit 1)
@@ -37755,7 +37755,7 @@
 			(uuid "8c34bad8-ef4d-414e-961f-747d19c0ca79")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0310")
 					(unit 1)
@@ -39892,7 +39892,7 @@
 			(uuid "025d54e9-d867-41b2-ae6a-e7fb6201a322")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "U8")
 					(unit 8)
@@ -40026,7 +40026,7 @@
 			(uuid "ff0ce74a-1d5e-4f96-bbe6-2cca1452e4a5")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0307")
 					(unit 1)
@@ -40256,7 +40256,7 @@
 			(uuid "a40ae0a3-690b-4be5-b97a-5292ec9a607e")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0311")
 					(unit 1)
@@ -40419,7 +40419,7 @@
 			(uuid "d97e8f7b-804a-4a58-b9a0-63103f261045")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061b4860c"
 					(reference "#PWR0265")
 					(unit 1)

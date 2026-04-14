@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Data Center RDIMM DDR5 Tester")
-		(date "2025-11-24")
-		(rev "1.1.0")
+		(date "2026-04-14")
+		(rev "1.1.1")
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 	)
@@ -19467,7 +19467,7 @@
 			(uuid "ad535e63-bf50-4304-ac55-aebdf70c0da9")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "U12")
 					(unit 1)
@@ -20452,7 +20452,7 @@
 			(uuid "3bf6ba76-355a-4738-9089-b6555b543bcb")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "U12")
 					(unit 2)
@@ -20589,7 +20589,7 @@
 			(uuid "f7e94b81-c7a2-4811-a933-76d999262c1b")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "R134")
 					(unit 1)
@@ -20681,7 +20681,7 @@
 			(uuid "0a2d9d5c-8834-4321-87f4-733f1c57ac16")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "#PWR0217")
 					(unit 1)
@@ -20748,7 +20748,7 @@
 			(uuid "71b0a771-40ad-467c-80bf-dcbc918974f6")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "#FLG010")
 					(unit 1)
@@ -20841,7 +20841,7 @@
 			(uuid "fb7ccb59-44a0-4103-9044-ba2c7d8e6dfd")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/83c3b3ef-7ad1-4f47-8590-6dd7be28fd08/00000000-0000-0000-0000-000061827943"
 					(reference "#PWR0138")
 					(unit 1)
