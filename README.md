@@ -1,6 +1,6 @@
 # Data Center RDIMM DDR5 Tester
 
-Copyright (c) 2021-2023 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2021-2025 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/ddr5-tester)
 
@@ -28,7 +28,7 @@ directories:
 -   DDR5 DIMM connector
 -   HDMI output connector
 -   Ethernet RJ45 connector with 1GbE transciever
--   Micro USB debug connector with FT4232HQ FTDI USB controller
+-   USB-C debug connector with FT4232HQ FTDI USB controller
 -   JTAG
 -   microSD card slot
 -   16 MBytes S25FL128S QSPI FLASH memory
