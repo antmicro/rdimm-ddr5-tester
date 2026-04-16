@@ -20,7 +20,7 @@ directories:
 
 -   `lib` - contains the component libraries
 -   `img` - contains graphics for this README
--   `doc` - contains schematics and block diagrams
+-   `doc` - contains PDF schematics
 
 ## Key Features
 
@@ -36,10 +36,6 @@ directories:
 -   External 7-12V power input
 -   5 user LEDs
 -   4 user buttons
-
-## Block diagram
-
-![Data Center RDIMM DDR5 Tester board diagram](doc/Data-Center-RDIMM-DDR5-Tester-block-diagram.png)
 
 ## License
 
