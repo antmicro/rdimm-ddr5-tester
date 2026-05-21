@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "RDIMM DDR5 Tester")
-		(date "2024-12-20")
-		(rev "2.1.0")
+		(date "2026-05-21")
+		(rev "2.2.0")
 		(company "Antmicro")
 		(comment 1 "www.antmicro.com")
 		(comment 2 "Antmicro")
@@ -31537,7 +31537,7 @@
 			(uuid "b4c509de-1653-4312-af3e-115f79706409")
 		)
 		(instances
-			(project ""
+			(project "data-center-rdimm-ddr5-tester"
 				(path "/1faa6543-e26a-4449-8bac-ee14b9f19e5f/59a8849d-b77a-4f79-b7ae-cd57b3cb4d28"
 					(reference "#FLG023")
 					(unit 1)
