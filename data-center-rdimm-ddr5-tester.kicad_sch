@@ -762,16 +762,6 @@
 	)
 	(bus
 		(pts
-			(xy 334.01 226.06) (xy 339.09 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "642035fb-5ce9-4b42-8a6d-bf86e223f020")
-	)
-	(bus
-		(pts
 			(xy 124.46 90.17) (xy 146.05 90.17)
 		)
 		(stroke
@@ -809,6 +799,16 @@
 			(type default)
 		)
 		(uuid "6d68a8c4-b710-475e-93f5-421e3774552b")
+	)
+	(bus
+		(pts
+			(xy 334.01 226.06) (xy 339.09 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70845127-6842-4762-978e-4b01754d64ff")
 	)
 	(bus
 		(pts
