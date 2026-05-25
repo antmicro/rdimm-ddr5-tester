@@ -2792,11 +2792,12 @@
 				)
 			)
 			(property "Description" "Test point 1mm SMD"
-				(at 0 0 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -7701,7 +7702,7 @@
 		(at 76.2 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

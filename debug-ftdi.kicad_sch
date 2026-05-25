@@ -7722,11 +7722,12 @@
 				)
 			)
 			(property "Description" "Test point 1mm SMD"
-				(at 0 0 0)
+				(at 15.24 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -20980,7 +20981,7 @@
 		(at 166.37 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000625955fc")
@@ -29619,7 +29620,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "acba73aa-e8d5-4b27-9d7f-d8a2b25d78c0")
